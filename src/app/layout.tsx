@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import React from "react";
 import localFont from "next/font/local";
 import "./globals.css";
+import SystemProvider from "@/components/SystemProvider";
 import { ThemeProvider } from "@/components/ThemeProvider";
 
 const myFont = localFont({
@@ -21,9 +22,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ko">
-      <body className={myFont.className}>
-        <ThemeProvider>{children}</ThemeProvider>
+    <html lang="ko" className={"dark"}>
+      <body className={`${myFont.className} bg-background text-foreground`}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <SystemProvider>{children}</SystemProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
