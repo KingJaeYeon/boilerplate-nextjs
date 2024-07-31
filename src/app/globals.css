@@ -10,6 +10,7 @@
     --font-Pretendard: "Pretendard", sans-serif;
     --white: hsla(0, 0%, 100%, 1);
     --black: hsl(0, 0%, 0%, 1);
+    --primary: hsl(0, 0%, 100%);
   }
 
   .light {
