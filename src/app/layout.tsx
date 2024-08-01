@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import SystemProvider from "@/components/SystemProvider";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import QueryProvider from "@/components/QueryProvider";
 
 const myFont = localFont({
   src: "./PretendardVariable.woff2",
@@ -30,7 +31,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <SystemProvider>{children}</SystemProvider>
+          <SystemProvider>
+            <QueryProvider>{children}</QueryProvider>
+          </SystemProvider>
         </ThemeProvider>
       </body>
     </html>
