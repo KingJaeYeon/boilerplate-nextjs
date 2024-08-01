@@ -20,9 +20,8 @@ function ThemeToggle() {
   return (
     <Switch
       checked={checked}
-      isTheme={true}
+      variant={"theme"}
       onCheckedChange={handleThemeChange}
-      className={cn(theme === "dark" ? "bg-[hsla(180_1%_86%)]" : "")}
     />
   );
 }

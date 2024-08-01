@@ -66,6 +66,7 @@
 
     --theme-thumb: hsla(180, 1%, 86%, 1);
     --theme-switch: var(--gray-deep);
+
     --switch-off: var(--gray-deep);
     --switch-thumb-off: var(--gray-pale);
     --switch-on: var(--white);

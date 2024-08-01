@@ -6,31 +6,41 @@ import * as SwitchPrimitives from "@radix-ui/react-switch";
 import { cn } from "@/lib/utils";
 import { IconMoon, IconSun } from "@/assets/IconTheme";
 import { useTheme } from "next-themes";
+import { cva, VariantProps } from "class-variance-authority";
+
+const switchVariants = cva(
+  "peer relative inline-flex shrink-0 cursor-pointer items-center rounded-full border-2 border-none transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:cursor-not-allowed disabled:opacity-50",
+  {
+    variants: {
+      variant: {
+        default:
+          "h-[24px] w-[60px] data-[state=checked]:bg-switch-onSwitch data-[state=unchecked]:bg-switch-offSwitch",
+        theme: "h-[24px] w-[50px] bg-switch-themeSwitch",
+      },
+    },
+    defaultVariants: {
+      variant: "default",
+    },
+  },
+);
 
 interface SwitchProps
-  extends React.ComponentPropsWithoutRef<typeof SwitchPrimitives.Root> {
-  isTheme?: boolean;
-}
+  extends React.ComponentPropsWithoutRef<typeof SwitchPrimitives.Root>,
+    VariantProps<typeof switchVariants> {}
 
 const Switch = React.forwardRef<
   React.ElementRef<typeof SwitchPrimitives.Root>,
   SwitchProps
->(({ className, isTheme, ...props }, ref) => {
+>(({ className, variant, ...props }, ref) => {
   const isChecked = props.checked;
 
   return (
     <SwitchPrimitives.Root
-      className={cn(
-        "peer relative inline-flex shrink-0 cursor-pointer items-center rounded-full border-2 border-none transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:cursor-not-allowed disabled:opacity-50",
-        className,
-        isTheme
-          ? "bg-switch-themeSwitch h-[24px] w-[50px]"
-          : "data-[state=checked]:bg-switch-onSwitch data-[state=unchecked]:bg-switch-offSwitch h-[24px] w-[60px]",
-      )}
+      className={cn(switchVariants({ variant, className }))}
       {...props}
       ref={ref}
     >
-      {isTheme ? (
+      {variant === "theme" ? (
         <SwitchThemeThumb />
       ) : (
         <>
@@ -49,7 +59,7 @@ const SwitchThumb = React.forwardRef<
   <SwitchPrimitives.Thumb
     ref={ref}
     className={cn(
-      "data-[state=checked]:bg-switch-onThumb data-[state=unchecked]:bg-switch-offThumb pointer-events-none block h-[20px] w-[20px] rounded-full bg-background shadow-lg ring-0 transition-transform data-[state=checked]:translate-x-0.5 data-[state=unchecked]:translate-x-9",
+      "pointer-events-none block h-[20px] w-[20px] rounded-full bg-background shadow-lg ring-0 transition-transform data-[state=checked]:translate-x-0.5 data-[state=unchecked]:translate-x-9 data-[state=checked]:bg-switch-onThumb data-[state=unchecked]:bg-switch-offThumb",
       className,
     )}
     {...props}
@@ -67,7 +77,7 @@ const SwitchThemeThumb = React.forwardRef<
     <SwitchPrimitives.Thumb
       ref={ref}
       className={cn(
-        "bg-switch-themeThumb pointer-events-none flex h-[20px] w-[20px] items-center justify-center rounded-full shadow-lg ring-0 transition-transform data-[state=checked]:translate-x-0.5 data-[state=unchecked]:translate-x-7",
+        "pointer-events-none flex h-[20px] w-[20px] items-center justify-center rounded-full bg-switch-themeThumb shadow-lg ring-0 transition-transform data-[state=checked]:translate-x-0.5 data-[state=unchecked]:translate-x-7",
         className,
       )}
       {...props}
@@ -86,8 +96,8 @@ const SwitchLabel = ({ isChecked }: { isChecked: boolean }) => (
     className={cn(
       "body8 absolute",
       isChecked
-        ? "text-switch-onThumb right-3"
-        : "text-switch-offThumb left-1.5",
+        ? "right-3 text-switch-onThumb"
+        : "left-1.5 text-switch-offThumb",
     )}
   >
     {isChecked ? "ON" : "OFF"}
@@ -98,4 +108,4 @@ Switch.displayName = SwitchPrimitives.Root.displayName;
 SwitchThumb.displayName = SwitchPrimitives.Thumb.displayName;
 SwitchThemeThumb.displayName = SwitchPrimitives.Thumb.displayName;
 
-export { Switch };
+export { Switch, switchVariants };

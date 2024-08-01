@@ -20,13 +20,11 @@ export default function MediaWebWrapper({
     if (isReverse) {
       if (width >= 1350 && type !== "dt") return true;
       if (width <= 1350 && width > 1023 && type !== "tb") return true;
-      if (width <= 1023 && type !== "mb") return true;
-      return false;
+      return width <= 1023 && type !== "mb";
     } else {
       if (width >= 1350 && type === "dt") return true;
       if (width <= 1350 && width > 1023 && type === "tb") return true;
-      if (width <= 1023 && type === "mb") return true;
-      return false;
+      return width <= 1023 && type === "mb";
     }
   })();
 
