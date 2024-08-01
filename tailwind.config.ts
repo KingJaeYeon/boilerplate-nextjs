@@ -25,6 +25,14 @@ const config = {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        switch: {
+          themeThumb: "var(--theme-thumb)",
+          themeSwitch: "var(--theme-switch)",
+          onThumb: "var(--switch-thumb-on)",
+          onSwitch: "var(--switch-on)",
+          offThumb: "var(--switch-thumb-off)",
+          offSwitch: "var(--switch-off)",
+        },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
