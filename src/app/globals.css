@@ -22,16 +22,16 @@
     --gray-deep: hsla(0, 0%, 36%, 1);
     --gray-drak: hsla(228, 5%, 20%, 1);
 
+    --background: var(--gray-pale);
+    --foreground: var(--gray-drak);
+
     --theme-thumb: hsla(228, 3%, 34%, 1);
     --theme-switch: hsla(180, 1%, 86%, 1);
-
     --switch-off: var(--gray-weak);
     --switch-thumb-off: var(--gray-neutral);
     --switch-on: var(--gray-drak);
     --switch-thumb-on: var(--white);
 
-    --background: var(--gray-pale);
-    --foreground: 222.2 84% 4.9%;
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
@@ -64,16 +64,16 @@
     --gray-drak: hsla(228, 5%, 20%, 1);
     --gray-drakest: hsla(230, 10%, 11%, 1);
 
+    --background: var(--gray-drakest);
+    --foreground: var(--white);
+
     --theme-thumb: hsla(180, 1%, 86%, 1);
     --theme-switch: var(--gray-deep);
-
     --switch-off: var(--gray-deep);
     --switch-thumb-off: var(--gray-pale);
     --switch-on: var(--white);
     --switch-thumb-on: var(--gray-deep);
 
-    --background: var(--gray-drakest);
-    --foreground: 210 40% 98%;
     --card: 222.2 84% 4.9%;
     --card-foreground: 210 40% 98%;
     --popover: 222.2 84% 4.9%;
