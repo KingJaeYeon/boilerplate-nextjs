@@ -5,24 +5,27 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50",
+  "inline-flex items-center justify-center whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50",
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90",
-        destructive:
-          "bg-destructive text-destructive-foreground hover:bg-destructive/90",
-        outline:
-          "border border-input bg-background hover:bg-accent hover:text-accent-foreground",
+        default: "",
+        primary:
+          "bg-primary text-primary-foreground hover:bg-primary-hover disabled:bg-primary-disabled disabled:text-primary-disabled-foreground",
         secondary:
-          "bg-secondary text-secondary-foreground hover:bg-secondary/80",
+          "bg-secondary-button text-secondary-button-foreground hover:bg-secondary-button-hover hover:text-secondary-button-hover-foreground disabled:text-secondary-button-disabled-foreground",
+        outline:
+          "border bg-background text-outline-button-foreground hover:text-outline-button-hover hover:border-outline-button-hover disabled:text-outline-button-disabled",
         ghost: "hover:bg-accent hover:text-accent-foreground",
-        link: "text-primary underline-offset-4 hover:underline",
+        // destructive:
+        //   "bg-destructive text-destructive-foreground hover:bg-destructive/90",
+        // link: "text-primary underline-offset-4 hover:underline",
       },
       size: {
         default: "",
-        sm: "h-[32px] rounded-[17px] px-[12px] py-[8px]",
-        lg: "h-[42px] rounded-[21px] px-[20px] py-[10px]",
+        sm: "h-[29px] rounded-[17px] px-[8px] py-[5px] heading8",
+        md: "h-[32px] rounded-[17px] px-[12px] py-[8px] heading7",
+        lg: "h-[42px] rounded-[21px] px-[20px] py-[10px] heading5",
         icon: "h-10 w-10",
       },
     },

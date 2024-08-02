@@ -6,6 +6,7 @@ import { RoundedTag } from "@/components/analyze-ui/Tag";
 import { SquareButtonLg, SquareButtonSm } from "@/components/analyze-ui/Button";
 import ThemeToggle from "@/components/ThemeToggle";
 import SwitchToggle from "@/components/analyze-ui/SwitchToggle";
+import { Button } from "@/components/ui/button";
 
 export default function Page() {
   return (
@@ -19,11 +20,61 @@ export default function Page() {
           </Row>
         </Col>
         <Col>
-          <Row className={"gap-[10px]"}>
-            <SquareButtonSm>버튼명</SquareButtonSm>
+          <Row className={"items-center gap-[10px]"}>
+            <Button size={"sm"} variant={"primary"}>
+              Small Button
+            </Button>
+            <Button size={"md"} variant={"primary"}>
+              Medium Button
+            </Button>
+            <Button size={"lg"} variant={"primary"}>
+              Large Button
+            </Button>
+            <Button size={"lg"} variant={"primary"} disabled={true}>
+              Large Button
+            </Button>
           </Row>
-          <Row>
-            <SquareButtonLg>버튼명</SquareButtonLg>
+          <Row className={"items-center gap-[10px]"}>
+            <Button size={"sm"} variant={"secondary"}>
+              Small Button
+            </Button>
+            <Button size={"md"} variant={"secondary"}>
+              Medium Button
+            </Button>
+            <Button size={"lg"} variant={"secondary"}>
+              Large Button
+            </Button>
+            <Button size={"lg"} variant={"secondary"} disabled={true}>
+              Large Button
+            </Button>
+          </Row>
+          <Row className={"items-center gap-[10px]"}>
+            <Button size={"sm"} variant={"outline"}>
+              Small Button
+            </Button>
+            <Button size={"md"} variant={"outline"}>
+              Medium Button
+            </Button>
+            <Button size={"lg"} variant={"outline"}>
+              Large Button
+            </Button>
+            <Button size={"lg"} variant={"outline"} disabled={true}>
+              Large Button
+            </Button>
+          </Row>
+          <Row className={"items-center gap-[10px]"}>
+            <Button size={"sm"} variant={"ghost"}>
+              Small Button
+            </Button>
+            <Button size={"md"} variant={"ghost"}>
+              Medium Button
+            </Button>
+            <Button size={"lg"} variant={"ghost"}>
+              Large Button
+            </Button>
+            <Button size={"lg"} variant={"ghost"} disabled={true}>
+              Large Button
+            </Button>
           </Row>
         </Col>
       </Section>

@@ -8,45 +8,57 @@
   :root {
     /*공통*/
     --font-Pretendard: "Pretendard", sans-serif;
-    --white: hsla(0, 0%, 100%, 1);
-    --black: hsl(0, 0%, 0%, 1);
-    --primary: hsl(0, 0%, 100%);
+    --white: 0, 0%, 100%;
+    --black: 0, 0%, 0%;
+    --primary: 112, 76%, 53%;
+    --primary-foreground: 228, 5%, 20%;
+    /*--primary-foreground: var(--white);*/
+    --primary-hover: 112, 76%, 53%, 0.8;
+    --primary-disabled: var(--primary, 0.2);
+    --primary-disabled-foreground: 228, 5%, 20%;
   }
 
   .light {
-    --gray-pale: hsla(0, 0%, 95%, 1);
-    --gray-weak: hsla(0, 0%, 92%, 1);
-    --gray-light: hsla(0, 0%, 85%, 1);
-    --gray-normal: hsla(0, 0%, 61%, 1);
-    --gray-neutral: hsla(0, 0%, 49%, 1);
-    --gray-deep: hsla(0, 0%, 36%, 1);
-    --gray-drak: hsla(228, 5%, 20%, 1);
+    --gray-pale: 0, 0%, 95%;
+    --gray-weak: 0, 0%, 92%;
+    --gray-light: 0, 0%, 85%;
+    --gray-normal: 0, 0%, 61%;
+    --gray-neutral: 0, 0%, 49%;
+    --gray-deep: 0, 0%, 36%;
+    --gray-drak: 228, 5%, 20%;
 
     --background: var(--gray-pale);
     --foreground: var(--gray-drak);
 
-    --theme-thumb: hsla(228, 3%, 34%, 1);
-    --theme-switch: hsla(180, 1%, 86%, 1);
+    --button-secondary: var(--gray-light);
+    --button-secondary-foreground: var(--gray-drak);
+    --button-secondary-hover: var(--gray-weak);
+    --button-secondary-foreground-hover: var(--gray-drak);
+
+    --button-outline-foreground: var(--gray-drak);
+    --button-outline-foreground-hover: var(--gray-drak);
+    --button-outline-foreground-disabled: var(--gray-deep);
+
+    --accent: var(--gray-weak);
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --theme-thumb: 228, 3%, 34%;
+    --theme-switch: 180, 1%, 86%;
     --switch-off: var(--gray-weak);
     --switch-thumb-off: var(--gray-neutral);
     --switch-on: var(--gray-drak);
     --switch-thumb-on: var(--white);
 
+    --border: 0, 0%, 0%, 0.15;
+
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
-    --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
     --ring: 222.2 84% 4.9%;
     --radius: 0.5rem;
@@ -56,39 +68,48 @@
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
   }
+
   .dark {
-    --gray-pale: hsla(180, 1%, 86%, 1);
-    --gray-light: hsla(210, 1%, 69%, 1);
-    --gray-neutral: hsla(208, 8%, 56%, 1);
-    --gray-deep: hsla(228, 3%, 34%, 1);
-    --gray-drak: hsla(228, 5%, 20%, 1);
-    --gray-drakest: hsla(230, 10%, 11%, 1);
+    --gray-pale: 180, 1%, 86%;
+    --gray-light: 210, 1%, 69%;
+    --gray-neutral: 208, 8%, 56%;
+    --gray-deep: 228, 3%, 34%;
+    --gray-drak: 228, 5%, 20%;
+    --gray-drakest: 230, 10%, 11%;
 
     --background: var(--gray-drakest);
     --foreground: var(--white);
 
-    --theme-thumb: hsla(180, 1%, 86%, 1);
+    --button-secondary: var(--gray-drak);
+    --button-secondary-foreground: var(--gray-light);
+    --button-secondary-hover: var(--gray-deep);
+    --button-secondary-foreground-hover: var(--white);
+
+    --button-outline-foreground: 210, 1%, 69%, 1;
+    --button-outline-foreground-hover: var(--white);
+    --button-outline-foreground-disabled: 210, 1%, 69%, 1;
+
+    --accent: var(--gray-deep);
+    --accent-foreground: 210 40% 98%;
+
+    --border-button: 0, 0%, 100%, 0.15;
+    --theme-thumb: 180, 1%, 86%;
     --theme-switch: var(--gray-deep);
     --switch-off: var(--gray-deep);
     --switch-thumb-off: var(--gray-pale);
     --switch-on: var(--white);
     --switch-thumb-on: var(--gray-deep);
 
+    --border: 0, 0%, 100%, 0.15;
+
     --card: 222.2 84% 4.9%;
     --card-foreground: 210 40% 98%;
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
-    --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 212.7 26.8% 83.9%;
     --chart-1: 220 70% 50%;
