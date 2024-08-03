@@ -3,24 +3,21 @@ import Section from "@/components/Layout/Section";
 import Col from "@/components/Layout/Col";
 import Row from "@/components/Layout/Row";
 import { RoundedTag } from "@/components/analyze-ui/Tag";
-import { SquareButtonLg, SquareButtonSm } from "@/components/analyze-ui/Button";
 import ThemeToggle from "@/components/ThemeToggle";
 import SwitchToggle from "@/components/analyze-ui/SwitchToggle";
-import { Button } from "@/components/ui/button";
 import GuideButton from "@/app/analyze-ui/_component/guide-button";
+import GuideAvatar from "@/app/analyze-ui/_component/guide-avatar";
 
 export default function Page() {
   return (
     <Main>
-      <Section>
-        <h2>둥근태그 && 네모난 버튼 세트</h2>
-        <Col>
-          <Row className={"gap-[10px]"}>
-            <RoundedTag>태그</RoundedTag>
-            <RoundedTag hasClose={true}>태그</RoundedTag>
-          </Row>
-        </Col>
+      <Section className={"flex flex-col gap-[10px]"}>
+        <h2 className={"heading1"}>버튼, Toast Message</h2>
         <GuideButton />
+      </Section>
+      <Section className={"flex flex-col gap-[10px]"}>
+        <h2 className={"heading1"}>Avatar</h2>
+        <GuideAvatar />
       </Section>
       <Section className={"mt-[40px]"}>
         <h2>네모난태그 && 둥근버튼 세트</h2>

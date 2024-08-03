@@ -9,7 +9,7 @@ import { useTheme } from "next-themes";
 import { cva, VariantProps } from "class-variance-authority";
 
 const switchVariants = cva(
-  "peer relative inline-flex shrink-0 cursor-pointer items-center rounded-[9999px] border-2 border-none transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:cursor-not-allowed disabled:opacity-50",
+  "peer relative inline-flex shrink-0 cursor-pointer items-center rounded-full border-2 border-none transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:cursor-not-allowed disabled:opacity-50",
   {
     variants: {
       variant: {
@@ -59,7 +59,7 @@ const SwitchThumb = React.forwardRef<
   <SwitchPrimitives.Thumb
     ref={ref}
     className={cn(
-      "pointer-events-none block h-[20px] w-[20px] rounded-[9999px] bg-background shadow-lg ring-0 transition-transform data-[state=checked]:translate-x-0.5 data-[state=unchecked]:translate-x-9 data-[state=checked]:bg-switch-onThumb data-[state=unchecked]:bg-switch-offThumb",
+      "rounded-full pointer-events-none block h-[20px] w-[20px] bg-background shadow-lg ring-0 transition-transform data-[state=checked]:translate-x-0.5 data-[state=unchecked]:translate-x-9 data-[state=checked]:bg-switch-onThumb data-[state=unchecked]:bg-switch-offThumb",
       className,
     )}
     {...props}
@@ -77,7 +77,7 @@ const SwitchThemeThumb = React.forwardRef<
     <SwitchPrimitives.Thumb
       ref={ref}
       className={cn(
-        "pointer-events-none flex h-[20px] w-[20px] items-center justify-center rounded-[9999px] bg-switch-themeThumb shadow-lg ring-0 transition-transform data-[state=checked]:translate-x-0.5 data-[state=unchecked]:translate-x-7",
+        "rounded-full pointer-events-none flex h-[20px] w-[20px] items-center justify-center bg-switch-themeThumb shadow-lg ring-0 transition-transform data-[state=checked]:translate-x-0.5 data-[state=unchecked]:translate-x-7",
         className,
       )}
       {...props}
