@@ -7,6 +7,7 @@ import { SquareButtonLg, SquareButtonSm } from "@/components/analyze-ui/Button";
 import ThemeToggle from "@/components/ThemeToggle";
 import SwitchToggle from "@/components/analyze-ui/SwitchToggle";
 import { Button } from "@/components/ui/button";
+import GuideButton from "@/app/analyze-ui/_component/guide-button";
 
 export default function Page() {
   return (
@@ -19,64 +20,7 @@ export default function Page() {
             <RoundedTag hasClose={true}>태그</RoundedTag>
           </Row>
         </Col>
-        <Col>
-          <Row className={"items-center gap-[10px]"}>
-            <Button size={"sm"} variant={"primary"}>
-              Small Button
-            </Button>
-            <Button size={"md"} variant={"primary"}>
-              Medium Button
-            </Button>
-            <Button size={"lg"} variant={"primary"}>
-              Large Button
-            </Button>
-            <Button size={"lg"} variant={"primary"} disabled={true}>
-              Large Button
-            </Button>
-          </Row>
-          <Row className={"items-center gap-[10px]"}>
-            <Button size={"sm"} variant={"secondary"}>
-              Small Button
-            </Button>
-            <Button size={"md"} variant={"secondary"}>
-              Medium Button
-            </Button>
-            <Button size={"lg"} variant={"secondary"}>
-              Large Button
-            </Button>
-            <Button size={"lg"} variant={"secondary"} disabled={true}>
-              Large Button
-            </Button>
-          </Row>
-          <Row className={"items-center gap-[10px]"}>
-            <Button size={"sm"} variant={"outline"}>
-              Small Button
-            </Button>
-            <Button size={"md"} variant={"outline"}>
-              Medium Button
-            </Button>
-            <Button size={"lg"} variant={"outline"}>
-              Large Button
-            </Button>
-            <Button size={"lg"} variant={"outline"} disabled={true}>
-              Large Button
-            </Button>
-          </Row>
-          <Row className={"items-center gap-[10px]"}>
-            <Button size={"sm"} variant={"ghost"}>
-              Small Button
-            </Button>
-            <Button size={"md"} variant={"ghost"}>
-              Medium Button
-            </Button>
-            <Button size={"lg"} variant={"ghost"}>
-              Large Button
-            </Button>
-            <Button size={"lg"} variant={"ghost"} disabled={true}>
-              Large Button
-            </Button>
-          </Row>
-        </Col>
+        <GuideButton />
       </Section>
       <Section className={"mt-[40px]"}>
         <h2>네모난태그 && 둥근버튼 세트</h2>

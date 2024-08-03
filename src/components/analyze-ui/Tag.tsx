@@ -1,6 +1,6 @@
 import Row from "@/components/Layout/Row";
 import Text from "@/components/Layout/Text";
-import IconClose from "@/assets/IconClose";
+import IconClose from "@/assets/svg/IconClose";
 import React from "react";
 
 export function RoundedTag({

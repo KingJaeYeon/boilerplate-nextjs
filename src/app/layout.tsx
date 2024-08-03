@@ -3,8 +3,8 @@ import React from "react";
 import localFont from "next/font/local";
 import "./globals.css";
 import SystemProvider from "@/components/SystemProvider";
-import { ThemeProvider } from "@/components/ThemeProvider";
 import QueryProvider from "@/components/QueryProvider";
+import { Toaster } from "@/components/ui/sonner";
 
 const myFont = localFont({
   src: "./PretendardVariable.woff2",
@@ -25,16 +25,10 @@ export default function RootLayout({
   return (
     <html lang="ko" className={"dark"}>
       <body className={`${myFont.className} bg-background text-foreground`}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <SystemProvider>
-            <QueryProvider>{children}</QueryProvider>
-          </SystemProvider>
-        </ThemeProvider>
+        <SystemProvider>
+          <Toaster />
+          <QueryProvider>{children}</QueryProvider>
+        </SystemProvider>
       </body>
     </html>
   );

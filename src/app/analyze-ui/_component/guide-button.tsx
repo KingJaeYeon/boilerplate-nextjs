@@ -1,0 +1,91 @@
+"use client";
+import Row from "@/components/Layout/Row";
+import { Button } from "@/components/ui/button";
+import Col from "@/components/Layout/Col";
+import { useToast } from "@/components/Toast/useToast";
+
+export default function GuideButton() {
+  const { error, info, success, action } = useToast();
+  return (
+    <Col className={"gap-[5px]"}>
+      <Row className={"items-center gap-[10px]"}>
+        <Button size={"md"} variant={"primary"} onClick={() => error("error")}>
+          Error
+        </Button>
+        <Button size={"md"} variant={"primary"} onClick={() => info("info")}>
+          Info
+        </Button>
+        <Button
+          size={"md"}
+          variant={"primary"}
+          onClick={() => success("success")}
+        >
+          Success
+        </Button>
+        <Button
+          size={"md"}
+          variant={"primary"}
+          onClick={() => action("action", () => alert("action"))}
+        >
+          Action
+        </Button>
+      </Row>
+      <Row className={"items-center gap-[10px]"}>
+        <Button size={"sm"} variant={"primary"}>
+          Small Button
+        </Button>
+        <Button size={"md"} variant={"primary"}>
+          Medium Button
+        </Button>
+        <Button size={"lg"} variant={"primary"}>
+          Large Button
+        </Button>
+        <Button size={"lg"} variant={"primary"} disabled={true}>
+          Large Button
+        </Button>
+      </Row>
+      <Row className={"items-center gap-[10px]"}>
+        <Button size={"sm"} variant={"secondary"}>
+          Small Button
+        </Button>
+        <Button size={"md"} variant={"secondary"}>
+          Medium Button
+        </Button>
+        <Button size={"lg"} variant={"secondary"}>
+          Large Button
+        </Button>
+        <Button size={"lg"} variant={"secondary"} disabled={true}>
+          Large Button
+        </Button>
+      </Row>
+      <Row className={"items-center gap-[10px]"}>
+        <Button size={"sm"} variant={"outline"}>
+          Small Button
+        </Button>
+        <Button size={"md"} variant={"outline"}>
+          Medium Button
+        </Button>
+        <Button size={"lg"} variant={"outline"}>
+          Large Button
+        </Button>
+        <Button size={"lg"} variant={"outline"} disabled={true}>
+          Large Button
+        </Button>
+      </Row>
+      <Row className={"items-center gap-[10px]"}>
+        <Button size={"sm"} variant={"ghost"}>
+          Small Button
+        </Button>
+        <Button size={"md"} variant={"ghost"}>
+          Medium Button
+        </Button>
+        <Button size={"lg"} variant={"ghost"}>
+          Large Button
+        </Button>
+        <Button size={"lg"} variant={"ghost"} disabled={true}>
+          Large Button
+        </Button>
+      </Row>
+    </Col>
+  );
+}
