@@ -7,10 +7,12 @@ import ThemeToggle from "@/components/ThemeToggle";
 import SwitchToggle from "@/components/analyze-ui/SwitchToggle";
 import GuideButton from "@/app/analyze-ui/_component/guide-button";
 import GuideAvatar from "@/app/analyze-ui/_component/guide-avatar";
+import { Button } from "@/components/ui/button";
+import { GuideDialog } from "@/app/analyze-ui/_component/guide-dialog";
 
 export default function Page() {
   return (
-    <Main>
+    <Main className={"gap-[20px]"}>
       <Section className={"flex flex-col gap-[10px]"}>
         <h2 className={"heading1"}>버튼, Toast Message</h2>
         <GuideButton />
@@ -18,6 +20,10 @@ export default function Page() {
       <Section className={"flex flex-col gap-[10px]"}>
         <h2 className={"heading1"}>Avatar</h2>
         <GuideAvatar />
+      </Section>
+      <Section className={"flex flex-col gap-[10px]"}>
+        <h2 className={"heading1"}>Dialog</h2>
+        <GuideDialog />
       </Section>
       <Section className={"mt-[40px]"}>
         <h2>네모난태그 && 둥근버튼 세트</h2>

@@ -78,6 +78,7 @@ const config = {
       },
       popover: {
         DEFAULT: "hsl(var(--popover-background))",
+        overlay: "hsl(var(--popover-overlay))",
         foreground: "hsl(var(--popover-foreground))",
       },
       card: {

@@ -3,9 +3,11 @@ import Row from "@/components/Layout/Row";
 import { Button } from "@/components/ui/button";
 import Col from "@/components/Layout/Col";
 import { useToast } from "@/components/Toast/useToast";
+import useUserStore from "@/store/userStore";
 
 export default function GuideButton() {
   const { error, info, success, action } = useToast();
+  const { setAuthModal } = useUserStore();
   return (
     <Col className={"gap-[5px]"}>
       <Row className={"items-center gap-[10px]"}>
@@ -29,6 +31,7 @@ export default function GuideButton() {
         >
           Action
         </Button>
+        <Button onClick={() => setAuthModal(true)}>로그인 버튼</Button>
       </Row>
       <Row className={"items-center gap-[10px]"}>
         <Button size={"sm"} variant={"primary"}>
