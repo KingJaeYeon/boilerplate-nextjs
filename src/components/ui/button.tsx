@@ -11,11 +11,11 @@ const buttonVariants = cva(
       variant: {
         default: "",
         primary:
-          "bg-primary text-primary-foreground hover:bg-primary-hover disabled:bg-primary-disabled disabled:text-primary-disabled-foreground",
+          "bg-button-primary text-button-primary-foreground hover:bg-button-primary-hover disabled:bg-button-primary-disabled disabled:text-button-primary-disabled-foreground",
         secondary:
-          "bg-secondary-button text-secondary-button-foreground hover:bg-secondary-button-hover hover:text-secondary-button-hover-foreground disabled:text-secondary-button-disabled-foreground",
+          "bg-button-secondary text-button-secondary-foreground hover:bg-button-secondary-hover hover:text-button-secondary-hover-foreground disabled:text-button-secondary-disabled-foreground",
         outline:
-          "border bg-background text-outline-button-foreground hover:text-outline-button-hover hover:border-outline-button-hover disabled:text-outline-button-disabled",
+          "border bg-background text-button-outline-foreground hover:text-button-outline-hover hover:border-button-outline-hover disabled:text-button-outline-disabled",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         // destructive:
         //   "bg-destructive text-destructive-foreground hover:bg-destructive/90",

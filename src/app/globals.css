@@ -7,15 +7,17 @@
 @layer base {
   :root {
     /*공통*/
-    --font-Pretendard: "Pretendard", sans-serif;
+    --font-pretendard: "pretendard", sans-serif;
     --white: 0, 0%, 100%;
     --black: 0, 0%, 0%;
     --primary: 112, 76%, 53%;
-    --primary-foreground: 228, 5%, 20%;
+
+    --button-primary-background: var(--primary);
+    --button-primary-foreground: 228, 5%, 20%;
     /*--primary-foreground: var(--white);*/
-    --primary-hover: 112, 76%, 53%, 0.8;
-    --primary-disabled: var(--primary, 0.2);
-    --primary-disabled-foreground: 228, 5%, 20%;
+    --button-primary-hover: 112, 76%, 53%, 0.8;
+    --button-primary-disabled: var(--primary, 0.2);
+    --button-primary-disabled-foreground: 228, 5%, 20%;
   }
 
   .light {
@@ -29,27 +31,25 @@
 
     --background: var(--gray-pale);
     --foreground: var(--gray-drak);
+    --border: 0, 0%, 0%, 0.15;
 
-    --button-secondary: var(--gray-light);
+    --button-secondary-background: var(--gray-light);
     --button-secondary-foreground: var(--gray-drak);
-    --button-secondary-hover: var(--gray-weak);
-    --button-secondary-foreground-hover: var(--gray-drak);
-
+    --button-secondary-hover-background: var(--gray-weak);
+    --button-secondary-hover-foreground: var(--gray-drak);
     --button-outline-foreground: var(--gray-drak);
-    --button-outline-foreground-hover: var(--gray-drak);
-    --button-outline-foreground-disabled: var(--gray-deep);
+    --button-outline-hover-foreground: var(--gray-drak);
+    --button-outline-disabled-foreground: var(--gray-deep);
 
     --accent: var(--gray-weak);
     --accent-foreground: 222.2 47.4% 11.2%;
 
-    --theme-thumb: 228, 3%, 34%;
-    --theme-switch: 180, 1%, 86%;
+    --switch-theme-thumb: 228, 3%, 34%;
+    --switch-theme: 180, 1%, 86%;
     --switch-off: var(--gray-weak);
     --switch-thumb-off: var(--gray-neutral);
     --switch-on: var(--gray-drak);
     --switch-thumb-on: var(--white);
-
-    --border: 0, 0%, 0%, 0.15;
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
@@ -79,28 +79,26 @@
 
     --background: var(--gray-drakest);
     --foreground: var(--white);
+    --border: 0, 0%, 100%, 0.15;
 
-    --button-secondary: var(--gray-drak);
+    --button-secondary-background: var(--gray-drak);
     --button-secondary-foreground: var(--gray-light);
-    --button-secondary-hover: var(--gray-deep);
-    --button-secondary-foreground-hover: var(--white);
-
+    --button-secondary-hover-background: var(--gray-deep);
+    --button-secondary-hover-foreground: var(--white);
     --button-outline-foreground: 210, 1%, 69%, 1;
-    --button-outline-foreground-hover: var(--white);
-    --button-outline-foreground-disabled: 210, 1%, 69%, 1;
+    --button-outline-hover-foreground: var(--white);
+    --button-outline-disabled-foreground: 210, 1%, 69%, 1;
 
     --accent: var(--gray-deep);
     --accent-foreground: 210 40% 98%;
 
     --border-button: 0, 0%, 100%, 0.15;
-    --theme-thumb: 180, 1%, 86%;
-    --theme-switch: var(--gray-deep);
+    --switch-theme-thumb: 180, 1%, 86%;
+    --switch-theme: var(--gray-deep);
     --switch-off: var(--gray-deep);
     --switch-thumb-off: var(--gray-pale);
     --switch-on: var(--white);
     --switch-thumb-on: var(--gray-deep);
-
-    --border: 0, 0%, 100%, 0.15;
 
     --card: 222.2 84% 4.9%;
     --card-foreground: 210 40% 98%;

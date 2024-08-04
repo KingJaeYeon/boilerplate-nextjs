@@ -14,10 +14,6 @@ const config = {
       tb: "1024px",
       dt: "1350px",
     },
-
-    fontFamily: {
-      pretendard: ["var(--font-Pretendard)", "sans-serif"],
-    },
     colors: {
       white: "hsl(var(--white))",
       border: "hsl(var(--border))",
@@ -26,41 +22,45 @@ const config = {
       background: "hsl(var(--background))",
       foreground: "hsl(var(--foreground))",
       switch: {
-        themeThumb: "hsl(var(--theme-thumb))",
-        themeSwitch: "hsl(var(--theme-switch))",
-        onThumb: "hsl(var(--switch-thumb-on))",
-        onSwitch: "hsl(var(--switch-on))",
-        offThumb: "hsl(var(--switch-thumb-off))",
-        offSwitch: "hsl(var(--switch-off))",
-      },
-      primary: {
-        DEFAULT: "hsl(var(--primary))",
-        foreground: "hsl(var(--primary-foreground))",
-        hover: {
-          DEFAULT: "hsl(var(--primary-hover))",
+        theme: {
+          thumb: "hsl(var(--switch-theme-thumb))",
+          switch: "hsl(var(--switch-theme))",
         },
-        disabled: {
-          DEFAULT: "hsl(var(--primary-disabled))",
-          foreground: "hsl(var(--primary-disabled-foreground))",
+        on: {
+          thumb: "hsl(var(--switch-thumb-on))",
+          switch: "hsl(var(--switch-on))",
+        },
+        off: {
+          thumb: "hsl(var(--switch-thumb-off))",
+          switch: "hsl(var(--switch-off))",
         },
       },
-      secondary: {
-        button: {
-          DEFAULT: "hsl(var(--button-secondary))",
-          foreground: "hsl(var(--button-secondary-foreground))",
+      button: {
+        primary: {
+          DEFAULT: "hsl(var(--button-primary-background))",
+          foreground: "hsl(var(--button-primary-foreground))",
           hover: {
-            DEFAULT: "hsl(var(--button-secondary-hover))",
-            foreground: "hsl(var(--button-secondary-foreground-hover))",
+            DEFAULT: "hsl(var(--button-primary-hover))",
           },
           disabled: {
-            foreground: "hsl(var(--button-secondary-foreground))",
+            DEFAULT: "hsl(var(--button-primary-disabled))",
+            foreground: "hsl(var(--button-primary-disabled-foreground))",
           },
         },
-      },
-      outline: {
-        button: {
+        secondary: {
+          DEFAULT: "hsl(var(--button-secondary-background))",
+          foreground: "hsl(var(--button-secondary-foreground))",
+          hover: {
+            DEFAULT: "hsl(var(--button-secondary-hover-background))",
+            foreground: "hsl(var(--button-secondary-hover-foreground))",
+          },
+          disabled: {
+            foreground: "hsl(var(--button-outline-disabled-foreground))",
+          },
+        },
+        outline: {
           foreground: "hsl(var(--button-outline-foreground))",
-          hover: "hsl(var(--button-outline-foreground-hover))",
+          hover: "hsl(var(--button-outline-hover-foreground))",
           disabled: "hsl(var(--button-outline-foreground-disabled))",
         },
       },
@@ -91,7 +91,22 @@ const config = {
       sm: "calc(var(--radius) - 4px)",
       full: "9999px",
     },
-
+    fontFamily: {
+      pretendard: ["var(--font-pretendard)", "sans-serif"],
+    },
+    fontSize: {
+      "24": "1.5rem",
+      "22": "1.375rem",
+      "20": "1.25rem",
+      "18": "1.125rem",
+      "16": "1rem",
+      "15": "0.938rem",
+      "14": "0.875rem",
+      "13": "0.813rem",
+      "12": "0.75rem",
+      "11": "0.688rem",
+      "9": "0.563rem",
+    },
     keyframes: {
       "accordion-down": {
         from: { height: "0" },

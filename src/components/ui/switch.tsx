@@ -14,8 +14,8 @@ const switchVariants = cva(
     variants: {
       variant: {
         default:
-          "h-[24px] w-[60px] data-[state=checked]:bg-switch-onSwitch data-[state=unchecked]:bg-switch-offSwitch",
-        theme: "h-[24px] w-[50px] bg-switch-themeSwitch",
+          "h-[24px] w-[60px] data-[state=checked]:bg-switch-on-switch data-[state=unchecked]:bg-switch-off-switch",
+        theme: "h-[24px] w-[50px] bg-switch-theme-switch",
       },
     },
     defaultVariants: {
@@ -59,7 +59,7 @@ const SwitchThumb = React.forwardRef<
   <SwitchPrimitives.Thumb
     ref={ref}
     className={cn(
-      "rounded-full pointer-events-none block h-[20px] w-[20px] bg-background shadow-lg ring-0 transition-transform data-[state=checked]:translate-x-0.5 data-[state=unchecked]:translate-x-9 data-[state=checked]:bg-switch-onThumb data-[state=unchecked]:bg-switch-offThumb",
+      "rounded-full data-[state=checked]:bg-switch-on-thumb data-[state=unchecked]:bg-switch-off-thumb pointer-events-none block h-[20px] w-[20px] bg-background shadow-lg ring-0 transition-transform data-[state=checked]:translate-x-0.5 data-[state=unchecked]:translate-x-9",
       className,
     )}
     {...props}
@@ -77,7 +77,7 @@ const SwitchThemeThumb = React.forwardRef<
     <SwitchPrimitives.Thumb
       ref={ref}
       className={cn(
-        "rounded-full pointer-events-none flex h-[20px] w-[20px] items-center justify-center bg-switch-themeThumb shadow-lg ring-0 transition-transform data-[state=checked]:translate-x-0.5 data-[state=unchecked]:translate-x-7",
+        "rounded-full bg-switch-theme-thumb pointer-events-none flex h-[20px] w-[20px] items-center justify-center shadow-lg ring-0 transition-transform data-[state=checked]:translate-x-0.5 data-[state=unchecked]:translate-x-7",
         className,
       )}
       {...props}
@@ -96,8 +96,8 @@ const SwitchLabel = ({ isChecked }: { isChecked: boolean }) => (
     className={cn(
       "body8 absolute",
       isChecked
-        ? "right-3 text-switch-onThumb"
-        : "left-1.5 text-switch-offThumb",
+        ? "text-switch-on-thumb right-3"
+        : "text-switch-off-thumb left-1.5",
     )}
   >
     {isChecked ? "ON" : "OFF"}

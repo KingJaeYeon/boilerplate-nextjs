@@ -2,74 +2,74 @@
 
 @layer components {
   .heading1 {
-    @apply font-pretendard text-[1.5rem] font-bold leading-[120%] tracking-[0];
+    @apply text-24 font-pretendard font-bold leading-[120%] tracking-[0];
   }
 
   .heading2 {
-    @apply font-pretendard text-[1.25rem] font-bold leading-[120%] tracking-[0];
+    @apply text-20 font-pretendard font-bold leading-[120%] tracking-[0];
   }
 
   .heading3 {
-    @apply font-pretendard text-[1.125rem] font-bold leading-[120%] tracking-[0];
+    @apply text-18 font-pretendard font-bold leading-[120%] tracking-[0];
   }
 
   .heading4 {
-    @apply font-pretendard text-[1rem] font-bold leading-[120%] tracking-[0];
+    @apply text-16 font-pretendard font-bold leading-[120%] tracking-[0];
   }
 
   .heading5 {
-    @apply font-pretendard text-[0.938rem] font-bold leading-[120%] tracking-[0];
+    @apply text-15 font-pretendard font-bold leading-[120%] tracking-[0];
   }
 
   .heading6 {
-    @apply font-pretendard text-[0.875rem] font-bold leading-[120%] tracking-[0];
+    @apply text-14 font-pretendard font-bold leading-[120%] tracking-[0];
   }
 
   .heading7 {
-    @apply font-pretendard text-[0.813rem] font-bold leading-[120%] tracking-[0];
+    @apply text-13 font-pretendard font-bold leading-[120%] tracking-[0];
   }
 
   .heading8 {
-    @apply font-pretendard text-[0.75rem] font-bold leading-[120%] tracking-[0];
+    @apply text-12 font-pretendard font-bold leading-[120%] tracking-[0];
   }
 
   .heading9 {
-    @apply font-pretendard text-[0.688rem] font-bold leading-[120%] tracking-[0];
+    @apply text-11 font-pretendard font-bold leading-[120%] tracking-[0];
   }
 
   .body1 {
-    @apply font-pretendard text-[1.25rem] font-normal leading-[120%] tracking-[0];
+    @apply text-20 font-pretendard font-normal leading-[120%] tracking-[0];
   }
 
   .body2 {
-    @apply font-pretendard text-[1.125rem] font-normal leading-[120%] tracking-[0];
+    @apply text-18 font-pretendard font-normal leading-[120%] tracking-[0];
   }
 
   .body3 {
-    @apply font-pretendard text-[1rem] font-normal leading-[120%] tracking-[0];
+    @apply text-16 font-pretendard font-normal leading-[120%] tracking-[0];
   }
 
   .body4 {
-    @apply font-pretendard text-[0.938rem] font-normal leading-[120%] tracking-[0];
+    @apply text-15 font-pretendard font-normal leading-[120%] tracking-[0];
   }
 
   .body5 {
-    @apply font-pretendard text-[0.875rem] font-normal leading-[120%] tracking-[0];
+    @apply text-14 font-pretendard font-normal leading-[120%] tracking-[0];
   }
 
   .body6 {
-    @apply font-pretendard text-[0.813rem] font-bold leading-[120%] tracking-[0];
+    @apply text-13 font-pretendard font-bold leading-[120%] tracking-[0];
   }
 
   .body7 {
-    @apply font-pretendard text-[0.75rem] font-normal leading-[120%] tracking-[0];
+    @apply text-12 font-pretendard font-normal leading-[120%] tracking-[0];
   }
 
   .body8 {
-    @apply font-pretendard text-[0.688rem] font-normal leading-[120%] tracking-[0];
+    @apply text-11 font-pretendard font-normal leading-[120%] tracking-[0];
   }
 
   .body9 {
-    @apply font-pretendard text-[0.563rem] font-normal leading-[120%] tracking-[0];
+    @apply text-9 font-pretendard font-normal leading-[120%] tracking-[0];
   }
 }

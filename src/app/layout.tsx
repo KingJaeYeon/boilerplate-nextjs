@@ -5,11 +5,12 @@ import "./globals.css";
 import SystemProvider from "@/components/SystemProvider";
 import QueryProvider from "@/components/QueryProvider";
 import { Toaster } from "@/components/ui/sonner";
+import LoginModal from "@/components/modal/LoginModal";
 
 const myFont = localFont({
   src: "./PretendardVariable.woff2",
   display: "swap",
-  variable: "--font-Pretendard",
+  variable: "--font-pretendard",
 });
 
 export const metadata: Metadata = {
@@ -27,7 +28,10 @@ export default function RootLayout({
       <body className={`${myFont.className} bg-background text-foreground`}>
         <SystemProvider>
           <Toaster />
-          <QueryProvider>{children}</QueryProvider>
+          <QueryProvider>
+            {children}
+            <LoginModal />
+          </QueryProvider>
         </SystemProvider>
       </body>
     </html>
