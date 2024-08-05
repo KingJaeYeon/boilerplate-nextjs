@@ -42,10 +42,6 @@ const config = {
           hover: {
             DEFAULT: "hsl(var(--button-primary-hover))",
           },
-          disabled: {
-            DEFAULT: "hsl(var(--button-primary-disabled))",
-            foreground: "hsl(var(--button-primary-disabled-foreground))",
-          },
         },
         secondary: {
           DEFAULT: "hsl(var(--button-secondary-background))",
@@ -54,14 +50,10 @@ const config = {
             DEFAULT: "hsl(var(--button-secondary-hover-background))",
             foreground: "hsl(var(--button-secondary-hover-foreground))",
           },
-          disabled: {
-            foreground: "hsl(var(--button-outline-disabled-foreground))",
-          },
         },
         outline: {
           foreground: "hsl(var(--button-outline-foreground))",
           hover: "hsl(var(--button-outline-hover-foreground))",
-          disabled: "hsl(var(--button-outline-foreground-disabled))",
         },
       },
       destructive: {

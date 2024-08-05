@@ -16,8 +16,6 @@
     --button-primary-foreground: 228, 5%, 20%;
     /*--primary-foreground: var(--white);*/
     --button-primary-hover: 112, 76%, 53%, 0.8;
-    --button-primary-disabled: 112, 76%, 53%, 0.2;
-    --button-primary-disabled-foreground: 228, 5%, 20%;
   }
 
   .light {
@@ -39,7 +37,6 @@
     --button-secondary-hover-foreground: var(--gray-drak);
     --button-outline-foreground: var(--gray-drak);
     --button-outline-hover-foreground: var(--gray-drak);
-    --button-outline-disabled-foreground: var(--gray-deep);
 
     --accent: var(--gray-weak);
     --accent-foreground: 222.2 47.4% 11.2%;
@@ -89,7 +86,6 @@
     --button-secondary-hover-foreground: var(--white);
     --button-outline-foreground: var(--gray-light);
     --button-outline-hover-foreground: var(--white);
-    --button-outline-disabled-foreground: var(--gray-light);
 
     --accent: var(--gray-deep);
     --accent-foreground: 210 40% 98%;

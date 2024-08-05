@@ -5,17 +5,17 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50",
+  "inline-flex items-center justify-center whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none  disabled:opacity-20",
   {
     variants: {
       variant: {
         default: "",
         primary:
-          "bg-button-primary text-button-primary-foreground hover:bg-button-primary-hover disabled:bg-button-primary-disabled disabled:text-button-primary-disabled-foreground",
+          "bg-button-primary text-button-primary-foreground hover:bg-button-primary-hover disabled:text-button-primary-disabled-foreground",
         secondary:
-          "bg-button-secondary text-button-secondary-foreground hover:bg-button-secondary-hover hover:text-button-secondary-hover-foreground disabled:text-button-secondary-disabled-foreground",
+          "bg-button-secondary text-button-secondary-foreground hover:bg-button-secondary-hover hover:text-button-secondary-hover-foreground",
         outline:
-          "border bg-background text-button-outline-foreground hover:text-button-outline-hover hover:border-button-outline-hover disabled:text-button-outline-disabled",
+          "border bg-background text-button-outline-foreground hover:text-button-outline-hover hover:border-button-outline-hover",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         // destructive:
         //   "bg-destructive text-destructive-foreground hover:bg-destructive/90",
