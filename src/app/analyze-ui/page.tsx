@@ -9,6 +9,7 @@ import GuideButton from "@/app/analyze-ui/_component/guide-button";
 import GuideAvatar from "@/app/analyze-ui/_component/guide-avatar";
 import { Button } from "@/components/ui/button";
 import { GuideDialog } from "@/app/analyze-ui/_component/guide-dialog";
+import GuideAlert from "@/app/analyze-ui/_component/guide-alert";
 
 export default function Page() {
   return (
@@ -24,6 +25,10 @@ export default function Page() {
       <Section className={"flex flex-col gap-[10px]"}>
         <h2 className={"heading1"}>Dialog</h2>
         <GuideDialog />
+      </Section>
+      <Section className={"flex flex-col gap-[10px]"}>
+        <h2 className={"heading1"}>Alert</h2>
+        <GuideAlert />
       </Section>
       <Section className={"mt-[40px]"}>
         <h2>네모난태그 && 둥근버튼 세트</h2>

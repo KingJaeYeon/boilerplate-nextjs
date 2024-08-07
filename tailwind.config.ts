@@ -52,6 +52,7 @@ const config = {
           },
         },
         outline: {
+          border: "hsl(var(--button-outline-border))",
           foreground: "hsl(var(--button-outline-foreground))",
           hover: "hsl(var(--button-outline-hover-foreground))",
         },
