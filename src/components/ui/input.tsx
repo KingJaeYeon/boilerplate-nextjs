@@ -27,7 +27,13 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
     ref,
   ) => {
     return (
-      <div className={cn("relative w-full", className)}>
+      <div
+        className={cn(
+          "relative w-full",
+          className,
+          disabled && "cursor-not-allowed",
+        )}
+      >
         <input
           type={type}
           className={cn(
