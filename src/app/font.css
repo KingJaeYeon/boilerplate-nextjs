@@ -2,74 +2,74 @@
 
 @layer components {
   .heading1 {
-    @apply text-24 font-pretendard font-bold leading-[120%] tracking-[0];
+    @apply font-pretendard text-24 font-bold leading-[120%] tracking-[0];
   }
 
   .heading2 {
-    @apply text-20 font-pretendard font-bold leading-[120%] tracking-[0];
+    @apply font-pretendard text-20 font-bold leading-[120%] tracking-[0];
   }
 
   .heading3 {
-    @apply text-18 font-pretendard font-bold leading-[120%] tracking-[0];
+    @apply font-pretendard text-18 font-bold leading-[120%] tracking-[0];
   }
 
   .heading4 {
-    @apply text-16 font-pretendard font-bold leading-[120%] tracking-[0];
+    @apply font-pretendard text-16 font-bold leading-[120%] tracking-[0];
   }
 
   .heading5 {
-    @apply text-15 font-pretendard font-bold leading-[120%] tracking-[0];
+    @apply font-pretendard text-15 font-bold leading-[120%] tracking-[0];
   }
 
   .heading6 {
-    @apply text-14 font-pretendard font-bold leading-[120%] tracking-[0];
+    @apply font-pretendard text-14 font-bold leading-[120%] tracking-[0];
   }
 
   .heading7 {
-    @apply text-13 font-pretendard font-bold leading-[120%] tracking-[0];
+    @apply font-pretendard text-13 font-bold leading-[120%] tracking-[0];
   }
 
   .heading8 {
-    @apply text-12 font-pretendard font-bold leading-[120%] tracking-[0];
+    @apply font-pretendard text-12 font-bold leading-[120%] tracking-[0];
   }
 
   .heading9 {
-    @apply text-11 font-pretendard font-bold leading-[120%] tracking-[0];
+    @apply font-pretendard text-11 font-bold leading-[120%] tracking-[0];
   }
 
   .body1 {
-    @apply text-20 font-pretendard font-normal leading-[120%] tracking-[0];
+    @apply font-pretendard text-20 font-normal leading-[120%] tracking-[0];
   }
 
   .body2 {
-    @apply text-18 font-pretendard font-normal leading-[120%] tracking-[0];
+    @apply font-pretendard text-18 font-normal leading-[120%] tracking-[0];
   }
 
   .body3 {
-    @apply text-16 font-pretendard font-normal leading-[120%] tracking-[0];
+    @apply font-pretendard text-16 font-normal leading-[120%] tracking-[0];
   }
 
   .body4 {
-    @apply text-15 font-pretendard font-normal leading-[120%] tracking-[0];
+    @apply font-pretendard text-15 font-normal leading-[120%] tracking-[0];
   }
 
   .body5 {
-    @apply text-14 font-pretendard font-normal leading-[120%] tracking-[0];
+    @apply font-pretendard text-14 font-normal leading-[120%] tracking-[0];
   }
 
   .body6 {
-    @apply text-13 font-pretendard font-bold leading-[120%] tracking-[0];
+    @apply font-pretendard text-13 font-bold leading-[120%] tracking-[0];
   }
 
   .body7 {
-    @apply text-12 font-pretendard font-normal leading-[120%] tracking-[0];
+    @apply font-pretendard text-12 font-normal leading-[120%] tracking-[0];
   }
 
   .body8 {
-    @apply text-11 font-pretendard font-normal leading-[120%] tracking-[0];
+    @apply font-pretendard text-11 font-normal leading-[120%] tracking-[0];
   }
 
   .body9 {
-    @apply text-9 font-pretendard font-normal leading-[120%] tracking-[0];
+    @apply font-pretendard text-9 font-normal leading-[120%] tracking-[0];
   }
 }

@@ -8,6 +8,7 @@
   :root {
     /*공통*/
     --font-pretendard: "pretendard", sans-serif;
+    --font-noto-sans-kr: "noto-sans-kr", sans-serif;
     --white: 0 0% 100%;
     --black: 0 0% 0%;
     --red: 349 64% 58%;

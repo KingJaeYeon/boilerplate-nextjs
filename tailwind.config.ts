@@ -105,6 +105,7 @@ const config = {
     },
     fontFamily: {
       pretendard: ["var(--font-pretendard)", "sans-serif"],
+      notoSansKr: ["var(--font-noto-sans-kr)", "sans-serif"],
     },
 
     fontSize: {

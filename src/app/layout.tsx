@@ -6,11 +6,19 @@ import SystemProvider from "@/components/SystemProvider";
 import QueryProvider from "@/components/QueryProvider";
 import { Toaster } from "@/components/ui/sonner";
 import LoginModal from "@/components/modal/LoginModal";
+import { Noto_Sans_KR } from "next/font/google";
 
 const myFont = localFont({
   src: "./PretendardVariable.woff2",
   display: "swap",
   variable: "--font-pretendard",
+});
+
+const notoSansKR = Noto_Sans_KR({
+  weight: ["400", "700"],
+  style: ["normal"],
+  subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -25,7 +33,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko" className={"dark"}>
-      <body className={`${myFont.className} bg-background text-foreground`}>
+      <body
+        className={`${myFont.className} ${notoSansKR.className} bg-background text-foreground`}
+      >
         <SystemProvider>
           <Toaster />
           <QueryProvider>

@@ -12,10 +12,15 @@ import { GuideDialog } from "@/app/analyze-ui/_component/guide-dialog";
 import GuideAlert from "@/app/analyze-ui/_component/guide-alert";
 import GuideTextarea from "@/app/analyze-ui/_component/guide-textarea";
 import GuideInput from "@/app/analyze-ui/_component/guide-input";
+import GuideTypography from "@/app/analyze-ui/_component/guide-typography";
 
 export default function Page() {
   return (
     <Main className={"gap-[20px] pb-[40px]"}>
+      <Section className={"flex flex-col gap-[10px]"}>
+        <h2 className={"heading1"}>TYPOGRAPHY</h2>
+        <GuideTypography />
+      </Section>
       <Section className={"flex flex-col gap-[10px]"}>
         <h2 className={"heading1"}>버튼, Toast Message</h2>
         <GuideButton />
