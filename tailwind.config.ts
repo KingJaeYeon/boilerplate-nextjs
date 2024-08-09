@@ -17,10 +17,21 @@ const config = {
     colors: {
       white: "hsl(var(--white))",
       border: "hsl(var(--border))",
-      input: "hsl(var(--input))",
       ring: "hsl(var(--ring))",
       background: "hsl(var(--background))",
       foreground: "hsl(var(--foreground))",
+      placeholder: "hsl(var(--place-holder))",
+      placeholder02: "hsl(var(--place-holder-02))",
+
+      input: {
+        DEFAULT: "hsl(var(--input))",
+        border: "hsl(var(--input-border)/0.3)",
+        foreground: "hsl(var(--input-foreground)/0.3)",
+        focus: {
+          border: "hsl(var(--input-focus-border))",
+          foreground: "hsl(var(--input-focus-foreground))",
+        },
+      },
       switch: {
         theme: {
           thumb: "hsl(var(--switch-theme-thumb))",
@@ -88,6 +99,7 @@ const config = {
     fontFamily: {
       pretendard: ["var(--font-pretendard)", "sans-serif"],
     },
+
     fontSize: {
       "24": "1.5rem",
       "22": "1.375rem",

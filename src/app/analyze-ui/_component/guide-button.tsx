@@ -8,6 +8,14 @@ import useUserStore from "@/store/userStore";
 export default function GuideButton() {
   const { error, info, success, action } = useToast();
   const { setAuthModal } = useUserStore();
+  const data = {
+    player: {
+      embedHtml:
+        '<iframe width="1200" height="675" src="https://www.youtube.com/embed/uQgZMB5RKh4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
+      embedHeight: "675",
+      embedWidth: "1200",
+    },
+  };
   return (
     <Col className={"gap-[5px]"}>
       <Row className={"items-center gap-[10px]"}>
@@ -33,6 +41,21 @@ export default function GuideButton() {
         </Button>
         <Button onClick={() => setAuthModal(true)}>로그인 버튼</Button>
       </Row>
+      <div
+        dangerouslySetInnerHTML={{ __html: data.player.embedHtml }}
+        style={{
+          width: `${data.player.embedWidth}px`,
+          height: `${data.player.embedHeight}px`,
+        }}
+      />
+      {/*<iframe*/}
+      {/*  width="1200"*/}
+      {/*  height="675"*/}
+      {/*  src="https://www.youtube.com/embed/uQgZMB5RKh4"*/}
+      {/*  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"*/}
+      {/*  referrerPolicy="strict-origin-when-cross-origin"*/}
+      {/*  allowFullScreen={true}*/}
+      {/*></iframe>*/}
       <Row className={"items-center gap-[10px]"}>
         <Button size={"sm"} variant={"primary"}>
           Small Button

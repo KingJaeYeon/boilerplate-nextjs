@@ -1,9 +1,17 @@
+"use client";
 import Col from "@/components/Layout/Col";
 import Row from "@/components/Layout/Row";
 import Alert from "@/components/Alert";
 import { Button } from "@/components/ui/button";
+import AuthCodeModal from "@/components/modal/AuthCodeModal";
+import { useState } from "react";
 
 export default function GuideAlert() {
+  const [timer, setTimer] = useState<number>(0);
+  const [phone, setPhone] = useState<string>("");
+  const [authModalOpen, setAuthModalOpen] = useState<boolean>(false);
+  const [loadingAuthCode, setLoadingAuthCode] = useState<boolean>(false);
+
   return (
     <Col className={"gap-[5px]"}>
       <Row className={"items-center gap-[10px]"}>
@@ -12,6 +20,19 @@ export default function GuideAlert() {
             Alert
           </Button>
         </Alert>
+        <AuthCodeModal
+          open={authModalOpen}
+          setOpen={setAuthModalOpen}
+          timer={timer}
+          setTimer={setTimer}
+          phone={phone}
+          setPhone={setPhone}
+          setLoadingAuthCode={setLoadingAuthCode}
+        >
+          <Button size={"md"} variant={"secondary"}>
+            AuthCodeModal
+          </Button>
+        </AuthCodeModal>
       </Row>
     </Col>
   );
