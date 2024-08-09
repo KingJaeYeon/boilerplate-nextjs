@@ -33,7 +33,6 @@ const config = {
         foreground: "hsl(var(--input-foreground)/0.3)",
         focus: {
           border: "hsl(var(--input-focus-border))",
-          foreground: "hsl(var(--input-focus-foreground))",
         },
         disabled: {
           border: "hsl(var(--input-disabled-border))",

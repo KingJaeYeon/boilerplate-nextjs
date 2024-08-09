@@ -65,7 +65,6 @@
     --input-placeholder: var(--gray-drak) / 0.5;
     --input-foreground: var(--gray-drak);
     --input-focus-border: var(--gray-drak);
-    --input-focus-foreground: 228 5% 20%;
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
@@ -127,7 +126,6 @@
     --input-placeholder: var(--white) / 0.5;
     --input-foreground: var(--white);
     --input-focus-border: var(--white);
-    --input-focus-foreground: 0 0% 100%;
 
     --card: 222.2 84% 4.9%;
     --card-foreground: 210 40% 98%;

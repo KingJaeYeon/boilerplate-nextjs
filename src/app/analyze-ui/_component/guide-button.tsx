@@ -41,13 +41,7 @@ export default function GuideButton() {
         </Button>
         <Button onClick={() => setAuthModal(true)}>로그인 버튼</Button>
       </Row>
-      <div
-        dangerouslySetInnerHTML={{ __html: data.player.embedHtml }}
-        style={{
-          width: `${data.player.embedWidth}px`,
-          height: `${data.player.embedHeight}px`,
-        }}
-      />
+
       {/*<iframe*/}
       {/*  width="1200"*/}
       {/*  height="675"*/}
