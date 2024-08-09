@@ -17,19 +17,27 @@ const config = {
     colors: {
       white: "hsl(var(--white))",
       border: "hsl(var(--border))",
+      red: "hsl(var(--red))",
       ring: "hsl(var(--ring))",
       background: "hsl(var(--background))",
       foreground: "hsl(var(--foreground))",
+      transparent: "hsl(var(--transparent))",
+
       placeholder: "hsl(var(--place-holder))",
       placeholder02: "hsl(var(--place-holder-02))",
 
       input: {
-        DEFAULT: "hsl(var(--input))",
-        border: "hsl(var(--input-border)/0.3)",
+        DEFAULT: "hsl(var(--input-background))",
+        border: "hsl(var(--input-border))",
+        placeholder: "hsl(var(--input-placeholder))",
         foreground: "hsl(var(--input-foreground)/0.3)",
         focus: {
           border: "hsl(var(--input-focus-border))",
           foreground: "hsl(var(--input-focus-foreground))",
+        },
+        disabled: {
+          border: "hsl(var(--input-disabled-border))",
+          foreground: "hsl(var(--input-disabled-foreground))",
         },
       },
       switch: {

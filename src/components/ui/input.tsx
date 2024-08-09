@@ -8,6 +8,7 @@ export interface InputProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
   icon?: "none" | "search" | "delete" | "length";
   iconOnClick?: () => void;
+  errorMessage?: string;
 }
 
 const Input = React.forwardRef<HTMLInputElement, InputProps>(
@@ -18,31 +19,40 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
       icon = "none",
       iconOnClick = () => {},
       maxLength,
+      disabled,
       value,
+      errorMessage,
       ...props
     },
     ref,
   ) => {
     return (
-      <div className={cn("relative w-full")}>
+      <div className={cn("relative w-full", className)}>
         <input
           type={type}
           className={cn(
-            "placeholder:text-input-foreground body4 placeholder:body4 border-input-border flex h-[42px] w-full rounded-full border bg-background px-3 py-2 indent-[6px] placeholder:indent-[6px] focus-visible:outline-none disabled:opacity-10",
-            // "file:bg-transparent file:text-sm bg-background ring-offset-background file:border-0 file:font-medium focus-visible:outline-none disabled:cursor-not-allowed",
-            // "focus-visible:border-input-focus-border focus-visible:placeholder-input-focus-foreground bg-background ring-offset-background file:border-0 file:font-medium  focus-visible:outline-none ",
+            "focus:border-input-focus-border hover:border-input-focus-border placeholder:text-input-placeholder body4 placeholder:body4 border-input-border disabled:border-input-disabled-border disabled:text-input-disabled-foreground flex h-[42px] w-full rounded-full border bg-input px-[20px] py-2 focus-visible:outline-none disabled:pointer-events-none disabled:placeholder:opacity-20",
             icon !== "none" ? "pr-[40px]" : "",
-            className,
+            errorMessage && "border-red hover:border-red focus:border-red",
           )}
           ref={ref}
+          maxLength={maxLength}
+          value={value}
+          disabled={disabled}
           {...props}
         />
         <InputIcon
           icon={icon}
           iconOnClick={iconOnClick}
           maxLength={maxLength}
+          disabled={disabled}
           value={value}
         />
+        {errorMessage && (
+          <Text className={"text-red body7 pl-[20px] pt-[5px]"}>
+            {errorMessage}
+          </Text>
+        )}
       </div>
     );
   },
@@ -55,11 +65,13 @@ function InputIcon({
   icon,
   iconOnClick,
   maxLength,
+  disabled,
   value,
 }: {
   icon: "none" | "search" | "delete" | "length";
   iconOnClick: () => void;
   maxLength?: number;
+  disabled?: boolean;
   value?: any;
 }) {
   if (icon === "none") {
@@ -68,7 +80,10 @@ function InputIcon({
 
   return (
     <div
-      className={"absolute right-[14px] top-[11px] cursor-pointer"}
+      className={cn(
+        "absolute right-[14px] top-[11px]",
+        disabled ? "opacity-10" : "cursor-pointer",
+      )}
       onClick={iconOnClick}
     >
       {icon === "search" && <IconSearch className={"h-[20px] w-[20px]"} />}

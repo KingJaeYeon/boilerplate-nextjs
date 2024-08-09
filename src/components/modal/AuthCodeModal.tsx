@@ -32,12 +32,12 @@ export default function AuthCodeModal({
   children,
 }: {
   open: boolean;
-  setOpen: (open: boolean) => void;
+  setOpen: Function;
   phone: string;
-  setPhone: (phone: string) => void;
+  setPhone: Function;
   timer: number;
   setTimer: any;
-  setLoadingAuthCode: (loading: boolean) => void;
+  setLoadingAuthCode: Function;
   children: React.ReactNode;
 }) {
   const [authCode, setAuthCode] = React.useState("");

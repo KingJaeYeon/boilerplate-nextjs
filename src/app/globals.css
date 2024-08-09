@@ -8,57 +8,63 @@
   :root {
     /*공통*/
     --font-pretendard: "pretendard", sans-serif;
-    --white: 0, 0%, 100%;
-    --black: 0, 0%, 0%;
-    --primary: 112, 76%, 53%;
+    --white: 0 0% 100%;
+    --black: 0 0% 0%;
+    --red: 349 64% 58%;
+    --primary: 112 76% 53%;
+    --transparent: var(--black) / 0;
 
     --button-primary-background: var(--primary);
-    --button-primary-foreground: 228, 5%, 20%;
+    --button-primary-foreground: 228 5% 20%;
     /*--primary-foreground: var(--white);*/
-    --button-primary-hover: 112, 76%, 53%, 0.8;
+    --button-primary-hover: var(--primary) / 0.8;
   }
 
   .light {
-    --gray-pale: 0, 0%, 95%;
-    --gray-weak: 0, 0%, 92%;
-    --gray-light: 0, 0%, 85%;
-    --gray-normal: 0, 0%, 61%;
-    --gray-neutral: 0, 0%, 49%;
-    --gray-deep: 0, 0%, 36%;
-    --gray-drak: 228, 5%, 20%;
+    --gray-pale: 0 0% 95%;
+    --gray-weak: 0 0% 92%;
+    --gray-light: 0 0% 85%;
+    --gray-normal: 0 0% 61%;
+    --gray-neutral: 0 0% 49%;
+    --gray-deep: 0 0% 36%;
+    --gray-drak: 228 5% 20%;
 
     --background: var(--gray-pale);
     --foreground: var(--gray-drak);
-    --border: 0, 0%, 100%, 0.15;
+    --border: var(--white) / 0.15;
 
     --button-secondary-background: var(--gray-light);
     --button-secondary-foreground: var(--gray-drak);
     --button-secondary-hover-background: var(--gray-weak);
     --button-secondary-hover-foreground: var(--gray-drak);
-    --button-outline-border: 0, 0%, 0%, 0.15;
+    --button-outline-border: var(--black) / 0.15;
     --button-outline-foreground: var(--gray-drak);
     --button-outline-hover-foreground: var(--gray-drak);
 
     --accent: var(--gray-weak);
     --accent-foreground: 222.2 47.4% 11.2%;
 
-    --switch-theme-thumb: 228, 3%, 34%;
-    --switch-theme: 180, 1%, 86%;
+    --switch-theme-thumb: 228 3% 34%;
+    --switch-theme: 180 1% 86%;
     --switch-off: var(--gray-weak);
     --switch-thumb-off: var(--gray-neutral);
     --switch-on: var(--gray-drak);
     --switch-thumb-on: var(--white);
 
     --popover-background: var(--white);
-    --popover-overlay: 0, 0%, 95%, 0.7;
+    --popover-overlay: var(--gray-pale) / 0.7;
     --popover-foreground: 222.2 84% 4.9%;
 
     --place-holder: var(--gray-deep);
     --place-holder-02: var(--gray-neutral);
 
-    --input-border: 0 0% 0%;
-    --input-foreground: 228 5% 20%;
-    --input-focus-border: 0 0% 0%;
+    --input-border: var(--black) / 0.3;
+    --input-disabled-border: var(--black) / 0.1;
+    --input-disabled-foreground: var(--gray-drak) / 0.2;
+    --input-background: var(--transparent);
+    --input-placeholder: var(--gray-drak) / 0.5;
+    --input-foreground: var(--gray-drak);
+    --input-focus-border: var(--gray-drak);
     --input-focus-foreground: 228 5% 20%;
 
     --card: 0 0% 100%;
@@ -78,29 +84,29 @@
   }
 
   .dark {
-    --gray-pale: 180, 1%, 86%;
-    --gray-light: 210, 1%, 69%;
-    --gray-neutral: 208, 8%, 56%;
-    --gray-deep: 228, 3%, 34%;
-    --gray-drak: 228, 5%, 20%;
-    --gray-drakest: 230, 10%, 11%;
+    --gray-pale: 180 1% 86%;
+    --gray-light: 210 1% 69%;
+    --gray-neutral: 208 8% 56%;
+    --gray-deep: 228 3% 34%;
+    --gray-drak: 228 5% 20%;
+    --gray-drakest: 230 10% 11%;
 
     --background: var(--gray-drakest);
     --foreground: var(--white);
-    --border: 0, 0%, 100%, 0.15;
+    --border: var(--white) / 0.15;
 
     --button-secondary-background: var(--gray-drak);
     --button-secondary-foreground: var(--gray-light);
     --button-secondary-hover-background: var(--gray-deep);
     --button-secondary-hover-foreground: var(--white);
-    --button-outline-border: 255, 255%, 255%, 0.15;
+    --button-outline-border: var(--white) / 0.15;
     --button-outline-foreground: var(--gray-light);
     --button-outline-hover-foreground: var(--white);
 
     --accent: var(--gray-deep);
     --accent-foreground: 210 40% 98%;
 
-    --switch-theme-thumb: 180, 1%, 86%;
+    --switch-theme-thumb: var(--gray-pale);
     --switch-theme: var(--gray-deep);
     --switch-off: var(--gray-deep);
     --switch-thumb-off: var(--gray-pale);
@@ -108,15 +114,19 @@
     --switch-thumb-on: var(--gray-deep);
 
     --popover-background: var(--black);
-    --popover-overlay: 0, 0%, 0%, 0.3;
+    --popover-overlay: var(--black) / 0.3;
     --popover-foreground: 210 40% 98%;
 
     --place-holder: 0, 0%, 100%, 0.4;
     --place-holder-02: var(--gray-light);
 
-    --input-border: 0 0% 100%;
-    --input-foreground: 0 0% 100%;
-    --input-focus-border: 0 0% 100%;
+    --input-border: var(--white) / 0.3;
+    --input-disabled-border: var(--white) / 0.1;
+    --input-disabled-foreground: var(--white) / 0.2;
+    --input-background: var(--transparent);
+    --input-placeholder: var(--white) / 0.5;
+    --input-foreground: var(--white);
+    --input-focus-border: var(--white);
     --input-focus-foreground: 0 0% 100%;
 
     --card: 222.2 84% 4.9%;
