@@ -1,0 +1,17 @@
+<svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_1825_40571" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="15">
+<rect width="20" height="15" fill="white"/>
+</mask>
+<g mask="url(#mask0_1825_40571)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V15H20V0H0Z" fill="#F7FCFF"/>
+<mask id="mask1_1825_40571" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="15">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V15H20V0H0Z" fill="white"/>
+</mask>
+<g mask="url(#mask1_1825_40571)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V5H20V0H0Z" fill="#58A5FF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 10V15H20V10H0Z" fill="#58A5FF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.3456 9.05448C10.3456 9.05448 9.7069 10.3787 9.14556 10.6502C9.38786 10.0428 9.47704 8.8036 9.47704 8.8036C9.47704 8.8036 8.01959 9.38144 7.50805 9.27612C8.12316 8.84629 8.97696 8.05015 8.97696 8.05015C8.97696 8.05015 7.09057 7.43344 7.13685 7.17097C7.9884 7.32372 9.15947 7.15721 9.15947 7.15721C9.15947 7.15721 7.8361 5.57018 7.97031 5.45217C8.17202 5.64824 9.758 6.47669 9.758 6.47669C9.758 6.47669 9.87306 5.06469 10.2144 4.58862C10.2553 4.92467 10.7344 6.44615 10.7344 6.44615C10.7344 6.44615 11.6974 5.48254 12.232 5.48254C11.9972 5.77364 11.4412 7.05236 11.4412 7.05236C11.4412 7.05236 12.8267 7.03055 13.3534 7.28987C12.7154 7.38062 11.5975 7.94182 11.5975 7.94182C11.5975 7.94182 13.0534 9.04621 12.9207 9.27612C12.139 8.89374 11.2353 8.76567 11.2353 8.76567C11.2353 8.76567 11.4851 10.3026 11.2832 10.6502C11.0863 10.1385 10.3456 9.05448 10.3456 9.05448Z" fill="#FFD018" stroke="#F19900" stroke-opacity="0.98" stroke-width="0.5"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.2617 8.33862C10.6069 8.33862 10.8867 8.0588 10.8867 7.71362C10.8867 7.36845 10.6069 7.08862 10.2617 7.08862C9.91654 7.08862 9.63672 7.36845 9.63672 7.71362C9.63672 8.0588 9.91654 8.33862 10.2617 8.33862Z" fill="#FFD018" stroke="#F19900" stroke-opacity="0.98" stroke-width="0.5"/>
+</g>
+</g>
+</svg>

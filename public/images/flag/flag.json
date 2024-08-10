@@ -1,0 +1,2020 @@
+{
+  "AD": {
+    "name": "Andorra",
+    "slug": "andorra",
+    "translation-ko": "안도라",
+    "currency": "EUR",
+    "phone": "376",
+    "language": "ca"
+  },
+  "AE": {
+    "name": "United Arab Emirates",
+    "slug": "united-arab-emirates",
+    "translation-ko": "아랍에미리트",
+    "currency": "AED",
+    "phone": "971",
+    "language": "ar"
+  },
+  "AF": {
+    "name": "Afghanistan",
+    "slug": "afghanistan",
+    "translation-ko": "아프가니스탄",
+    "currency": "AFN",
+    "phone": "93",
+    "language": "fa"
+  },
+  "AG": {
+    "name": "Antigua and Barbuda",
+    "slug": "antigua-and-barbuda",
+    "translation-ko": "앤티가 바부다",
+    "currency": "XCD",
+    "phone": "1268",
+    "language": "en"
+  },
+  "AI": {
+    "name": "Anguilla",
+    "slug": "anguilla",
+    "translation-ko": "앵귈라",
+    "currency": "XCD",
+    "phone": "1264",
+    "language": "en"
+  },
+  "AL": {
+    "name": "Albania",
+    "slug": "albania",
+    "translation-ko": "알바니아",
+    "currency": "ALL",
+    "phone": "355",
+    "language": "sq"
+  },
+  "AM": {
+    "name": "Armenia",
+    "slug": "armenia",
+    "translation-ko": "아르메니아",
+    "currency": "AMD",
+    "phone": "374",
+    "language": "hy"
+  },
+  "AO": {
+    "name": "Angola",
+    "slug": "angola",
+    "translation-ko": "앙골라",
+    "currency": "AOA",
+    "phone": "244",
+    "language": "pt"
+  },
+  "AQ": {
+    "name": "Antarctica",
+    "slug": "antarctica",
+    "translation-ko": "남극",
+    "currency": "USD",
+    "phone": "672",
+    "language": "en"
+  },
+  "AR": {
+    "name": "Argentina",
+    "slug": "argentina",
+    "translation-ko": "아르헨티나",
+    "currency": "ARS",
+    "phone": "54",
+    "language": "es"
+  },
+  "AS": {
+    "name": "American Samoa",
+    "slug": "american-samoa",
+    "translation-ko": "아메리칸 사모아",
+    "currency": "USD",
+    "phone": "1684",
+    "language": "en"
+  },
+  "AT": {
+    "name": "Austria",
+    "slug": "austria",
+    "translation-ko": "오스트리아",
+    "currency": "EUR",
+    "phone": "43",
+    "language": "de"
+  },
+  "AU": {
+    "name": "Australia",
+    "slug": "australia",
+    "translation-ko": "호주",
+    "currency": "AUD",
+    "phone": "61",
+    "language": "en"
+  },
+  "AW": {
+    "name": "Aruba",
+    "slug": "aruba",
+    "translation-ko": "아루바",
+    "currency": "AWG",
+    "phone": "297",
+    "language": "nl"
+  },
+  "AX": {
+    "name": "Åland Islands",
+    "slug": "aland-islands",
+    "translation-ko": "올란드 제도",
+    "currency": "EUR",
+    "phone": "358",
+    "language": "sv"
+  },
+  "AZ": {
+    "name": "Azerbaijan",
+    "slug": "azerbaijan",
+    "translation-ko": "아제르바이잔",
+    "currency": "AZN",
+    "phone": "994",
+    "language": "az"
+  },
+  "BA": {
+    "name": "Bosnia and Herzegovina",
+    "slug": "bosnia-and-herzegovina",
+    "translation-ko": "보스니아 헤르체고비나",
+    "currency": "BAM",
+    "phone": "387",
+    "language": "bs"
+  },
+  "BB": {
+    "name": "Barbados",
+    "slug": "barbados",
+    "translation-ko": "바베이도스",
+    "currency": "BBD",
+    "phone": "1246",
+    "language": "en"
+  },
+  "BD": {
+    "name": "Bangladesh",
+    "slug": "bangladesh",
+    "translation-ko": "방글라데시",
+    "currency": "BDT",
+    "phone": "880",
+    "language": "bn"
+  },
+  "BE": {
+    "name": "Belgium",
+    "slug": "belgium",
+    "translation-ko": "벨기에",
+    "currency": "EUR",
+    "phone": "32",
+    "language": "nl"
+  },
+  "BF": {
+    "name": "Burkina Faso",
+    "slug": "burkina-faso",
+    "translation-ko": "부르키나파소",
+    "currency": "XOF",
+    "phone": "226",
+    "language": "fr"
+  },
+  "BG": {
+    "name": "Bulgaria",
+    "slug": "bulgaria",
+    "translation-ko": "불가리아",
+    "currency": "BGN",
+    "phone": "359",
+    "language": "bg"
+  },
+  "BH": {
+    "name": "Bahrain",
+    "slug": "bahrain",
+    "translation-ko": "바레인",
+    "currency": "BHD",
+    "phone": "973",
+    "language": "ar"
+  },
+  "BI": {
+    "name": "Burundi",
+    "slug": "burundi",
+    "translation-ko": "부룬디",
+    "currency": "BIF",
+    "phone": "257",
+    "language": "fr"
+  },
+  "BJ": {
+    "name": "Benin",
+    "slug": "benin",
+    "translation-ko": "베냉",
+    "currency": "XOF",
+    "phone": "229",
+    "language": "fr"
+  },
+  "BL": {
+    "name": "Saint Barthélemy",
+    "slug": "saint-barthelemy",
+    "translation-ko": "생바르텔레미",
+    "currency": "EUR",
+    "phone": "590",
+    "language": "fr"
+  },
+  "BM": {
+    "name": "Bermuda",
+    "slug": "bermuda",
+    "translation-ko": "버뮤다",
+    "currency": "BMD",
+    "phone": "1441",
+    "language": "en"
+  },
+  "BN": {
+    "name": "Brunei Darussalam",
+    "slug": "brunei-darussalam",
+    "translation-ko": "브루나이",
+    "currency": "BND",
+    "phone": "673",
+    "language": "ms"
+  },
+  "BO": {
+    "name": "Bolivia",
+    "slug": "bolivia",
+    "translation-ko": "볼리비아",
+    "currency": "BOB",
+    "phone": "591",
+    "language": "es"
+  },
+  "BR": {
+    "name": "Brazil",
+    "slug": "brazil",
+    "translation-ko": "브라질",
+    "currency": "BRL",
+    "phone": "55",
+    "language": "pt"
+  },
+  "BS": {
+    "name": "Bahamas",
+    "slug": "bahamas",
+    "translation-ko": "바하마",
+    "currency": "BSD",
+    "phone": "1242",
+    "language": "en"
+  },
+  "BT": {
+    "name": "Bhutan",
+    "slug": "bhutan",
+    "translation-ko": "부탄",
+    "currency": "BTN",
+    "phone": "975",
+    "language": "dz"
+  },
+  "BV": {
+    "name": "Bouvet Island",
+    "slug": "bouvet-island",
+    "translation-ko": "부베 섬",
+    "currency": "NOK",
+    "phone": "47",
+    "language": "no"
+  },
+  "BW": {
+    "name": "Botswana",
+    "slug": "botswana",
+    "translation-ko": "보츠와나",
+    "currency": "BWP",
+    "phone": "267",
+    "language": "en"
+  },
+  "BY": {
+    "name": "Belarus",
+    "slug": "belarus",
+    "translation-ko": "벨라루스",
+    "currency": "BYN",
+    "phone": "375",
+    "language": "be"
+  },
+  "BZ": {
+    "name": "Belize",
+    "slug": "belize",
+    "translation-ko": "벨리즈",
+    "currency": "BZD",
+    "phone": "501",
+    "language": "en"
+  },
+  "CA": {
+    "name": "Canada",
+    "slug": "canada",
+    "translation-ko": "캐나다",
+    "currency": "CAD",
+    "phone": "1",
+    "language": "en"
+  },
+  "CC": {
+    "name": "Cocos (Keeling) Islands",
+    "slug": "cocos-keeling-islands",
+    "translation-ko": "코코스 제도",
+    "currency": "AUD",
+    "phone": "61",
+    "language": "en"
+  },
+  "CD": {
+    "name": "Democratic Republic of the Congo",
+    "slug": "democratic-republic-of-the-congo",
+    "translation-ko": "콩고 민주 공화국",
+    "currency": "CDF",
+    "phone": "243",
+    "language": "fr"
+  },
+  "CF": {
+    "name": "Central African Republic",
+    "slug": "central-african-republic",
+    "translation-ko": "중앙아프리카 공화국",
+    "currency": "XAF",
+    "phone": "236",
+    "language": "fr"
+  },
+  "CG": {
+    "name": "Republic of the Congo",
+    "slug": "republic-of-the-congo",
+    "translation-ko": "콩고 공화국",
+    "currency": "XAF",
+    "phone": "242",
+    "language": "fr"
+  },
+  "CH": {
+    "name": "Switzerland",
+    "slug": "switzerland",
+    "translation-ko": "스위스",
+    "currency": "CHF",
+    "phone": "41",
+    "language": "de"
+  },
+  "CI": {
+    "name": "Ivory Coast",
+    "slug": "ivory-coast",
+    "translation-ko": "코트디부아르",
+    "currency": "XOF",
+    "phone": "225",
+    "language": "fr"
+  },
+  "CK": {
+    "name": "Cook Islands",
+    "slug": "cook-islands",
+    "translation-ko": "쿡 제도",
+    "currency": "NZD",
+    "phone": "682",
+    "language": "en"
+  },
+  "CL": {
+    "name": "Chile",
+    "slug": "chile",
+    "translation-ko": "칠레",
+    "currency": "CLP",
+    "phone": "56",
+    "language": "es"
+  },
+  "CM": {
+    "name": "Cameroon",
+    "slug": "cameroon",
+    "translation-ko": "카메룬",
+    "currency": "XAF",
+    "phone": "237",
+    "language": "fr"
+  },
+  "CN": {
+    "name": "China",
+    "slug": "china",
+    "translation-ko": "중국",
+    "currency": "CNY",
+    "phone": "86",
+    "language": "zh"
+  },
+  "CO": {
+    "name": "Colombia",
+    "slug": "colombia",
+    "translation-ko": "콜롬비아",
+    "currency": "COP",
+    "phone": "57",
+    "language": "es"
+  },
+  "CR": {
+    "name": "Costa Rica",
+    "slug": "costa-rica",
+    "translation-ko": "코스타리카",
+    "currency": "CRC",
+    "phone": "506",
+    "language": "es"
+  },
+  "CU": {
+    "name": "Cuba",
+    "slug": "cuba",
+    "translation-ko": "쿠바",
+    "currency": "CUP",
+    "phone": "53",
+    "language": "es"
+  },
+  "CV": {
+    "name": "Cabo Verde",
+    "slug": "cabo-verde",
+    "translation-ko": "카보베르데",
+    "currency": "CVE",
+    "phone": "238",
+    "language": "pt"
+  },
+  "CW": {
+    "name": "Curaçao",
+    "slug": "curacao",
+    "translation-ko": "퀴라소",
+    "currency": "ANG",
+    "phone": "599",
+    "language": "nl"
+  },
+  "CX": {
+    "name": "Christmas Island",
+    "slug": "christmas-island",
+    "translation-ko": "크리스마스 섬",
+    "currency": "AUD",
+    "phone": "61",
+    "language": "en"
+  },
+  "CY": {
+    "name": "Cyprus",
+    "slug": "cyprus",
+    "translation-ko": "키프로스",
+    "currency": "EUR",
+    "phone": "357",
+    "language": "el"
+  },
+  "CZ": {
+    "name": "Czech Republic",
+    "slug": "czech-republic",
+    "translation-ko": "체코",
+    "currency": "CZK",
+    "phone": "420",
+    "language": "cs"
+  },
+  "DE": {
+    "name": "Germany",
+    "slug": "germany",
+    "translation-ko": "독일",
+    "currency": "EUR",
+    "phone": "49",
+    "language": "de"
+  },
+  "DJ": {
+    "name": "Djibouti",
+    "slug": "djibouti",
+    "translation-ko": "지부티",
+    "currency": "DJF",
+    "phone": "253",
+    "language": "fr"
+  },
+  "DK": {
+    "name": "Denmark",
+    "slug": "denmark",
+    "translation-ko": "덴마크",
+    "currency": "DKK",
+    "phone": "45",
+    "language": "da"
+  },
+  "DM": {
+    "name": "Dominica",
+    "slug": "dominica",
+    "translation-ko": "도미니카",
+    "currency": "XCD",
+    "phone": "1767",
+    "language": "en"
+  },
+  "DO": {
+    "name": "Dominican Republic",
+    "slug": "dominican-republic",
+    "translation-ko": "도미니카 공화국",
+    "currency": "DOP",
+    "phone": "1809",
+    "language": "es"
+  },
+  "DZ": {
+    "name": "Algeria",
+    "slug": "algeria",
+    "translation-ko": "알제리",
+    "currency": "DZD",
+    "phone": "213",
+    "language": "ar"
+  },
+  "EC": {
+    "name": "Ecuador",
+    "slug": "ecuador",
+    "translation-ko": "에콰도르",
+    "currency": "USD",
+    "phone": "593",
+    "language": "es"
+  },
+  "EE": {
+    "name": "Estonia",
+    "slug": "estonia",
+    "translation-ko": "에스토니아",
+    "currency": "EUR",
+    "phone": "372",
+    "language": "et"
+  },
+  "EG": {
+    "name": "Egypt",
+    "slug": "egypt",
+    "translation-ko": "이집트",
+    "currency": "EGP",
+    "phone": "20",
+    "language": "ar"
+  },
+  "EH": {
+    "name": "Western Sahara",
+    "slug": "western-sahara",
+    "translation-ko": "서사하라",
+    "currency": "MAD",
+    "phone": "212",
+    "language": "ar"
+  },
+  "ER": {
+    "name": "Eritrea",
+    "slug": "eritrea",
+    "translation-ko": "에리트레아",
+    "currency": "ERN",
+    "phone": "291",
+    "language": "ti"
+  },
+  "ES": {
+    "name": "Spain",
+    "slug": "spain",
+    "translation-ko": "스페인",
+    "currency": "EUR",
+    "phone": "34",
+    "language": "es"
+  },
+  "ET": {
+    "name": "Ethiopia",
+    "slug": "ethiopia",
+    "translation-ko": "에티오피아",
+    "currency": "ETB",
+    "phone": "251",
+    "language": "am"
+  },
+  "FI": {
+    "name": "Finland",
+    "slug": "finland",
+    "translation-ko": "핀란드",
+    "currency": "EUR",
+    "phone": "358",
+    "language": "fi"
+  },
+  "FJ": {
+    "name": "Fiji",
+    "slug": "fiji",
+    "translation-ko": "피지",
+    "currency": "FJD",
+    "phone": "679",
+    "language": "en"
+  },
+  "FK": {
+    "name": "Falkland Islands",
+    "slug": "falkland-islands",
+    "translation-ko": "포클랜드 제도",
+    "currency": "FKP",
+    "phone": "500",
+    "language": "en"
+  },
+  "FM": {
+    "name": "Micronesia",
+    "slug": "micronesia",
+    "translation-ko": "미크로네시아",
+    "currency": "USD",
+    "phone": "691",
+    "language": "en"
+  },
+  "FO": {
+    "name": "Faroe Islands",
+    "slug": "faroe-islands",
+    "translation-ko": "페로 제도",
+    "currency": "DKK",
+    "phone": "298",
+    "language": "fo"
+  },
+  "FR": {
+    "name": "France",
+    "slug": "france",
+    "translation-ko": "프랑스",
+    "currency": "EUR",
+    "phone": "33",
+    "language": "fr"
+  },
+  "GA": {
+    "name": "Gabon",
+    "slug": "gabon",
+    "translation-ko": "가봉",
+    "currency": "XAF",
+    "phone": "241",
+    "language": "fr"
+  },
+  "GB": {
+    "name": "United Kingdom",
+    "slug": "united-kingdom",
+    "translation-ko": "영국",
+    "currency": "GBP",
+    "phone": "44",
+    "language": "en"
+  },
+  "GB-ENG": {
+    "name": "England",
+    "slug": "england",
+    "translation-ko": "잉글랜드",
+    "currency": "GBP",
+    "phone": "44",
+    "language": "en"
+  },
+  "GB-NIR": {
+    "name": "Northern Ireland",
+    "slug": "northern-ireland",
+    "translation-ko": "북아일랜드",
+    "currency": "GBP",
+    "phone": "44",
+    "language": "en"
+  },
+  "GB-SCT": {
+    "name": "Scotland",
+    "slug": "scotland",
+    "translation-ko": "스코틀랜드",
+    "currency": "GBP",
+    "phone": "44",
+    "language": "en"
+  },
+  "GB-WLS": {
+    "name": "Wales",
+    "slug": "wales",
+    "translation-ko": "웨일스",
+    "currency": "GBP",
+    "phone": "44",
+    "language": "en"
+  },
+  "GD": {
+    "name": "Grenada",
+    "slug": "grenada",
+    "translation-ko": "그레나다",
+    "currency": "XCD",
+    "phone": "1473",
+    "language": "en"
+  },
+  "GE": {
+    "name": "Georgia",
+    "slug": "georgia",
+    "translation-ko": "조지아",
+    "currency": "GEL",
+    "phone": "995",
+    "language": "ka"
+  },
+  "GF": {
+    "name": "French Guiana",
+    "slug": "french-guiana",
+    "translation-ko": "프랑스령 기아나",
+    "currency": "EUR",
+    "phone": "594",
+    "language": "fr"
+  },
+  "GG": {
+    "name": "Guernsey",
+    "slug": "guernsey",
+    "translation-ko": "건지",
+    "currency": "GBP",
+    "phone": "44",
+    "language": "en"
+  },
+  "GH": {
+    "name": "Ghana",
+    "slug": "ghana",
+    "translation-ko": "가나",
+    "currency": "GHS",
+    "phone": "233",
+    "language": "en"
+  },
+  "GI": {
+    "name": "Gibraltar",
+    "slug": "gibraltar",
+    "translation-ko": "지브롤터",
+    "currency": "GIP",
+    "phone": "350",
+    "language": "en"
+  },
+  "GL": {
+    "name": "Greenland",
+    "slug": "greenland",
+    "translation-ko": "그린란드",
+    "currency": "DKK",
+    "phone": "299",
+    "language": "kl"
+  },
+  "GM": {
+    "name": "Gambia",
+    "slug": "gambia",
+    "translation-ko": "감비아",
+    "currency": "GMD",
+    "phone": "220",
+    "language": "en"
+  },
+  "GN": {
+    "name": "Guinea",
+    "slug": "guinea",
+    "translation-ko": "기니",
+    "currency": "GNF",
+    "phone": "224",
+    "language": "fr"
+  },
+  "GP": {
+    "name": "Guadeloupe",
+    "slug": "guadeloupe",
+    "translation-ko": "과들루프",
+    "currency": "EUR",
+    "phone": "590",
+    "language": "fr",
+    "parent": "FR"
+  },
+  "GQ": {
+    "name": "Equatorial Guinea",
+    "slug": "equatorial-guinea",
+    "translation-ko": "적도 기니",
+    "currency": "XAF",
+    "phone": "240",
+    "language": "es"
+  },
+  "GR": {
+    "name": "Greece",
+    "slug": "greece",
+    "translation-ko": "그리스",
+    "currency": "EUR",
+    "phone": "30",
+    "language": "el"
+  },
+  "GS": {
+    "name": "South Georgia and the South Sandwich Islands",
+    "slug": "south-georgia-and-the-south-sandwich-islands",
+    "translation-ko": "사우스조지아 사우스샌드위치 제도",
+    "currency": "GBP",
+    "phone": "500",
+    "language": "en"
+  },
+  "GT": {
+    "name": "Guatemala",
+    "slug": "guatemala",
+    "translation-ko": "과테말라",
+    "currency": "GTQ",
+    "phone": "502",
+    "language": "es"
+  },
+  "GU": {
+    "name": "Guam",
+    "slug": "guam",
+    "translation-ko": "괌",
+    "currency": "USD",
+    "phone": "1671",
+    "language": "en"
+  },
+  "GW": {
+    "name": "Guinea-Bissau",
+    "slug": "guinea-bissau",
+    "translation-ko": "기니비사우",
+    "currency": "XOF",
+    "phone": "245",
+    "language": "pt"
+  },
+  "GY": {
+    "name": "Guyana",
+    "slug": "guyana",
+    "translation-ko": "가이아나",
+    "currency": "GYD",
+    "phone": "592",
+    "language": "en"
+  },
+  "HK": {
+    "name": "Hong Kong",
+    "slug": "hong-kong",
+    "translation-ko": "홍콩",
+    "currency": "HKD",
+    "phone": "852",
+    "language": "zh"
+  },
+  "HM": {
+    "name": "Heard Island and McDonald Islands",
+    "slug": "heard-island-and-mcdonald-islands",
+    "translation-ko": "허드 맥도널드 제도",
+    "currency": "AUD",
+    "phone": "61",
+    "language": "en"
+  },
+  "HN": {
+    "name": "Honduras",
+    "slug": "honduras",
+    "translation-ko": "온두라스",
+    "currency": "HNL",
+    "phone": "504",
+    "language": "es"
+  },
+  "HR": {
+    "name": "Croatia",
+    "slug": "croatia",
+    "translation-ko": "크로아티아",
+    "currency": "HRK",
+    "phone": "385",
+    "language": "hr"
+  },
+  "HT": {
+    "name": "Haiti",
+    "slug": "haiti",
+    "translation-ko": "아이티",
+    "currency": "HTG",
+    "phone": "509",
+    "language": "fr"
+  },
+  "HU": {
+    "name": "Hungary",
+    "slug": "hungary",
+    "translation-ko": "헝가리",
+    "currency": "HUF",
+    "phone": "36",
+    "language": "hu"
+  },
+  "ID": {
+    "name": "Indonesia",
+    "slug": "indonesia",
+    "translation-ko": "인도네시아",
+    "currency": "IDR",
+    "phone": "62",
+    "language": "id"
+  },
+  "IE": {
+    "name": "Ireland",
+    "slug": "ireland",
+    "translation-ko": "아일랜드",
+    "currency": "EUR",
+    "phone": "353",
+    "language": "ga"
+  },
+  "IL": {
+    "name": "Israel",
+    "slug": "isreal",
+    "translation-ko": "이스라엘",
+    "currency": "ILS",
+    "phone": "972",
+    "language": "he"
+  },
+  "IM": {
+    "name": "Isle of Man",
+    "slug": "im-isle-of-man",
+    "translation-ko": "맨섬",
+    "currency": "GBP",
+    "phone": "44",
+    "language": "en"
+  },
+  "IN": {
+    "name": "India",
+    "slug": "india",
+    "translation-ko": "인도",
+    "currency": "INR",
+    "phone": "91",
+    "language": "hi"
+  },
+  "IO": {
+    "name": "British Indian Ocean Territory",
+    "slug": "british-indian-ocean-territory",
+    "translation-ko": "영국령 인도양 지역",
+    "currency": "USD",
+    "phone": "246",
+    "language": "en"
+  },
+  "IQ": {
+    "name": "Iraq",
+    "slug": "iraq",
+    "translation-ko": "이라크",
+    "currency": "IQD",
+    "phone": "964",
+    "language": "ar"
+  },
+  "IR": {
+    "name": "Iran",
+    "slug": "iran",
+    "translation-ko": "이란",
+    "currency": "IRR",
+    "phone": "98",
+    "language": "fa"
+  },
+  "IS": {
+    "name": "Iceland",
+    "slug": "iceland",
+    "translation-ko": "아이슬란드",
+    "currency": "ISK",
+    "phone": "354",
+    "language": "is"
+  },
+  "IT": {
+    "name": "Italy",
+    "slug": "italy",
+    "translation-ko": "이탈리아",
+    "currency": "EUR",
+    "phone": "39",
+    "language": "it"
+  },
+  "JE": {
+    "name": "Jersey",
+    "slug": "jersey",
+    "translation-ko": "저지",
+    "currency": "GBP",
+    "phone": "44",
+    "language": "en"
+  },
+  "JM": {
+    "name": "Jamaica",
+    "slug": "jamaica",
+    "translation-ko": "자메이카",
+    "currency": "JMD",
+    "phone": "1876",
+    "language": "en"
+  },
+  "JO": {
+    "name": "Jordan",
+    "slug": "jordan",
+    "translation-ko": "요르단",
+    "currency": "JOD",
+    "phone": "962",
+    "language": "ar"
+  },
+  "JP": {
+    "name": "Japan",
+    "slug": "japan",
+    "translation-ko": "일본",
+    "currency": "JPY",
+    "phone": "81",
+    "language": "ja"
+  },
+  "KE": {
+    "name": "Kenya",
+    "slug": "kenya",
+    "translation-ko": "케냐",
+    "currency": "KES",
+    "phone": "254",
+    "language": "sw"
+  },
+  "KG": {
+    "name": "Kyrgyzstan",
+    "slug": "kyrgyzstan",
+    "translation-ko": "키르기스스탄",
+    "currency": "KGS",
+    "phone": "996",
+    "language": "ky"
+  },
+  "KH": {
+    "name": "Cambodia",
+    "slug": "cambodia",
+    "translation-ko": "캄보디아",
+    "currency": "KHR",
+    "phone": "855",
+    "language": "km"
+  },
+  "KI": {
+    "name": "Kiribati",
+    "slug": "kiribati",
+    "translation-ko": "키리바시",
+    "currency": "AUD",
+    "phone": "686",
+    "language": "en"
+  },
+  "KM": {
+    "name": "Comoros",
+    "slug": "comoros",
+    "translation-ko": "코모로",
+    "currency": "KMF",
+    "phone": "269",
+    "language": "ar"
+  },
+  "KN": {
+    "name": "Saint Kitts and Nevis",
+    "slug": "saint-kitts-and-nevis",
+    "translation-ko": "세인트키츠 네비스",
+    "currency": "XCD",
+    "phone": "1869",
+    "language": "en"
+  },
+  "KP": {
+    "name": "North Korea",
+    "slug": "north-korea",
+    "translation-ko": "북한",
+    "currency": "KPW",
+    "phone": "850",
+    "language": "ko"
+  },
+  "KR": {
+    "name": "South Korea",
+    "slug": "south-korea",
+    "translation-ko": "대한민국",
+    "currency": "KRW",
+    "phone": "82",
+    "language": "ko"
+  },
+  "KW": {
+    "name": "Kuwait",
+    "slug": "kuwait",
+    "translation-ko": "쿠웨이트",
+    "currency": "KWD",
+    "phone": "965",
+    "language": "ar"
+  },
+  "KY": {
+    "name": "Cayman Islands",
+    "slug": "cayman-islands",
+    "translation-ko": "케이맨 제도",
+    "currency": "KYD",
+    "phone": "1345",
+    "language": "en"
+  },
+  "KZ": {
+    "name": "Kazakhstan",
+    "slug": "kazakhstan",
+    "translation-ko": "카자흐스탄",
+    "currency": "KZT",
+    "phone": "7",
+    "language": "kk"
+  },
+  "LA": {
+    "name": "Laos",
+    "slug": "laos",
+    "translation-ko": "라오스",
+    "currency": "LAK",
+    "phone": "856",
+    "language": "lo"
+  },
+  "LB": {
+    "name": "Lebanon",
+    "slug": "lebanon",
+    "translation-ko": "레바논",
+    "currency": "LBP",
+    "phone": "961",
+    "language": "ar"
+  },
+  "LC": {
+    "name": "Saint Lucia",
+    "slug": "saint-lucia",
+    "translation-ko": "세인트루시아",
+    "currency": "XCD",
+    "phone": "1758",
+    "language": "en"
+  },
+  "LI": {
+    "name": "Liechtenstein",
+    "slug": "liechtenstein",
+    "translation-ko": "리히텐슈타인",
+    "currency": "CHF",
+    "phone": "423",
+    "language": "de"
+  },
+  "LK": {
+    "name": "Sri Lanka",
+    "slug": "sri-lanka",
+    "translation-ko": "스리랑카",
+    "currency": "LKR",
+    "phone": "94",
+    "language": "si"
+  },
+  "LR": {
+    "name": "Liberia",
+    "slug": "liberia",
+    "translation-ko": "라이베리아",
+    "currency": "LRD",
+    "phone": "231",
+    "language": "en"
+  },
+  "LS": {
+    "name": "Lesotho",
+    "slug": "lesotho",
+    "translation-ko": "레소토",
+    "currency": "LSL",
+    "phone": "266",
+    "language": "en"
+  },
+  "LT": {
+    "name": "Lithuania",
+    "slug": "lithuania",
+    "translation-ko": "리투아니아",
+    "currency": "EUR",
+    "phone": "370",
+    "language": "lt"
+  },
+  "LU": {
+    "name": "Luxembourg",
+    "slug": "luxembourg",
+    "translation-ko": "룩셈부르크",
+    "currency": "EUR",
+    "phone": "352",
+    "language": "lb"
+  },
+  "LV": {
+    "name": "Latvia",
+    "slug": "latvia",
+    "translation-ko": "라트비아",
+    "currency": "EUR",
+    "phone": "371",
+    "language": "lv"
+  },
+  "LY": {
+    "name": "Libya",
+    "slug": "libya",
+    "translation-ko": "리비아",
+    "currency": "LYD",
+    "phone": "218",
+    "language": "ar"
+  },
+  "MA": {
+    "name": "Morocco",
+    "slug": "morocco",
+    "translation-ko": "모로코",
+    "currency": "MAD",
+    "phone": "212",
+    "language": "ar"
+  },
+  "MC": {
+    "name": "Monaco",
+    "slug": "monaco",
+    "translation-ko": "모나코",
+    "currency": "EUR",
+    "phone": "377",
+    "language": "fr"
+  },
+  "MD": {
+    "name": "Moldova",
+    "slug": "moldova",
+    "translation-ko": "몰도바",
+    "currency": "MDL",
+    "phone": "373",
+    "language": "ro"
+  },
+  "ME": {
+    "name": "Montenegro",
+    "slug": "montenegro",
+    "translation-ko": "몬테네그로",
+    "currency": "EUR",
+    "phone": "382",
+    "language": "sr"
+  },
+  "MF": {
+    "name": "Saint Martin",
+    "slug": "saint-martin",
+    "translation-ko": "생마르탱",
+    "currency": "EUR",
+    "phone": "590",
+    "language": "fr"
+  },
+  "MG": {
+    "name": "Madagascar",
+    "slug": "madagascar",
+    "translation-ko": "마다가스카르",
+    "currency": "MGA",
+    "phone": "261",
+    "language": "mg"
+  },
+  "MH": {
+    "name": "Marshall Islands",
+    "slug": "marshall-islands",
+    "translation-ko": "마셜 제도",
+    "currency": "USD",
+    "phone": "692",
+    "language": "en"
+  },
+  "MK": {
+    "name": "Macedonia",
+    "slug": "macedonia",
+    "translation-ko": "마케도니아",
+    "currency": "MKD",
+    "phone": "389",
+    "language": "mk"
+  },
+  "ML": {
+    "name": "Mali",
+    "slug": "mali",
+    "translation-ko": "말리",
+    "currency": "XOF",
+    "phone": "223",
+    "language": "fr"
+  },
+  "MM": {
+    "name": "Myanmar",
+    "slug": "myanmar",
+    "translation-ko": "미얀마",
+    "currency": "MMK",
+    "phone": "95",
+    "language": "my"
+  },
+  "MN": {
+    "name": "Mongolia",
+    "slug": "mongolia",
+    "translation-ko": "몽골",
+    "currency": "MNT",
+    "phone": "976",
+    "language": "mn"
+  },
+  "MO": {
+    "name": "Macao",
+    "slug": "macao",
+    "translation-ko": "마카오",
+    "currency": "MOP",
+    "phone": "853",
+    "language": "zh"
+  },
+  "MP": {
+    "name": "Northern Mariana Islands",
+    "slug": "northern-mariana-islands",
+    "translation-ko": "북마리아나 제도",
+    "currency": "USD",
+    "phone": "1670",
+    "language": "en"
+  },
+  "MQ": {
+    "name": "Martinique",
+    "slug": "martinique",
+    "translation-ko": "마르티니크",
+    "currency": "EUR",
+    "phone": "596",
+    "language": "fr"
+  },
+  "MR": {
+    "name": "Mauritania",
+    "slug": "mauritania",
+    "translation-ko": "모리타니",
+    "currency": "MRO",
+    "phone": "222",
+    "language": "ar"
+  },
+  "MS": {
+    "name": "Montserrat",
+    "slug": "montserrat",
+    "translation-ko": "몬트세랫",
+    "currency": "XCD",
+    "phone": "1664",
+    "language": "en"
+  },
+  "MT": {
+    "name": "Malta",
+    "slug": "malta",
+    "translation-ko": "몰타",
+    "currency": "EUR",
+    "phone": "356",
+    "language": "mt"
+  },
+  "MU": {
+    "name": "Mauritius",
+    "slug": "mauritius",
+    "translation-ko": "모리셔스",
+    "currency": "MUR",
+    "phone": "230",
+    "language": "en"
+  },
+  "MV": {
+    "name": "Maldives",
+    "slug": "maldives",
+    "translation-ko": "몰디브",
+    "currency": "MVR",
+    "phone": "960",
+    "language": "dv"
+  },
+  "MW": {
+    "name": "Malawi",
+    "slug": "malawi",
+    "translation-ko": "말라위",
+    "currency": "MWK",
+    "phone": "265",
+    "language": "en"
+  },
+  "MX": {
+    "name": "Mexico",
+    "slug": "mexico",
+    "translation-ko": "멕시코",
+    "currency": "MXN",
+    "phone": "52",
+    "language": "es"
+  },
+  "MY": {
+    "name": "Malaysia",
+    "slug": "malaysia",
+    "translation-ko": "말레이시아",
+    "currency": "MYR",
+    "phone": "60",
+    "language": "ms"
+  },
+  "MZ": {
+    "name": "Mozambique",
+    "slug": "mozambique",
+    "translation-ko": "모잠비크",
+    "currency": "MZN",
+    "phone": "258",
+    "language": "pt"
+  },
+  "NA": {
+    "name": "Namibia",
+    "slug": "namibia",
+    "translation-ko": "나미비아",
+    "currency": "NAD",
+    "phone": "264",
+    "language": "en"
+  },
+  "NC": {
+    "name": "New Caledonia",
+    "slug": "new-caledonia",
+    "translation-ko": "뉴칼레도니아",
+    "currency": "XPF",
+    "phone": "687",
+    "language": "fr"
+  },
+  "NE": {
+    "name": "Niger",
+    "slug": "niger",
+    "translation-ko": "니제르",
+    "currency": "XOF",
+    "phone": "227",
+    "language": "fr"
+  },
+  "NF": {
+    "name": "Norfolk Island",
+    "slug": "norfolk-island",
+    "translation-ko": "노퍽 섬",
+    "currency": "AUD",
+    "phone": "672",
+    "language": "en"
+  },
+  "NG": {
+    "name": "Nigeria",
+    "slug": "nigeria",
+    "translation-ko": "나이지리아",
+    "currency": "NGN",
+    "phone": "234",
+    "language": "en"
+  },
+  "NI": {
+    "name": "Nicaragua",
+    "slug": "nicaragua",
+    "translation-ko": "니카라과",
+    "currency": "NIO",
+    "phone": "505",
+    "language": "es"
+  },
+  "NL": {
+    "name": "Netherlands",
+    "slug": "netherlands",
+    "translation-ko": "네덜란드",
+    "currency": "EUR",
+    "phone": "31",
+    "language": "nl"
+  },
+  "NO": {
+    "name": "Norway",
+    "slug": "norway",
+    "translation-ko": "노르웨이",
+    "currency": "NOK",
+    "phone": "47",
+    "language": "no"
+  },
+  "NP": {
+    "name": "Nepal",
+    "slug": "nepal",
+    "translation-ko": "네팔",
+    "currency": "NPR",
+    "phone": "977",
+    "language": "ne"
+  },
+  "NR": {
+    "name": "Nauru",
+    "slug": "nauru",
+    "translation-ko": "나우루",
+    "currency": "AUD",
+    "phone": "674",
+    "language": "na"
+  },
+  "NU": {
+    "name": "Niue",
+    "slug": "niue",
+    "translation-ko": "니우에",
+    "currency": "NZD",
+    "phone": "683",
+    "language": "en"
+  },
+  "NZ": {
+    "name": "New Zealand",
+    "slug": "new-zealand",
+    "translation-ko": "뉴질랜드",
+    "currency": "NZD",
+    "phone": "64",
+    "language": "en"
+  },
+  "OM": {
+    "name": "Oman",
+    "slug": "oman",
+    "translation-ko": "오만",
+    "currency": "OMR",
+    "phone": "968",
+    "language": "ar"
+  },
+  "PA": {
+    "name": "Panama",
+    "slug": "panama",
+    "translation-ko": "파나마",
+    "currency": "PAB",
+    "phone": "507",
+    "language": "es"
+  },
+  "PE": {
+    "name": "Peru",
+    "slug": "peru",
+    "translation-ko": "페루",
+    "currency": "PEN",
+    "phone": "51",
+    "language": "es"
+  },
+  "PF": {
+    "name": "French Polynesia",
+    "slug": "french-polynesia",
+    "translation-ko": "프랑스령 폴리네시아",
+    "currency": "XPF",
+    "phone": "689",
+    "language": "fr"
+  },
+  "PG": {
+    "name": "Papua New Guinea",
+    "slug": "papua-new-guinea",
+    "translation-ko": "파푸아뉴기니",
+    "currency": "PGK",
+    "phone": "675",
+    "language": "en"
+  },
+  "PH": {
+    "name": "Philippines",
+    "slug": "philippines",
+    "translation-ko": "필리핀",
+    "currency": "PHP",
+    "phone": "63",
+    "language": "en"
+  },
+  "PK": {
+    "name": "Pakistan",
+    "slug": "pakistan",
+    "translation-ko": "파키스탄",
+    "currency": "PKR",
+    "phone": "92",
+    "language": "ur"
+  },
+  "PL": {
+    "name": "Poland",
+    "slug": "poland",
+    "translation-ko": "폴란드",
+    "currency": "PLN",
+    "phone": "48",
+    "language": "pl"
+  },
+  "PM": {
+    "name": "Saint Pierre and Miquelon",
+    "slug": "saint-pierre-and-miquelon",
+    "translation-ko": "생피에르 미클롱",
+    "currency": "EUR",
+    "phone": "508",
+    "language": "fr",
+    "parent": "FR"
+  },
+  "PN": {
+    "name": "Pitcairn",
+    "slug": "pitcairn",
+    "translation-ko": "핏케언 제도",
+    "currency": "NZD",
+    "phone": "64",
+    "language": "en"
+  },
+  "PR": {
+    "name": "Puerto Rico",
+    "slug": "puerto-rico",
+    "translation-ko": "푸에르토리코",
+    "currency": "USD",
+    "phone": "1787",
+    "language": "es"
+  },
+  "PS": {
+    "name": "Palestinian",
+    "slug": "palestinian",
+    "translation-ko": "팔레스타인",
+    "currency": "ILS",
+    "phone": "970",
+    "language": "ar"
+  },
+  "PT": {
+    "name": "Portugal",
+    "slug": "portugal",
+    "translation-ko": "포르투갈",
+    "currency": "EUR",
+    "phone": "351",
+    "language": "pt"
+  },
+  "PW": {
+    "name": "Palau",
+    "slug": "palau",
+    "translation-ko": "팔라우",
+    "currency": "USD",
+    "phone": "680",
+    "language": "en"
+  },
+  "PY": {
+    "name": "Paraguay",
+    "slug": "paraguay",
+    "translation-ko": "파라과이",
+    "currency": "PYG",
+    "phone": "595",
+    "language": "es"
+  },
+  "QA": {
+    "name": "Qatar",
+    "slug": "qatar",
+    "translation-ko": "카타르",
+    "currency": "QAR",
+    "phone": "974",
+    "language": "ar"
+  },
+  "RE": {
+    "name": "Réunion",
+    "slug": "reunion",
+    "translation-ko": "레위니옹",
+    "currency": "EUR",
+    "phone": "262",
+    "language": "fr"
+  },
+  "RO": {
+    "name": "Romania",
+    "slug": "romania",
+    "translation-ko": "루마니아",
+    "currency": "RON",
+    "phone": "40",
+    "language": "ro"
+  },
+  "RS": {
+    "name": "Serbia",
+    "slug": "serbia",
+    "translation-ko": "세르비아",
+    "currency": "RSD",
+    "phone": "381",
+    "language": "sr"
+  },
+  "RU": {
+    "name": "Russia",
+    "slug": "russia",
+    "translation-ko": "러시아",
+    "currency": "RUB",
+    "phone": "7",
+    "language": "ru"
+  },
+  "RW": {
+    "name": "Rwanda",
+    "slug": "rwanda",
+    "translation-ko": "르완다",
+    "currency": "RWF",
+    "phone": "250",
+    "language": "rw"
+  },
+  "SA": {
+    "name": "Saudi Arabia",
+    "slug": "saudi-arabia",
+    "translation-ko": "사우디아라비아",
+    "currency": "SAR",
+    "phone": "966",
+    "language": "ar"
+  },
+  "SB": {
+    "name": "Solomon Islands",
+    "slug": "solomon-islands",
+    "translation-ko": "솔로몬 제도",
+    "currency": "SBD",
+    "phone": "677",
+    "language": "en"
+  },
+  "SC": {
+    "name": "Seychelles",
+    "slug": "seychelles",
+    "translation-ko": "세이셸",
+    "currency": "SCR",
+    "phone": "248",
+    "language": "fr"
+  },
+  "SD": {
+    "name": "Sudan",
+    "slug": "sudan",
+    "translation-ko": "수단",
+    "currency": "SDG",
+    "phone": "249",
+    "language": "ar"
+  },
+  "SE": {
+    "name": "Sweden",
+    "slug": "sweden",
+    "translation-ko": "스웨덴",
+    "currency": "SEK",
+    "phone": "46",
+    "language": "sv"
+  },
+  "SG": {
+    "name": "Singapore",
+    "slug": "singapore",
+    "translation-ko": "싱가포르",
+    "currency": "SGD",
+    "phone": "65",
+    "language": "en"
+  },
+  "SH": {
+    "name": "Saint Helena",
+    "slug": "saint-helena",
+    "translation-ko": "세인트헬레나",
+    "currency": "SHP",
+    "phone": "290",
+    "language": "en"
+  },
+  "SI": {
+    "name": "Slovenia",
+    "slug": "slovenia",
+    "translation-ko": "슬로베니아",
+    "currency": "EUR",
+    "phone": "386",
+    "language": "sl"
+  },
+  "SJ": {
+    "name": "Svalbard and Jan Mayen",
+    "slug": "svalbard-and-jan-mayen",
+    "translation-ko": "스발바르 얀마옌",
+    "currency": "NOK",
+    "phone": "47",
+    "language": "no"
+  },
+  "SK": {
+    "name": "Slovakia",
+    "slug": "slovakia",
+    "translation-ko": "슬로바키아",
+    "currency": "EUR",
+    "phone": "421",
+    "language": "sk"
+  },
+  "SL": {
+    "name": "Sierra Leone",
+    "slug": "sierra-leone",
+    "translation-ko": "시에라리온",
+    "currency": "SLL",
+    "phone": "232",
+    "language": "en"
+  },
+  "SM": {
+    "name": "San Marino",
+    "slug": "san-marino",
+    "translation-ko": "산마리노",
+    "currency": "EUR",
+    "phone": "378",
+    "language": "it"
+  },
+  "SN": {
+    "name": "Senegal",
+    "slug": "senegal",
+    "translation-ko": "세네갈",
+    "currency": "XOF",
+    "phone": "221",
+    "language": "fr"
+  },
+  "SO": {
+    "name": "Somalia",
+    "slug": "somalia",
+    "translation-ko": "소말리아",
+    "currency": "SOS",
+    "phone": "252",
+    "language": "so"
+  },
+  "SR": {
+    "name": "Suriname",
+    "slug": "suriname",
+    "translation-ko": "수리남",
+    "currency": "SRD",
+    "phone": "597",
+    "language": "nl"
+  },
+  "SS": {
+    "name": "South Sudan",
+    "slug": "south-sudan",
+    "translation-ko": "남수단",
+    "currency": "SSP",
+    "phone": "211",
+    "language": "en"
+  },
+  "ST": {
+    "name": "São Tomé and Príncipe",
+    "slug": "sao-tome-and-principe",
+    "translation-ko": "상투메 프린시페",
+    "currency": "STD",
+    "phone": "239",
+    "language": "pt"
+  },
+  "SV": {
+    "name": "El Salvador",
+    "slug": "el-salvador",
+    "translation-ko": "엘살바도르",
+    "currency": "USD",
+    "phone": "503",
+    "language": "es"
+  },
+  "SX": {
+    "name": "Sint Maarten",
+    "slug": "sint-maarten",
+    "translation-ko": "신트마르턴",
+    "currency": "ANG",
+    "phone": "1721",
+    "language": "nl"
+  },
+  "SY": {
+    "name": "Syria",
+    "slug": "syria",
+    "translation-ko": "시리아",
+    "currency": "SYP",
+    "phone": "963",
+    "language": "ar"
+  },
+  "SZ": {
+    "name": "Swaziland",
+    "slug": "swaziland",
+    "translation-ko": "스와질란드",
+    "currency": "SZL",
+    "phone": "268",
+    "language": "en"
+  },
+  "TC": {
+    "name": "Turks and Caicos Islands",
+    "slug": "turks-and-caicos-islands",
+    "translation-ko": "터크스 케이커스 제도",
+    "currency": "USD",
+    "phone": "1649",
+    "language": "en"
+  },
+  "TD": {
+    "name": "Chad",
+    "slug": "chad",
+    "translation-ko": "차드",
+    "currency": "XAF",
+    "phone": "235",
+    "language": "fr"
+  },
+  "TF": {
+    "name": "French Southern Territories",
+    "slug": "french-southern-territories",
+    "translation-ko": "프랑스령 남방 및 남극",
+    "currency": "EUR",
+    "phone": "262",
+    "language": "fr"
+  },
+  "TG": {
+    "name": "Togo",
+    "slug": "togo",
+    "translation-ko": "토고",
+    "currency": "XOF",
+    "phone": "228",
+    "language": "fr"
+  },
+  "TH": {
+    "name": "Thailand",
+    "slug": "thailand",
+    "translation-ko": "태국",
+    "currency": "THB",
+    "phone": "66",
+    "language": "th"
+  },
+  "TJ": {
+    "name": "Tajikistan",
+    "slug": "tajikistan",
+    "translation-ko": "타지키스탄",
+    "currency": "TJS",
+    "phone": "992",
+    "language": "tg"
+  },
+  "TK": {
+    "name": "Tokelau",
+    "slug": "tokelau",
+    "translation-ko": "토켈라우",
+    "currency": "NZD",
+    "phone": "690",
+    "language": "en"
+  },
+  "TL": {
+    "name": "East Timor",
+    "slug": "east-timor",
+    "translation-ko": "동티모르",
+    "currency": "USD",
+    "phone": "670",
+    "language": "pt"
+  },
+  "TM": {
+    "name": "Turkmenistan",
+    "slug": "turkmenistan",
+    "translation-ko": "투르크메니스탄",
+    "currency": "TMT",
+    "phone": "993",
+    "language": "tk"
+  },
+  "TN": {
+    "name": "Tunisia",
+    "slug": "tunisia",
+    "translation-ko": "튀니지",
+    "currency": "TND",
+    "phone": "216",
+    "language": "ar"
+  },
+  "TO": {
+    "name": "Tonga",
+    "slug": "tonga",
+    "translation-ko": "통가",
+    "currency": "TOP",
+    "phone": "676",
+    "language": "en"
+  },
+  "TR": {
+    "name": "Turkey",
+    "slug": "turkey",
+    "translation-ko": "터키",
+    "currency": "TRY",
+    "phone": "90",
+    "language": "tr"
+  },
+  "TT": {
+    "name": "Trinidad and Tobago",
+    "slug": "trinidad-and-tobago",
+    "translation-ko": "트리니다드 토바고",
+    "currency": "TTD",
+    "phone": "1868",
+    "language": "en"
+  },
+  "TV": {
+    "name": "Tuvalu",
+    "slug": "tuvalu",
+    "translation-ko": "투발루",
+    "currency": "AUD",
+    "phone": "688",
+    "language": "en"
+  },
+  "TW": {
+    "name": "Taiwan",
+    "slug": "taiwan",
+    "translation-ko": "대만",
+    "currency": "TWD",
+    "phone": "886",
+    "language": "zh"
+  },
+  "TZ": {
+    "name": "Tanzania",
+    "slug": "tanzania",
+    "translation-ko": "탄자니아",
+    "currency": "TZS",
+    "phone": "255",
+    "language": "sw"
+  },
+  "UA": {
+    "name": "Ukraine",
+    "slug": "ukraine",
+    "translation-ko": "우크라이나",
+    "currency": "UAH",
+    "phone": "380",
+    "language": "uk"
+  },
+  "UG": {
+    "name": "Uganda",
+    "slug": "uganda",
+    "translation-ko": "우간다",
+    "currency": "UGX",
+    "phone": "256",
+    "language": "en"
+  },
+  "UM": {
+    "name": "United States Minor Outlying Islands",
+    "slug": "united-states-minor-outlying-islands",
+    "translation-ko": "미국령 군소 제도",
+    "currency": "USD",
+    "phone": "1",
+    "language": "en"
+  },
+  "US": {
+    "name": "United States",
+    "slug": "united-states",
+    "translation-ko": "미국",
+    "currency": "USD",
+    "phone": "1",
+    "language": "en"
+  },
+  "UY": {
+    "name": "Uruguay",
+    "slug": "uruguay",
+    "translation-ko": "우루과이",
+    "currency": "UYU",
+    "phone": "598",
+    "language": "es"
+  },
+  "UZ": {
+    "name": "Uzbekistan",
+    "slug": "uzbekistan",
+    "translation-ko": "우즈베키스탄",
+    "currency": "UZS",
+    "phone": "998",
+    "language": "uz"
+  },
+  "VA": {
+    "name": "Vatican City",
+    "slug": "vatican-city",
+    "translation-ko": "바티칸 시국",
+    "currency": "EUR",
+    "phone": "379",
+    "language": "it"
+  },
+  "VC": {
+    "name": "Saint Vincent and the Grenadines",
+    "slug": "saint-vincent-and-the-grenadines",
+    "translation-ko": "세인트빈센트 그레나딘",
+    "currency": "XCD",
+    "phone": "1784",
+    "language": "en"
+  },
+  "VE": {
+    "name": "Venezuela",
+    "slug": "venezuela",
+    "translation-ko": "베네수엘라",
+    "currency": "VEF",
+    "phone": "58",
+    "language": "es"
+  },
+  "VG": {
+    "name": "British Virgin Islands",
+    "slug": "british-virgin-islands",
+    "translation-ko": "영국령 버진아일랜드",
+    "currency": "USD",
+    "phone": "1284",
+    "language": "en"
+  },
+  "VI": {
+    "name": "U.S. Virgin Islands",
+    "slug": "us-virgin-islands",
+    "translation-ko": "미국령 버진아일랜드",
+    "currency": "USD",
+    "phone": "1340",
+    "language": "en"
+  },
+  "VN": {
+    "name": "Vietnam",
+    "slug": "vietnam",
+    "translation-ko": "베트남",
+    "currency": "VND",
+    "phone": "84",
+    "language": "vi"
+  },
+  "VU": {
+    "name": "Vanuatu",
+    "slug": "vanuatu",
+    "translation-ko": "바누아투",
+    "currency": "VUV",
+    "phone": "678",
+    "language": "bi"
+  },
+  "WF": {
+    "name": "Wallis and Futuna",
+    "slug": "wallis-and-futuna",
+    "translation-ko": "왈리스 퓌투나",
+    "currency": "XPF",
+    "phone": "681",
+    "language": "fr"
+  },
+  "WS": {
+    "name": "Samoa",
+    "slug": "samoa",
+    "translation-ko": "사모아",
+    "currency": "WST",
+    "phone": "685",
+    "language": "sm"
+  },
+  "YE": {
+    "name": "Yemen",
+    "slug": "yemen",
+    "translation-ko": "예멘",
+    "currency": "YER",
+    "phone": "967",
+    "language": "ar"
+  },
+  "YT": {
+    "name": "Mayotte",
+    "slug": "mayotte",
+    "translation-ko": "마요트",
+    "currency": "EUR",
+    "phone": "262",
+    "language": "fr"
+  },
+  "ZA": {
+    "name": "South Africa",
+    "slug": "south-africa",
+    "translation-ko": "남아프리카",
+    "currency": "ZAR",
+    "phone": "27",
+    "language": "en"
+  },
+  "ZM": {
+    "name": "Zambia",
+    "slug": "zambia",
+    "translation-ko": "잠비아",
+    "currency": "ZMW",
+    "phone": "260",
+    "language": "en"
+  },
+  "ZW": {
+    "name": "Zimbabwe",
+    "slug": "zimbabwe",
+    "translation-ko": "짐바브웨",
+    "currency": "ZWL",
+    "phone": "263",
+    "language": "en"
+  }
+}
