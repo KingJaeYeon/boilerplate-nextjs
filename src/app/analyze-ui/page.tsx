@@ -14,6 +14,7 @@ import GuideTextarea from "@/app/analyze-ui/_component/guide-textarea";
 import GuideInput from "@/app/analyze-ui/_component/guide-input";
 import GuideTypography from "@/app/analyze-ui/_component/guide-typography";
 import GuideFlag from "@/app/analyze-ui/_component/guide-flag";
+import GuideFlagRound from "@/app/analyze-ui/_component/guide-flag-round";
 
 export default function Page() {
   return (
@@ -56,6 +57,10 @@ export default function Page() {
       <Section className={"flex flex-col gap-[10px]"}>
         <h2 className={"heading1"}>Flag</h2>
         <GuideFlag />
+      </Section>
+      <Section className={"flex flex-col gap-[10px]"}>
+        <h2 className={"heading1"}>Flag Round</h2>
+        <GuideFlagRound />
       </Section>
     </Main>
   );

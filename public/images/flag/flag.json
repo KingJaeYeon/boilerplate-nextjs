@@ -295,6 +295,15 @@
     "phone": "1",
     "language": "en"
   },
+  "CA-BC": {
+    "name": "British Columbia",
+    "slug": "british-columbia",
+    "translation-ko": "브리티시 컬럼비아",
+    "currency": "CAD",
+    "phone": "1",
+    "language": "en",
+    "parent": "CA"
+  },
   "CC": {
     "name": "Cocos (Keeling) Islands",
     "slug": "cocos-keeling-islands",
@@ -400,8 +409,8 @@
     "language": "es"
   },
   "CV": {
-    "name": "Cabo Verde",
-    "slug": "cabo-verde",
+    "name": "Cape Verde",
+    "slug": "cape-verde",
     "translation-ko": "카보베르데",
     "currency": "CVE",
     "phone": "238",
@@ -535,6 +544,15 @@
     "phone": "34",
     "language": "es"
   },
+  "ES-ML": {
+    "name": "Melilla",
+    "slug": "melilla",
+    "translation-ko": "멜리야",
+    "currency": "EUR",
+    "phone": "34",
+    "language": "es",
+    "parent": "ES"
+  },
   "ET": {
     "name": "Ethiopia",
     "slug": "ethiopia",
@@ -542,6 +560,13 @@
     "currency": "ETB",
     "phone": "251",
     "language": "am"
+  },
+  "EU": {
+    "name": "European Union",
+    "slug": "european-union",
+    "translation-ko": "유럽 연합",
+    "currency": "EUR",
+    "language": "en"
   },
   "FI": {
     "name": "Finland",
@@ -904,6 +929,15 @@
     "phone": "39",
     "language": "it"
   },
+  "IT-88": {
+    "name": "Sardinia",
+    "slug": "sardinia",
+    "translation-ko": "사르데냐",
+    "currency": "EUR",
+    "phone": "39",
+    "language": "it",
+    "parent": "IT"
+  },
   "JE": {
     "name": "Jersey",
     "slug": "jersey",
@@ -1169,9 +1203,9 @@
     "language": "en"
   },
   "MK": {
-    "name": "Macedonia",
-    "slug": "macedonia",
-    "translation-ko": "마케도니아",
+    "name": "North Macedonia",
+    "slug": "north-macedonia",
+    "translation-ko": "북마케도니아",
     "currency": "MKD",
     "phone": "389",
     "language": "mk"
@@ -1303,6 +1337,11 @@
     "currency": "NAD",
     "phone": "264",
     "language": "en"
+  },
+  "NATO": {
+    "name": "North Atlantic Treaty Organization",
+    "slug": "nato",
+    "translation-ko": "북대서양 조약 기구"
   },
   "NC": {
     "name": "New Caledonia",
@@ -1466,8 +1505,8 @@
     "parent": "FR"
   },
   "PN": {
-    "name": "Pitcairn",
-    "slug": "pitcairn",
+    "name": "Pitcairn Islands",
+    "slug": "pitcairn-islands",
     "translation-ko": "핏케언 제도",
     "currency": "NZD",
     "phone": "64",
@@ -1881,6 +1920,11 @@
     "phone": "1",
     "language": "en"
   },
+  "UN": {
+    "name": "United Nations",
+    "slug": "united-nations",
+    "translation-ko": "유엔"
+  },
   "US": {
     "name": "United States",
     "slug": "united-states",
@@ -1888,6 +1932,15 @@
     "currency": "USD",
     "phone": "1",
     "language": "en"
+  },
+  "US-HI": {
+    "name": "Hawaii",
+    "slug": "hawaii",
+    "translation-ko": "하와이",
+    "currency": "USD",
+    "phone": "1",
+    "language": "en",
+    "parent": "US"
   },
   "UY": {
     "name": "Uruguay",
@@ -1993,6 +2046,14 @@
     "phone": "262",
     "language": "fr"
   },
+  "XK": {
+    "name": "Kosovo",
+    "slug": "kosovo",
+    "translation-ko": "코소보",
+    "currency": "EUR",
+    "phone": "383",
+    "language": "sq"
+  },
   "ZA": {
     "name": "South Africa",
     "slug": "south-africa",
@@ -2016,5 +2077,10 @@
     "currency": "ZWL",
     "phone": "263",
     "language": "en"
+  },
+  "WorldWide": {
+    "name": "Worldwide",
+    "slug": "world-wide",
+    "translation-ko": "전 세계"
   }
 }
