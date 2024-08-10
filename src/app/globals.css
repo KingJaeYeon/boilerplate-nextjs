@@ -33,6 +33,7 @@
     --background: var(--gray-pale);
     --foreground: var(--gray-drak);
     --border: var(--white) / 0.15;
+    --icon: var(--gray-deep);
 
     --button-secondary-background: var(--gray-light);
     --button-secondary-foreground: var(--gray-drak);
@@ -94,6 +95,7 @@
     --background: var(--gray-drakest);
     --foreground: var(--white);
     --border: var(--white) / 0.15;
+    --icon: var(--white);
 
     --button-secondary-background: var(--gray-drak);
     --button-secondary-foreground: var(--gray-light);

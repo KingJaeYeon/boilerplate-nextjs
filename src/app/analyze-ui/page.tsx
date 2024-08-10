@@ -15,6 +15,7 @@ import GuideInput from "@/app/analyze-ui/_component/guide-input";
 import GuideTypography from "@/app/analyze-ui/_component/guide-typography";
 import GuideFlag from "@/app/analyze-ui/_component/guide-flag";
 import GuideFlagRound from "@/app/analyze-ui/_component/guide-flag-round";
+import GuidePlatform from "@/app/analyze-ui/_component/guide-platform";
 
 export default function Page() {
   return (
@@ -53,6 +54,10 @@ export default function Page() {
           <ThemeToggle />
           <SwitchToggle />
         </Row>
+      </Section>
+      <Section className={"flex flex-col gap-[10px]"}>
+        <h2 className={"heading1"}>Platform</h2>
+        <GuidePlatform />
       </Section>
       <Section className={"flex flex-col gap-[10px]"}>
         <h2 className={"heading1"}>Flag</h2>

@@ -16,9 +16,11 @@ const config = {
     },
     colors: {
       white: "hsl(var(--white))",
+      black: "hsl(var(--black))",
       border: "hsl(var(--border))",
       red: "hsl(var(--red))",
-      ring: "hsl(var(--ring))",
+      icon: "hsl(var(--icon))",
+
       background: "hsl(var(--background))",
       foreground: "hsl(var(--foreground))",
       transparent: "hsl(var(--transparent))",
@@ -75,6 +77,7 @@ const config = {
           hover: "hsl(var(--button-outline-hover-foreground))",
         },
       },
+      ring: "hsl(var(--ring))",
       destructive: {
         DEFAULT: "hsl(var(--destructive))",
         foreground: "hsl(var(--destructive-foreground))",
