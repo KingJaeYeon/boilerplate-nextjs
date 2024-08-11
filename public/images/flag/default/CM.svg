@@ -1,11 +1,22 @@
 <svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="mask0_1825_41116" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="15">
-<rect width="20" height="15" fill="white"/>
-</mask>
-<g mask="url(#mask0_1825_41116)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M6 0H14V15H6V0Z" fill="#E11C1B"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M10.047 9.05654L7.86847 10.5676L8.56459 7.97952L6.96533 6.32624L9.13082 6.23685L10.047 3.67761L10.9632 6.23685H13.125L11.5294 7.97952L12.3285 10.4148L10.047 9.05654Z" fill="#FECA00"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M14 0H20V15H14V0Z" fill="#FBCD17"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H6V15H0V0Z" fill="#0B9E7A"/>
+<g clip-path="url(#clip0_14_458)">
+<path d="M0 0H6.66562V15H0V0Z" fill="#007A5E"/>
+<path d="M6.66565 0H13.3344V15H6.66565V0Z" fill="#CE1126"/>
+<path d="M13.3344 0H20V15H13.3344V0Z" fill="#FCD116"/>
+<path d="M10 5.72223L9.44446 7.41112L10.2889 7.7L10 5.72223Z" fill="#FCD116"/>
+<path d="M9.99999 5.72223L10.5555 7.41112L9.7111 7.7L9.99999 5.72223Z" fill="#FCD116"/>
+<path d="M11.6866 6.93672L9.91108 6.9623L9.91151 7.83658L11.6866 6.93672Z" fill="#FCD116"/>
+<path d="M11.6826 6.94341L10.2668 7.99783L9.7205 7.30829L11.6826 6.94341Z" fill="#FCD116"/>
+<path d="M11.0456 8.93791L10.5008 7.24521L9.64871 7.50897L11.0456 8.93791Z" fill="#FCD116"/>
+<path d="M11.0453 8.93758L9.60293 7.89927L10.1151 7.16837L11.0453 8.93758Z" fill="#FCD116"/>
+<path d="M8.95458 8.93758L10.3969 7.89927L9.88482 7.16837L8.95458 8.93758Z" fill="#FCD116"/>
+<path d="M8.95423 8.93791L9.49912 7.24521L10.3512 7.50897L8.95423 8.93791Z" fill="#FCD116"/>
+<path d="M8.31741 6.94341L9.7332 7.99783L10.2795 7.30829L8.31741 6.94341Z" fill="#FCD116"/>
+<path d="M8.31345 6.93672L10.0889 6.9623L10.0885 7.83658L8.31345 6.93672Z" fill="#FCD116"/>
 </g>
+<defs>
+<clipPath id="clip0_14_458">
+<rect width="20" height="15" fill="white"/>
+</clipPath>
+</defs>
 </svg>

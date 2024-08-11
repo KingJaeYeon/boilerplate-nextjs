@@ -79,6 +79,12 @@
     "phone": "54",
     "language": "es"
   },
+  "ARAB": {
+    "name": "Arab League",
+    "slug": "arab-league",
+    "translation-ko": "아랍 연맹",
+    "language": "ar"
+  },
   "AS": {
     "name": "American Samoa",
     "slug": "american-samoa",

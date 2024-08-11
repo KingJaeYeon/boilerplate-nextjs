@@ -1,15 +1,21 @@
 <svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="mask0_1825_42002" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="15">
-<rect width="20" height="15" fill="white"/>
-</mask>
-<g mask="url(#mask0_1825_42002)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H20V15H0V0Z" fill="#F7FCFF"/>
-<rect x="0.0170898" y="3.4375" width="20" height="1.875" fill="#4564F9"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H20V1.875H0V0Z" fill="#4564F9"/>
-<rect x="-0.0366211" y="6.875" width="20" height="1.875" fill="#4564F9"/>
-<rect x="0.0698242" y="10.25" width="20" height="1.875" fill="#4564F9"/>
-<rect x="0.0634766" y="13.4375" width="20" height="1.875" fill="#4564F9"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H10V8.75H0V0Z" fill="#4564F9"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M4.04442 0H6.02211V3.4375H10V5.80399H6.02211V9.375H4.04442V5.80399H0V3.4375H4.04442V0Z" fill="#F7FCFF"/>
+<g clip-path="url(#clip0_14_394)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H20V1.66562H0V0Z" fill="#0D5EAF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 1.66565H20V3.3344H0V1.66565Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 3.33435H20V4.99998H0V3.33435Z" fill="#0D5EAF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 5H20V6.66563H0V5Z" fill="white"/>
+<path d="M0 0H8.33438V8.33438H0V0Z" fill="#0D5EAF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 6.66565H20V8.3344H0V6.66565Z" fill="#0D5EAF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 8.33435H20V9.99998H0V8.33435Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 10H20V11.6656H0V10Z" fill="#0D5EAF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 11.6656H20V13.3344H0V11.6656Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3.33435 0H4.99998V8.33438H3.33435V0Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 3.33435H8.33438V4.99998H0V3.33435Z" fill="white"/>
+<path d="M0 13.3344H20V15H0V13.3344Z" fill="#0D5EAF"/>
 </g>
+<defs>
+<clipPath id="clip0_14_394">
+<rect width="20" height="15" fill="white"/>
+</clipPath>
+</defs>
 </svg>
