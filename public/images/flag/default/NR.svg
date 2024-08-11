@@ -1,15 +1,17 @@
 <svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="mask0_1825_43795" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="15">
+<g clip-path="url(#clip0_14_323)">
+<mask id="mask0_14_323" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="21" height="15">
+<path d="M0.000610352 0H20.0016V15H0.000610352V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_14_323)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M-2.49841 0H27.5016V15H-2.49841V0Z" fill="#002170"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M-2.49841 6.8584H27.5016V8.14453H-2.49841V6.8584Z" fill="#FFB20D"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.34338 12.832L5.37659 11.8652L5.06897 13.1953L4.71741 11.877L3.78284 12.873L4.13733 11.5547L2.83362 11.9502L3.80041 10.9834L2.47034 10.6729L3.7887 10.3213L2.7926 9.38965L4.11096 9.74121L3.71252 8.4375L4.67932 9.4043L4.98987 8.07422L5.34143 9.39258L6.27307 8.39648L5.92151 9.71484L7.22522 9.31934L6.25842 10.2861L7.5885 10.5938L6.27014 10.9453L7.26623 11.8828L5.94788 11.5254L6.34338 12.832Z" fill="white"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_14_323">
 <rect width="20" height="15" fill="white"/>
-</mask>
-<g mask="url(#mask0_1825_43795)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V15H20V0H0Z" fill="#2E42A5"/>
-<mask id="mask1_1825_43795" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="15">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V15H20V0H0Z" fill="white"/>
-</mask>
-<g mask="url(#mask1_1825_43795)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 5V7.5H20V5H0Z" fill="#FECA00"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M5.51852 12.2373L4.55284 13.4906L4.50826 11.909L2.99034 12.3553L3.88389 11.0496L2.39352 10.5185L3.88389 9.9874L2.99034 8.68169L4.50826 9.12802L4.55284 7.54647L5.51852 8.79977L6.4842 7.54647L6.52877 9.12802L8.0467 8.68169L7.15315 9.9874L8.64352 10.5185L7.15315 11.0496L8.0467 12.3553L6.52877 11.909L6.4842 13.4906L5.51852 12.2373Z" fill="#F7FCFF"/>
-</g>
-</g>
+</clipPath>
+</defs>
 </svg>
