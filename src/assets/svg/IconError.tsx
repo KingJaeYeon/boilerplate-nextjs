@@ -1,9 +1,6 @@
 import React from "react";
-import { useTheme } from "next-themes";
 
 export default function IconError({ className }: { className?: string }) {
-  const { theme } = useTheme();
-
   return (
     <svg
       className={className}

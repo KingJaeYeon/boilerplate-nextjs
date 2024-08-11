@@ -1,9 +1,7 @@
-import { cn } from "@/lib/utils";
-
-export default function IconClose({ className }: { className?: string }) {
+export function IconCheck({ className }: { className?: string }) {
   return (
     <svg
-      className={cn(className, "text-icon")}
+      className={className}
       xmlns="http://www.w3.org/2000/svg"
       width="18"
       height="18"
@@ -11,8 +9,8 @@ export default function IconClose({ className }: { className?: string }) {
       fill="none"
     >
       <path
-        d="M15 3L3 15M3 3L15 15"
-        stroke="currentColor"
+        d="M16 4L6.375 13.625L2 9.25"
+        stroke="#42E22A"
         strokeLinecap="round"
         strokeLinejoin="round"
       />

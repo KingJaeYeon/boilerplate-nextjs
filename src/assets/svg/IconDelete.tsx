@@ -1,9 +1,10 @@
 import React from "react";
+import { cn } from "@/lib/utils";
 
 export default function IconDelete({ className }: { className?: string }) {
   return (
     <svg
-      className={className}
+      className={cn(className, "text-icon")}
       width="18"
       height="18"
       viewBox="0 0 18 18"
@@ -26,4 +27,3 @@ export default function IconDelete({ className }: { className?: string }) {
     </svg>
   );
 }
-
