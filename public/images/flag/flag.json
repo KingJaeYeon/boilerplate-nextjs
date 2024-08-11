@@ -1184,14 +1184,6 @@
     "phone": "382",
     "language": "sr"
   },
-  "MF": {
-    "name": "Saint Martin",
-    "slug": "saint-martin",
-    "translation-ko": "생마르탱",
-    "currency": "EUR",
-    "phone": "590",
-    "language": "fr"
-  },
   "MG": {
     "name": "Madagascar",
     "slug": "madagascar",
@@ -1501,15 +1493,6 @@
     "phone": "48",
     "language": "pl"
   },
-  "PM": {
-    "name": "Saint Pierre and Miquelon",
-    "slug": "saint-pierre-and-miquelon",
-    "translation-ko": "생피에르 미클롱",
-    "currency": "EUR",
-    "phone": "508",
-    "language": "fr",
-    "parent": "FR"
-  },
   "PN": {
     "name": "Pitcairn Islands",
     "slug": "pitcairn-islands",
@@ -1565,14 +1548,6 @@
     "currency": "QAR",
     "phone": "974",
     "language": "ar"
-  },
-  "RE": {
-    "name": "Réunion",
-    "slug": "reunion",
-    "translation-ko": "레위니옹",
-    "currency": "EUR",
-    "phone": "262",
-    "language": "fr"
   },
   "RO": {
     "name": "Romania",
