@@ -23,6 +23,7 @@ export function IconLinearReport({ className }: { className?: string }) {
 export function IconSolidReport({ className }: { className?: string }) {
   return (
     <svg
+      className={cn(className, "text-icon")}
       xmlns="http://www.w3.org/2000/svg"
       width="18"
       height="18"
