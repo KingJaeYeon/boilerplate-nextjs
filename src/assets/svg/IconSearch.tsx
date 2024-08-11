@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function IconSearch({ className }: { className?: string }) {
+export function IconSearch({ className }: { className?: string }) {
   return (
     <svg
       className={className}

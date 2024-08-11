@@ -1,13 +1,10 @@
 import Main from "@/components/Layout/Main";
 import Section from "@/components/Layout/Section";
-import Col from "@/components/Layout/Col";
 import Row from "@/components/Layout/Row";
-import { RoundedTag } from "@/components/analyze-ui/Tag";
 import ThemeToggle from "@/components/ThemeToggle";
 import SwitchToggle from "@/components/analyze-ui/SwitchToggle";
 import GuideButton from "@/app/analyze-ui/_component/guide-button";
 import GuideAvatar from "@/app/analyze-ui/_component/guide-avatar";
-import { Button } from "@/components/ui/button";
 import { GuideDialog } from "@/app/analyze-ui/_component/guide-dialog";
 import GuideAlert from "@/app/analyze-ui/_component/guide-alert";
 import GuideTextarea from "@/app/analyze-ui/_component/guide-textarea";
@@ -64,14 +61,14 @@ export default function Page() {
         <h2 className={"heading1"}>Icon</h2>
         <GuideIcon />
       </Section>
-      <Section className={"flex flex-col gap-[10px]"}>
-        <h2 className={"heading1"}>Flag</h2>
-        <GuideFlag />
-      </Section>
-      <Section className={"flex flex-col gap-[10px]"}>
-        <h2 className={"heading1"}>Flag Round</h2>
-        <GuideFlagRound />
-      </Section>
+      {/*<Section className={"flex flex-col gap-[10px]"}>*/}
+      {/*  <h2 className={"heading1"}>Flag</h2>*/}
+      {/*  <GuideFlag />*/}
+      {/*</Section>*/}
+      {/*<Section className={"flex flex-col gap-[10px]"}>*/}
+      {/*  <h2 className={"heading1"}>Flag Round</h2>*/}
+      {/*  <GuideFlagRound />*/}
+      {/*</Section>*/}
     </Main>
   );
 }

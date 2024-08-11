@@ -1,6 +1,6 @@
 import React from "react";
 import Row from "@/components/Layout/Row";
-import Close from "@/assets/svg/IconClose";
+import { IconClose } from "@/assets/svg/IconClose";
 
 type Props = {
   className?: string;
@@ -20,7 +20,7 @@ function InfoToast({ className, msg, onClose }: Props) {
           onClose();
         }}
       >
-        <Close />
+        <IconClose />
       </Row>
     </Row>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import Row from "@/components/Layout/Row";
 import { toast } from "sonner";
-import IconDelete from "@/assets/svg/IconDelete";
+import { IconDelete } from "@/assets/svg/IconDelete";
 
 type Props = {
   className?: string;

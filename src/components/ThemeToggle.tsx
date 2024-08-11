@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import { Switch } from "@/components/ui/switch";
-import { cn } from "@/lib/utils";
 
 function ThemeToggle() {
   const { setTheme, theme } = useTheme();

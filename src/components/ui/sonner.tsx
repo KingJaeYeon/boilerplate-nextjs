@@ -2,8 +2,8 @@
 
 import { useTheme } from "next-themes";
 import { Toaster as Sonner } from "sonner";
-import Confirm from "@/assets/svg/IconConfirm";
-import Error from "@/assets/svg/IconError";
+import { IconConfirm } from "@/assets/svg/IconConfirm";
+import { IconError } from "@/assets/svg/IconError";
 
 type ToasterProps = React.ComponentProps<typeof Sonner>;
 
@@ -16,8 +16,8 @@ const Toaster = ({ ...props }: ToasterProps) => {
       className="toaster group w-[90%] max-w-[1300px]"
       position={"top-center"}
       icons={{
-        success: <Confirm />,
-        error: <Error />,
+        success: <IconConfirm />,
+        error: <IconError />,
       }}
       toastOptions={{
         unstyled: true,

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function IconError({ className }: { className?: string }) {
+export function IconError({ className }: { className?: string }) {
   return (
     <svg
       className={className}

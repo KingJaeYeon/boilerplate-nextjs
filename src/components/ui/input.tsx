@@ -1,8 +1,8 @@
 import * as React from "react";
 import Text from "@/components/Layout/Text";
 import { cn } from "@/lib/utils";
-import IconSearch from "@/assets/svg/IconSearch";
-import IconDelete from "@/assets/svg/IconDelete";
+import { IconSearch } from "@/assets/svg/IconSearch";
+import { IconDelete } from "@/assets/svg/IconDelete";
 
 export interface InputProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
@@ -37,7 +37,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
         <input
           type={type}
           className={cn(
-            "focus:border-input-focus-border hover:border-input-focus-border placeholder:text-input-placeholder body4 placeholder:body4 border-input-border disabled:border-input-disabled-border disabled:text-input-disabled-foreground flex h-[42px] w-full rounded-full border bg-input px-[20px] py-2 focus-visible:outline-none disabled:pointer-events-none disabled:placeholder:opacity-20",
+            "body4 placeholder:body4 flex h-[42px] w-full rounded-full border border-input-border bg-input px-[20px] py-2 placeholder:text-input-placeholder hover:border-input-focus-border focus:border-input-focus-border focus-visible:outline-none disabled:pointer-events-none disabled:border-input-disabled-border disabled:text-input-disabled-foreground disabled:placeholder:opacity-20",
             icon !== "none" ? "pr-[40px]" : "",
             errorMessage && "border-red hover:border-red focus:border-red",
           )}
@@ -55,7 +55,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
           value={value}
         />
         {errorMessage && (
-          <Text className={"text-red body7 pl-[20px] pt-[5px]"}>
+          <Text className={"body7 pl-[20px] pt-[5px] text-red"}>
             {errorMessage}
           </Text>
         )}

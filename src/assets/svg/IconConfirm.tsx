@@ -1,7 +1,7 @@
 import React from "react";
 import { useTheme } from "next-themes";
 
-export default function IconConfirm() {
+export function IconConfirm() {
   const { theme } = useTheme();
 
   return (

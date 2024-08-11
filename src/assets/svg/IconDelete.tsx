@@ -1,7 +1,7 @@
 import React from "react";
 import { cn } from "@/lib/utils";
 
-export default function IconDelete({ className }: { className?: string }) {
+export function IconDelete({ className }: { className?: string }) {
   return (
     <svg
       className={cn(className, "text-icon")}
