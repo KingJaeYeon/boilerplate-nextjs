@@ -16,6 +16,7 @@ import GuideTypography from "@/app/analyze-ui/_component/guide-typography";
 import GuideFlag from "@/app/analyze-ui/_component/guide-flag";
 import GuideFlagRound from "@/app/analyze-ui/_component/guide-flag-round";
 import GuidePlatform from "@/app/analyze-ui/_component/guide-platform";
+import GuideIcon from "@/app/analyze-ui/_component/guide-icon";
 
 export default function Page() {
   return (
@@ -58,6 +59,10 @@ export default function Page() {
       <Section className={"flex flex-col gap-[10px]"}>
         <h2 className={"heading1"}>Platform</h2>
         <GuidePlatform />
+      </Section>
+      <Section className={"flex flex-col gap-[10px]"}>
+        <h2 className={"heading1"}>Icon</h2>
+        <GuideIcon />
       </Section>
       <Section className={"flex flex-col gap-[10px]"}>
         <h2 className={"heading1"}>Flag</h2>

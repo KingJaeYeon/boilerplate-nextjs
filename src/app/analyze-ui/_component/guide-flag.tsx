@@ -13,7 +13,7 @@ export default function GuideFlag() {
           <Image
             src={`/images/flag/default/${item}.svg`}
             key={item}
-            alt={"flag"}
+            alt={item}
             width={24}
             height={24}
           />

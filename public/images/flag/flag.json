@@ -1784,14 +1784,6 @@
     "phone": "235",
     "language": "fr"
   },
-  "TF": {
-    "name": "French Southern Territories",
-    "slug": "french-southern-territories",
-    "translation-ko": "프랑스령 남방 및 남극",
-    "currency": "EUR",
-    "phone": "262",
-    "language": "fr"
-  },
   "TG": {
     "name": "Togo",
     "slug": "togo",
@@ -1912,14 +1904,6 @@
     "phone": "256",
     "language": "en"
   },
-  "UM": {
-    "name": "United States Minor Outlying Islands",
-    "slug": "united-states-minor-outlying-islands",
-    "translation-ko": "미국령 군소 제도",
-    "currency": "USD",
-    "phone": "1",
-    "language": "en"
-  },
   "UN": {
     "name": "United Nations",
     "slug": "united-nations",
@@ -2014,14 +1998,7 @@
     "phone": "678",
     "language": "bi"
   },
-  "WF": {
-    "name": "Wallis and Futuna",
-    "slug": "wallis-and-futuna",
-    "translation-ko": "왈리스 퓌투나",
-    "currency": "XPF",
-    "phone": "681",
-    "language": "fr"
-  },
+
   "WS": {
     "name": "Samoa",
     "slug": "samoa",
@@ -2037,14 +2014,6 @@
     "currency": "YER",
     "phone": "967",
     "language": "ar"
-  },
-  "YT": {
-    "name": "Mayotte",
-    "slug": "mayotte",
-    "translation-ko": "마요트",
-    "currency": "EUR",
-    "phone": "262",
-    "language": "fr"
   },
   "XK": {
     "name": "Kosovo",
