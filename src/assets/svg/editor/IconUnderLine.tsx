@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 
-export function IconUnderLine({ className }: { className?: string }) {
+export default function IconUnderLine({ className }: { className?: string }) {
   return (
     <svg
       className={cn(className, "text-icon")}

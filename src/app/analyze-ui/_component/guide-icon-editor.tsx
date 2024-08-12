@@ -1,14 +1,18 @@
 "use client";
 import Col from "@/components/Layout/Col";
 import Row from "@/components/Layout/Row";
-import { IconBlockQuote } from "@/assets/svg/editor/IconBlockQuote";
-import { IconBold } from "@/assets/svg/editor/IconBold";
-import { IconH1, IconH2 } from "@/assets/svg/editor/IconH";
-import { IconImage } from "@/assets/svg/editor/IconImage";
-import { IconItalic } from "@/assets/svg/editor/IconItalic";
-import { IconOrderList, IconUnOrderList } from "@/assets/svg/editor/IconList";
-import { IconStrike } from "@/assets/svg/editor/IconStrike";
-import { IconUnderLine } from "@/assets/svg/editor/IconUnderLine";
+import {
+  IconBlockQuote,
+  IconOrderList,
+  IconImage,
+  IconUnderLine,
+  IconStrike,
+  IconBold,
+  IconItalic,
+  IconH1,
+  IconUnOrderList,
+  IconH2,
+} from "@/assets/svg/editor";
 
 export default function GuideIconEditor() {
   return (

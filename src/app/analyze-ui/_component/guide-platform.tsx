@@ -1,19 +1,23 @@
 "use client";
 import Col from "@/components/Layout/Col";
 import Row from "@/components/Layout/Row";
-import Naver from "@/assets/svg/platform/Naver";
-import Apple from "@/assets/svg/platform/Apple";
-import { Youtube, YoutubeEmpty } from "@/assets/svg/platform/Youtube";
-import Google from "@/assets/svg/platform/Google";
-import FaceBook, { FaceBook2 } from "@/assets/svg/platform/FaceBook";
-import KaKao from "@/assets/svg/platform/KaKao";
-import Twitter from "@/assets/svg/platform/Twitter";
-import Github from "@/assets/svg/platform/Github";
-import LinkedIn from "@/assets/svg/platform/LinkedIn";
-import Slack from "@/assets/svg/platform/Slack";
-import Instagram from "@/assets/svg/platform/Instagram";
-import Reddit from "@/assets/svg/platform/Reddit";
-import Telegram from "@/assets/svg/platform/Telegram";
+import {
+  Naver,
+  YoutubeEmpty,
+  KaKao,
+  Youtube,
+  Twitter,
+  FaceBook,
+  Github,
+  Google,
+  Reddit,
+  FaceBook2,
+  Slack,
+  LinkedIn,
+  Telegram,
+  Instagram,
+  Apple,
+} from "@/assets/svg/platform";
 
 export default function GuidePlatform() {
   return (

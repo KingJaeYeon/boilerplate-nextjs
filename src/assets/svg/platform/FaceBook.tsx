@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 
-export default function FaceBook({ className }: { className?: string }) {
+export function FaceBook({ className }: { className?: string }) {
   return (
     <svg
       className={className}
