@@ -59,13 +59,14 @@ export default function Page() {
         <GuidePlatform />
       </Section>
       <Section className={"flex flex-col gap-[10px]"}>
-        <h2 className={"heading1"}>Icon</h2>
-        <GuideIcon />
-      </Section>
-      <Section className={"flex flex-col gap-[10px]"}>
         <h2 className={"heading1"}>Icon Editor</h2>
         <GuideIconEditor />
       </Section>
+      <Section className={"flex flex-col gap-[10px]"}>
+        <h2 className={"heading1"}>Icon</h2>
+        <GuideIcon />
+      </Section>
+
       {/*<Section className={"flex flex-col gap-[10px]"}>*/}
       {/*  <h2 className={"heading1"}>Flag</h2>*/}
       {/*  <GuideFlag />*/}

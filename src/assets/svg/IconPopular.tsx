@@ -1,6 +1,6 @@
 import React from "react";
 
-export function IconPopular({ className }: { className?: string }) {
+export default function IconPopular({ className }: { className?: string }) {
   return (
     <svg
       className={className}

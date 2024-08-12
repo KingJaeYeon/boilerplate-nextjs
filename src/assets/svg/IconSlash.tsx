@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 
-export function IconSlash({ className }: { className?: string }) {
+export default function IconSlash({ className }: { className?: string }) {
   return (
     <svg
       className={cn(className, "text-icon")}

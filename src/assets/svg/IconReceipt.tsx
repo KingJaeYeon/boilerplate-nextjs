@@ -1,7 +1,7 @@
 import React from "react";
 import { cn } from "@/lib/utils";
 
-export function IconReceipt({ className }: { className?: string }) {
+export default function IconReceipt({ className }: { className?: string }) {
   return (
     <svg
       className={cn(className, "text-icon")}

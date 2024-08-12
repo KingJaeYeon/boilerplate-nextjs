@@ -1,6 +1,6 @@
 import { cn } from "@/lib/utils";
 
-export function IconShare({ className }: { className?: string }) {
+export default function IconShare({ className }: { className?: string }) {
   return (
     <svg
       className={cn(className, "text-icon")}

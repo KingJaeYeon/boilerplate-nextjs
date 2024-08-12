@@ -1,6 +1,6 @@
 import React from "react";
 
-export function IconPointer({ className }: { className?: string }) {
+export default function IconPointer({ className }: { className?: string }) {
   return (
     <svg
       className={className}
