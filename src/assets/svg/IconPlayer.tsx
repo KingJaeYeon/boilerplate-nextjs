@@ -39,3 +39,71 @@ export function IconSolidPlayer({ className }: { className?: string }) {
     </svg>
   );
 }
+
+export function IconPlayerExpand({ className }: { className?: string }) {
+  return (
+    <svg
+      className={cn(className, "text-icon")}
+      xmlns="http://www.w3.org/2000/svg"
+      width="18"
+      height="18"
+      viewBox="0 0 18 18"
+      fill="none"
+    >
+      <path
+        d="M10.5 3H15V15H3V10.5M10 10L3 3M3 3L3 8M3 3L8 3"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+export function IconPlayerForward({ className }: { className?: string }) {
+  return (
+    <svg
+      className={cn(className, "text-icon")}
+      xmlns="http://www.w3.org/2000/svg"
+      width="18"
+      height="18"
+      viewBox="0 0 18 18"
+      fill="none"
+    >
+      <path d="M11 9L2 15L2 3L11 9Z" fill="currentColor" />
+      <path d="M15 15H12L12 3L15 3L15 15Z" fill="currentColor" />
+    </svg>
+  );
+}
+
+export function IconPlayerPause({ className }: { className?: string }) {
+  return (
+    <svg
+      className={cn(className, "text-icon")}
+      xmlns="http://www.w3.org/2000/svg"
+      width="18"
+      height="18"
+      viewBox="0 0 18 18"
+      fill="none"
+    >
+      <path d="M3 2H7V16H3V2Z" fill="currentColor" />
+      <path d="M11 2H15V16H11V2Z" fill="currentColor" />
+    </svg>
+  );
+}
+
+export function IconPlayerRewind({ className }: { className?: string }) {
+  return (
+    <svg
+      className={cn(className, "text-icon")}
+      xmlns="http://www.w3.org/2000/svg"
+      width="18"
+      height="18"
+      viewBox="0 0 18 18"
+      fill="none"
+    >
+      <path d="M7 9L16 3V15L7 9Z" fill="currentColor" />
+      <path d="M3 3H6V15H3V3Z" fill="currentColor" />
+    </svg>
+  );
+}

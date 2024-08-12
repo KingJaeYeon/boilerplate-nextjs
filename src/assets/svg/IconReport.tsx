@@ -43,3 +43,33 @@ export function IconSolidReport({ className }: { className?: string }) {
     </svg>
   );
 }
+
+export function IconReport({ className }: { className?: string }) {
+  return (
+    <svg
+      className={cn(className, "text-icon")}
+      xmlns="http://www.w3.org/2000/svg"
+      width="18"
+      height="18"
+      viewBox="0 0 18 18"
+      fill="none"
+    >
+      <rect
+        x="2"
+        y="14"
+        width="14"
+        height="2"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M4 7C4 4.23858 6.23858 2 9 2C11.7614 2 14 4.23858 14 7V12H4V7Z"
+        fill="currentColor"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}

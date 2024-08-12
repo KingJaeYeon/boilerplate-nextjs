@@ -59,7 +59,7 @@ const SwitchThumb = React.forwardRef<
   <SwitchPrimitives.Thumb
     ref={ref}
     className={cn(
-      "rounded-full data-[state=checked]:bg-switch-on-thumb data-[state=unchecked]:bg-switch-off-thumb pointer-events-none block h-[20px] w-[20px] bg-background shadow-lg ring-0 transition-transform data-[state=checked]:translate-x-0.5 data-[state=unchecked]:translate-x-9",
+      "pointer-events-none block h-[20px] w-[20px] rounded-full bg-background shadow-lg ring-0 transition-transform data-[state=checked]:translate-x-0.5 data-[state=unchecked]:translate-x-9 data-[state=checked]:bg-switch-on-thumb data-[state=unchecked]:bg-switch-off-thumb",
       className,
     )}
     {...props}
@@ -77,7 +77,7 @@ const SwitchThemeThumb = React.forwardRef<
     <SwitchPrimitives.Thumb
       ref={ref}
       className={cn(
-        "rounded-full bg-switch-theme-thumb pointer-events-none flex h-[20px] w-[20px] items-center justify-center shadow-lg ring-0 transition-transform data-[state=checked]:translate-x-0.5 data-[state=unchecked]:translate-x-7",
+        "pointer-events-none flex h-[20px] w-[20px] items-center justify-center rounded-full bg-switch-theme-thumb shadow-lg ring-0 transition-transform data-[state=checked]:translate-x-0.5 data-[state=unchecked]:translate-x-7",
         className,
       )}
       {...props}
@@ -85,7 +85,7 @@ const SwitchThemeThumb = React.forwardRef<
       {theme === "dark" ? (
         <IconSun className={"h-[14px] w-[14px] text-[hsla(0_0%_36%)]"} />
       ) : (
-        <IconMoon className={"text-white"} />
+        <IconMoon className={"h-[14px] w-[14px] text-white"} />
       )}
     </SwitchPrimitives.Thumb>
   );
@@ -96,8 +96,8 @@ const SwitchLabel = ({ isChecked }: { isChecked: boolean }) => (
     className={cn(
       "body8 absolute",
       isChecked
-        ? "text-switch-on-thumb right-3"
-        : "text-switch-off-thumb left-1.5",
+        ? "right-3 text-switch-on-thumb"
+        : "left-1.5 text-switch-off-thumb",
     )}
   >
     {isChecked ? "ON" : "OFF"}
