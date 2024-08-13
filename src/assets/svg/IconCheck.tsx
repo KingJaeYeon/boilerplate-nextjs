@@ -13,6 +13,7 @@ export function IconCheck({ className }: { className?: string }) {
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
+        strokeWidth="3"
       />
     </svg>
   );

@@ -17,21 +17,24 @@ interface CheckboxType
 const Checkbox = React.forwardRef<
   React.ElementRef<typeof CheckboxPrimitive.Root>,
   CheckboxType
->(({ className, label, checked, htmlFor, ...props }, ref) => (
+>(({ className, label, checked, onCheckedChange, htmlFor, ...props }, ref) => (
   <Row className={"items-center gap-[10px]"}>
     <CheckboxPrimitive.Root
       ref={ref}
       id={htmlFor}
-      data-state={checked ? "checked" : "unchecked"}
+      data-state={checked === true ? "checked" : "unchecked"}
       checked={checked}
+      onCheckedChange={(e) =>
+        onCheckedChange && onCheckedChange(e === "indeterminate" ? true : e)
+      }
       className={cn(
-        "border-check-border data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground peer h-[24px] w-[24px] shrink-0 rounded-[5px] border ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50",
+        "data-[state=unchecked]:text-check-icon data-[state=checked]:text-check-active-icon border-check-border data-[state=checked]:bg-check-active data-[state=checked]:border-check-active-border peer h-[24px] w-[24px] shrink-0 rounded-[5px] border ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50",
         className,
       )}
       {...props}
     >
       <Row className={"items-center justify-center"}>
-        <IconCheck className="data-[state=unchecked]:text-check-active-icon data-[state=checked]:text-check-icon" />
+        <IconCheck />
       </Row>
     </CheckboxPrimitive.Root>
     {label && (

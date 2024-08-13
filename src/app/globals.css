@@ -69,9 +69,11 @@
     --input-focus-border: var(--gray-drak);
 
     --check-off-background: var(--gray-pale);
-    --check-off-other: var(--gray-normal);
+    --check-border: var(--gray-normal);
+    --check-icon: var(--gray-normal);
+    --check-active-background: var(--primary);
+    --check-active-border: var(--primary);
     --check-active-icon: var(--white);
-    --check-active-other: var(--primary);
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;

@@ -58,7 +58,7 @@
   }
 
   .body6 {
-    @apply font-pretendard text-13 font-bold leading-[120%] tracking-[0];
+    @apply font-pretendard text-13 font-normal leading-[120%] tracking-[0];
   }
 
   .body7 {
