@@ -68,12 +68,19 @@
     --input-foreground: var(--gray-drak);
     --input-focus-border: var(--gray-drak);
 
-    --check-off-background: var(--gray-pale);
+    --check-background: var(--gray-pale);
     --check-border: var(--gray-normal);
     --check-icon: var(--gray-normal);
     --check-active-background: var(--primary);
     --check-active-border: var(--primary);
     --check-active-icon: var(--white);
+
+    --radio-border: var(--gray-normal);
+    --radio-icon: var(--gray-light);
+    --radio-background: var(--gray-pale);
+    --radio-active-border: var(--primary);
+    --radio-active-icon: var(--white);
+    --radio-active-background: var(--primary);
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
@@ -143,6 +150,13 @@
     --check-active-background: var(--primary);
     --check-active-border: var(--primary);
     --check-active-icon: var(--gray-drakest);
+
+    --radio-border: var(--gray-neutral);
+    --radio-icon: var(--gray-deep);
+    --radio-background: var(--gray-drakest);
+    --radio-active-border: var(--primary);
+    --radio-active-icon: var(--gray-drakest);
+    --radio-active-background: var(--primary);
 
     --card: 222.2 84% 4.9%;
     --card-foreground: 210 40% 98%;

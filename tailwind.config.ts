@@ -87,6 +87,16 @@ const config = {
           border: "hsl(var(--check-active-border))",
         },
       },
+      radio: {
+        DEFAULT: "hsl(var(--radio-background))",
+        icon: "hsl(var(--radio-icon))",
+        border: "hsl(var(--radio-border))",
+        active: {
+          DEFAULT: "hsl(var(--radio-active-background))",
+          icon: "hsl(var(--radio-active-icon))",
+          border: "hsl(var(--radio-active-border))",
+        },
+      },
       ring: "hsl(var(--ring))",
       destructive: {
         DEFAULT: "hsl(var(--destructive))",

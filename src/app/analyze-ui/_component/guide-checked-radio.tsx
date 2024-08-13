@@ -5,7 +5,6 @@ import { useState } from "react";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
-import { CheckedState } from "@radix-ui/react-checkbox";
 
 export default function GuideCheckedRadio() {
   const [value, setValue] = useState<boolean>(false);
@@ -19,6 +18,7 @@ export default function GuideCheckedRadio() {
     <Col className={"gap-[5px]"}>
       <Row className={"items-center gap-[10px]"}>
         <Checkbox />
+        <Checkbox disabled={true} />
         <Checkbox
           label={"체크박스"}
           htmlFor={"checked"}
@@ -27,14 +27,18 @@ export default function GuideCheckedRadio() {
         />
         {value}
         <RadioGroup defaultValue="option-one">
-          <div className="flex items-center space-x-2">
-            <RadioGroupItem value="option-one" id="option-one" />
-            <Label htmlFor="option-one">Option One</Label>
-          </div>
-          <div className="flex items-center space-x-2">
-            <RadioGroupItem value="option-two" id="option-two" />
-            <Label htmlFor="option-two">Option Two</Label>
-          </div>
+          <RadioGroupItem
+            value="option-one"
+            id="option-one"
+            label={"Option One"}
+            htmlFor={"option-one"}
+          />
+          <RadioGroupItem
+            value="option-two"
+            id="option-two"
+            label={"Option Two"}
+            htmlFor={"option-two"}
+          />
         </RadioGroup>
       </Row>
     </Col>
