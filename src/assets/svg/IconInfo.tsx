@@ -28,7 +28,7 @@ export function IconMoreInfo({ className }: { className?: string }) {
       viewBox="0 0 18 18"
       fill="none"
     >
-      <g clip-path="url(#clip0_10593_155407)">
+      <g clipPath="url(#clip0_10593_155407)">
         <path
           d="M9 12.2V9M17 9C17 13.4183 13.4183 17 9 17C4.58172 17 1 13.4183 1 9C1 4.58172 4.58172 1 9 1C13.4183 1 17 4.58172 17 9ZM9.5 5.8C9.5 6.07614 9.27614 6.3 9 6.3C8.72386 6.3 8.5 6.07614 8.5 5.8C8.5 5.52386 8.72386 5.3 9 5.3C9.27614 5.3 9.5 5.52386 9.5 5.8Z"
           stroke="currentColor"

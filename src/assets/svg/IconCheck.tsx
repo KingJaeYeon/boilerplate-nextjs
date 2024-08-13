@@ -10,7 +10,7 @@ export function IconCheck({ className }: { className?: string }) {
     >
       <path
         d="M16 4L6.375 13.625L2 9.25"
-        stroke="#42E22A"
+        stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
       />

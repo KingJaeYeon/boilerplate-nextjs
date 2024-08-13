@@ -10,7 +10,7 @@ export default function IconSlash({ className }: { className?: string }) {
       viewBox="0 0 18 18"
       fill="none"
     >
-      <g clip-path="url(#clip0_10214_56214)">
+      <g clipPath="url(#clip0_10214_56214)">
         <path
           d="M3.344 3.344L14.656 14.656M17 9C17 13.4183 13.4183 17 9 17C4.58172 17 1 13.4183 1 9C1 4.58172 4.58172 1 9 1C13.4183 1 17 4.58172 17 9Z"
           stroke="currentColor"

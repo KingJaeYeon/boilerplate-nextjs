@@ -10,7 +10,7 @@ export function IconLinearSettings({ className }: { className?: string }) {
       viewBox="0 0 18 18"
       fill="none"
     >
-      <g clip-path="url(#clip0_8329_36099)">
+      <g clipPath="url(#clip0_8329_36099)">
         <path
           d="M9 11.1818C10.205 11.1818 11.1818 10.205 11.1818 9C11.1818 7.79502 10.205 6.81818 9 6.81818C7.79502 6.81818 6.81818 7.79502 6.81818 9C6.81818 10.205 7.79502 11.1818 9 11.1818Z"
           stroke="currentColor"
@@ -43,7 +43,7 @@ export function IconSolidSettings({ className }: { className?: string }) {
       viewBox="0 0 18 18"
       fill="none"
     >
-      <g clip-path="url(#clip0_10475_164394)">
+      <g clipPath="url(#clip0_10475_164394)">
         <path
           fillRule="evenodd"
           clipRule="evenodd"

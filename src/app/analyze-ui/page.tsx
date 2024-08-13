@@ -15,6 +15,7 @@ import GuideFlagRound from "@/app/analyze-ui/_component/guide-flag-round";
 import GuidePlatform from "@/app/analyze-ui/_component/guide-platform";
 import GuideIcon from "@/app/analyze-ui/_component/guide-icon";
 import GuideIconEditor from "@/app/analyze-ui/_component/guide-icon-editor";
+import GuideCheckedRadio from "@/app/analyze-ui/_component/guide-checked-radio";
 
 export default function Page() {
   return (
@@ -46,6 +47,10 @@ export default function Page() {
       <Section className={"flex flex-col gap-[10px]"}>
         <h2 className={"heading1"}>TextArea</h2>
         <GuideTextarea />
+      </Section>
+      <Section className={"flex flex-col gap-[10px]"}>
+        <h2 className={"heading1"}>Check && Radio</h2>
+        <GuideCheckedRadio />
       </Section>
       <Section className={"flex flex-col gap-[10px]"}>
         <h2 className={"heading1"}>switch</h2>

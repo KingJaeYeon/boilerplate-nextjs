@@ -77,6 +77,16 @@ const config = {
           hover: "hsl(var(--button-outline-hover-foreground))",
         },
       },
+      check: {
+        DEFAULT: "hsl(var(--check-background))",
+        icon: "hsl(var(--check-icon))",
+        border: "hsl(var(--check-border))",
+        active: {
+          DEFAULT: "hsl(var(--check-active-background))",
+          icon: "hsl(var(--check-active-icon))",
+          border: "hsl(var(--check-active-border))",
+        },
+      },
       ring: "hsl(var(--ring))",
       destructive: {
         DEFAULT: "hsl(var(--destructive))",

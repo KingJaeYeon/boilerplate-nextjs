@@ -37,7 +37,7 @@ export function IconSolidImage({ className }: { className?: string }) {
       viewBox="0 0 18 18"
       fill="none"
     >
-      <g clip-path="url(#clip0_10475_164142)">
+      <g clipPath="url(#clip0_10475_164142)">
         <path
           fillRule="evenodd"
           clipRule="evenodd"
