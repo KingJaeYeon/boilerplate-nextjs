@@ -28,7 +28,7 @@ const Checkbox = React.forwardRef<
         onCheckedChange && onCheckedChange(e === "indeterminate" ? true : e)
       }
       className={cn(
-        "data-[state=unchecked]:text-check-icon data-[state=checked]:text-check-active-icon border-check-border data-[state=checked]:bg-check-active data-[state=checked]:border-check-active-border peer h-[24px] w-[24px] shrink-0 rounded-[5px] border ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50",
+        "data-[state=unchecked]:text-check-icon data-[state=checked]:text-check-active-icon border-check-border data-[state=checked]:bg-check-active data-[state=checked]:border-check-active-border peer h-[24px] w-[24px] shrink-0 rounded-[5px] border disabled:cursor-not-allowed disabled:opacity-50",
         className,
       )}
       {...props}

@@ -39,6 +39,13 @@ export default function GuideCheckedRadio() {
             label={"Option Two"}
             htmlFor={"option-two"}
           />
+          <RadioGroupItem
+            value="option-three"
+            id="option-three"
+            label={"Option Three"}
+            htmlFor={"option-three"}
+            disabled={true}
+          />
         </RadioGroup>
       </Row>
     </Col>
