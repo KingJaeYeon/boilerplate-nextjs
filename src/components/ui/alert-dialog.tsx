@@ -5,6 +5,7 @@ import * as AlertDialogPrimitive from "@radix-ui/react-alert-dialog";
 
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "@/components/ui/button";
+import { IconClose } from "@/assets/svg";
 
 const AlertDialog = AlertDialogPrimitive.Root;
 
@@ -85,7 +86,7 @@ const AlertDialogDescription = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <AlertDialogPrimitive.Description
     ref={ref}
-    className={cn("body4 text-placeholder02 leading-5", className)}
+    className={cn("body4 text-description leading-5", className)}
     {...props}
   />
 ));
@@ -124,6 +125,16 @@ const AlertDialogCancel = React.forwardRef<
 ));
 AlertDialogCancel.displayName = AlertDialogPrimitive.Cancel.displayName;
 
+const AlertDialogClose = React.forwardRef<
+  React.ElementRef<typeof AlertDialogPrimitive.Cancel>,
+  React.ComponentPropsWithoutRef<typeof AlertDialogPrimitive.Cancel>
+>(({ className, ...props }, ref) => (
+  <AlertDialogPrimitive.Cancel ref={ref} {...props} className={cn(className)}>
+    <IconClose className={"h-[20px] w-[20px]"} />
+  </AlertDialogPrimitive.Cancel>
+));
+AlertDialogClose.displayName = AlertDialogPrimitive.Cancel.displayName;
+
 export {
   AlertDialog,
   AlertDialogPortal,
@@ -136,4 +147,5 @@ export {
   AlertDialogDescription,
   AlertDialogAction,
   AlertDialogCancel,
+  AlertDialogClose,
 };

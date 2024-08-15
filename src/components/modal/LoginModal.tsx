@@ -1,66 +1,70 @@
 "use client";
 import React from "react";
-import {
-  Dialog,
-  DialogContent,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-} from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import useUserStore from "@/store/userStore";
 import { useTranslation } from "react-i18next";
-import { useTheme } from "next-themes";
-import Image from "next/image";
 import Row from "@/components/Layout/Row";
+import { Apple, Google } from "@/assets/svg/platform";
+import Text from "@/components/Layout/Text";
+import {
+  AlertDialog,
+  AlertDialogClose,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+} from "@/components/ui/alert-dialog";
+import Col from "@/components/Layout/Col";
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 
 export default function LoginModal() {
   const { login, isAuthModal, setAuthModal, isLogin } = useUserStore();
   const { t } = useTranslation();
-  const { theme } = useTheme();
+
   if (isLogin) {
     return null;
   }
   return (
-    <Dialog open={isAuthModal !== ""} onOpenChange={setAuthModal}>
-      <DialogContent className="tb:max-w-[430px]">
-        <DialogHeader>
-          <DialogTitle>{t(isAuthModal)}</DialogTitle>
-        </DialogHeader>
-        <div className="grid gap-4 py-4">
+    <AlertDialog open={isAuthModal !== ""} onOpenChange={setAuthModal}>
+      <AlertDialogContent className="p-[20px] tb:max-w-[430px]">
+        <AlertDialogHeader>
+          <Row className={"items-center justify-between"}>
+            <AlertDialogTitle className={"m-0"}>
+              {t(isAuthModal)}
+            </AlertDialogTitle>
+            <AlertDialogClose />
+          </Row>
+          <VisuallyHidden>
+            <AlertDialogDescription>
+              {t("Please choose a login method to continue using COIN PICKLE.")}
+            </AlertDialogDescription>
+          </VisuallyHidden>
+        </AlertDialogHeader>
+        <Col className="gap-[10px]">
           <Button
-            className="text-popover-background relative h-[42px] bg-popover-foreground"
+            className="text-popover-background relative h-[42px] items-center rounded-full bg-popover-foreground"
             onClick={() => login("google")}
           >
-            <Image
-              className={"absolute left-[15px]"}
-              width={18}
-              height={18}
-              src={"/images/icon-google-dark.png"}
-              alt={"google-icon"}
-            />
-            Google 계정으로 {t(isAuthModal)}
+            <Google className={"absolute left-[15px]"} />
+            <Text className={"heading5 font-medium text-background"}>
+              Google 계정으로 {t(isAuthModal)}
+            </Text>
           </Button>
           <Button
-            className="text-popover-background relative h-[42px] bg-popover-foreground"
+            className="text-popover-background relative h-[42px] rounded-full bg-popover-foreground"
             onClick={() => login("apple")}
           >
-            <Image
-              className={"absolute left-[15px]"}
-              width={18}
-              height={18}
-              src={
-                theme === "dark"
-                  ? "/images/icon-apple-light.png"
-                  : "/images/icon-apple-dark.png"
-              }
-              alt={"apple-icon"}
+            <Apple
+              className={"absolute left-[15px] text-white dark:text-black"}
             />
-            Apple 계정으로 {t(isAuthModal)}
+            <Text className={"heading5 font-medium text-background"}>
+              Apple 계정으로 {t(isAuthModal)}
+            </Text>
           </Button>
-        </div>
-        <DialogFooter className={"body6"}>
-          <Row className={"text-placeholder w-full justify-center gap-1"}>
+        </Col>
+        <AlertDialogFooter className={"body6"}>
+          <Row className={"text-description w-full justify-center gap-1"}>
             COIN PICKLE{" "}
             <span className={"font-bold text-foreground"}>이용약관</span>과
             <span className={"font-bold text-foreground"}>
@@ -68,8 +72,8 @@ export default function LoginModal() {
             </span>
             에 자동 동의 처리됩니다.
           </Row>
-        </DialogFooter>
-      </DialogContent>
-    </Dialog>
+        </AlertDialogFooter>
+      </AlertDialogContent>
+    </AlertDialog>
   );
 }

@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 export default function Apple({ className }: { className?: string }) {
   return (
     <svg
-      className={cn(className, "text-black dark:text-white")}
+      className={cn("text-black dark:text-white", className)}
       xmlns="http://www.w3.org/2000/svg"
       width="18"
       height="18"

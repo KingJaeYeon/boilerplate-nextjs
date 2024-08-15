@@ -5,13 +5,14 @@ import Alert from "@/components/Alert";
 import { Button } from "@/components/ui/button";
 import AuthCodeModal from "@/components/modal/AuthCodeModal";
 import { useState } from "react";
+import useUserStore from "@/store/userStore";
 
 export default function GuideAlert() {
   const [timer, setTimer] = useState<number>(0);
   const [phone, setPhone] = useState<string>("");
   const [authModalOpen, setAuthModalOpen] = useState<boolean>(false);
   const [loadingAuthCode, setLoadingAuthCode] = useState<boolean>(false);
-
+  const { setAuthModal } = useUserStore();
   return (
     <Col className={"gap-[5px]"}>
       <Row className={"items-center gap-[10px]"}>
@@ -33,6 +34,14 @@ export default function GuideAlert() {
             AuthCodeModal
           </Button>
         </AuthCodeModal>
+
+        <Button
+          onClick={() => setAuthModal(true)}
+          variant={"secondary"}
+          size={"md"}
+        >
+          로그인 버튼
+        </Button>
       </Row>
     </Col>
   );
