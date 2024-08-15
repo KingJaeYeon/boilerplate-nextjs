@@ -10,12 +10,11 @@ import GuideAlert from "@/app/analyze-ui/_component/guide-alert";
 import GuideTextarea from "@/app/analyze-ui/_component/guide-textarea";
 import GuideInput from "@/app/analyze-ui/_component/guide-input";
 import GuideTypography from "@/app/analyze-ui/_component/guide-typography";
-import GuideFlag from "@/app/analyze-ui/_component/guide-flag";
-import GuideFlagRound from "@/app/analyze-ui/_component/guide-flag-round";
 import GuidePlatform from "@/app/analyze-ui/_component/guide-platform";
 import GuideIcon from "@/app/analyze-ui/_component/guide-icon";
 import GuideIconEditor from "@/app/analyze-ui/_component/guide-icon-editor";
 import GuideCheckedRadio from "@/app/analyze-ui/_component/guide-checked-radio";
+import GuideSwitch from "@/app/analyze-ui/_component/guide-switch";
 
 export default function Page() {
   return (
@@ -54,10 +53,7 @@ export default function Page() {
       </Section>
       <Section className={"flex flex-col gap-[10px]"}>
         <h2 className={"heading1"}>switch</h2>
-        <Row className={"items-center gap-[10px]"}>
-          <ThemeToggle />
-          <SwitchToggle />
-        </Row>
+        <GuideSwitch />
       </Section>
       <Section className={"flex flex-col gap-[10px]"}>
         <h2 className={"heading1"}>Platform</h2>
