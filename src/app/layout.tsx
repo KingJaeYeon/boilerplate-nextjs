@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="ko" className={"dark"}>
       <body
-        className={`${myFont.className} ${notoSansKR.className} bg-background text-foreground`}
+        className={`${myFont.variable} ${notoSansKR.className} bg-background text-foreground`}
       >
         <SystemProvider>
           <Toaster />
