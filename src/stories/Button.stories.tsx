@@ -1,9 +1,10 @@
+"use client";
 import type { Meta, StoryObj } from "@storybook/react";
 import { Button } from "@/components/ui/button";
 import Row from "@/components/Layout/Row";
 
 const meta: Meta<typeof Button> = {
-  title: "Example/Button",
+  title: "COMPONENTS/Button",
   component: Button,
   tags: ["autodocs"],
   argTypes: {

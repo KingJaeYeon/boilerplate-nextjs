@@ -15,7 +15,6 @@ const preview: Preview = {
   parameters: {
     controls: {
       matchers: {
-        color: /(background|color)$/i,
         date: /Date$/i,
       },
     },
@@ -42,6 +41,12 @@ const preview: Preview = {
       defaultTheme: "dark",
     }),
   ],
+  globalTypes: {
+    theme: {
+      name: "Theme",
+      description: "Global theme for components",
+    },
+  },
 };
 
 export default preview;
