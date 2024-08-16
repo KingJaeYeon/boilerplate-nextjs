@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import { Button } from "@/components/ui/button";
+import Row from "@/components/Layout/Row";
 
 const meta: Meta<typeof Button> = {
   title: "Example/Button",
@@ -42,6 +43,19 @@ export const Primary: Story = {
     children: "Primary",
   },
 };
+export const TEST = () => (
+  <Row className={"bg-background px-[24px] py-[48px]"}>
+    <Button size={"md"} variant={"secondary"}>
+      Test
+    </Button>
+    <Button size={"md"} variant={"secondary"}>
+      Test
+    </Button>
+    <Button size={"md"} variant={"secondary"}>
+      Test
+    </Button>
+  </Row>
+);
 
 export const Secondary: Story = {
   argTypes: {
