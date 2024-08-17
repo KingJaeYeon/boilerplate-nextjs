@@ -248,6 +248,16 @@ textarea::-webkit-scrollbar-track {
   -ms-overflow-style: none;
 }
 
+.ellipsisLine1 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-break: break-word;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
 .ellipsisLine2 {
   text-overflow: ellipsis;
   overflow: hidden;
@@ -266,4 +276,28 @@ textarea::-webkit-scrollbar-track {
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
+}
+
+.absolute-important {
+  position: absolute !important;
+}
+
+.lightSideBarBorder {
+  border-image-source: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #e0e0e7 50%,
+    #ffffff 100%
+  );
+  border-image-slice: 1; /* 필요에 따라 설정 */
+}
+
+.darkSideBarBorder {
+  border-image-source: linear-gradient(
+    180deg,
+    #000000 0%,
+    #707076 50%,
+    #000000 100%
+  );
+  border-image-slice: 1; /* 필요에 따라 설정 */
 }

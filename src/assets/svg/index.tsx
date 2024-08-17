@@ -99,6 +99,9 @@ import IconSwap from "@/assets/svg/IconSwap";
 import { IconThumbDown, IconThumbUp } from "@/assets/svg/IconThumb";
 import IconTrash from "@/assets/svg/IconTrash";
 import IconWallet from "@/assets/svg/IconWallet";
+import { Loading1, Loading2, CardLoading } from "@/assets/svg/LoadingSVG";
+
+export { Loading1, Loading2, CardLoading };
 
 export {
   IconWallet,
