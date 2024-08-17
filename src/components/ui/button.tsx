@@ -7,7 +7,7 @@ import { Loading2 } from "@/assets/svg";
 import Row from "@/components/Layout/Row";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-20",
+  "gap-[6px] inline-flex items-center justify-center whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-20",
   {
     variants: {
       variant: {
@@ -43,6 +43,8 @@ export interface ButtonProps
     VariantProps<typeof buttonVariants> {
   asChild?: boolean;
   loading?: boolean;
+  leftIcon?: React.ReactNode;
+  rightIcon?: React.ReactNode;
 }
 
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
@@ -53,6 +55,8 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
       disabled,
       children,
       variant,
+      rightIcon,
+      leftIcon,
       size,
       asChild = false,
       ...props
@@ -67,13 +71,10 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         disabled={disabled || loading}
         {...props}
       >
-        {loading ? (
-          <Row className={"items-center gap-[6px]"}>
-            <Loading2 /> {children}
-          </Row>
-        ) : (
-          children
-        )}
+        {leftIcon && leftIcon}
+        {loading && <Loading2 />}
+        {children}
+        {rightIcon && rightIcon}
       </Comp>
     );
   },

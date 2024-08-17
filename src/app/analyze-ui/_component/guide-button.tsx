@@ -3,6 +3,7 @@ import Row from "@/components/Layout/Row";
 import { Button } from "@/components/ui/button";
 import Col from "@/components/Layout/Col";
 import { useToast } from "@/components/Toast/useToast";
+import { IconClose, IconLeft, IconMoving } from "@/assets/svg";
 
 export default function GuideButton() {
   const { error, info, success, action } = useToast();
@@ -61,6 +62,14 @@ export default function GuideButton() {
           Large Button
         </Button>
         <Button size={"lg"} variant={"primary"} loading>
+          Large Button
+        </Button>
+        <Button
+          size={"lg"}
+          variant={"primary"}
+          leftIcon={<IconMoving />}
+          rightIcon={<IconClose />}
+        >
           Large Button
         </Button>
       </Row>
