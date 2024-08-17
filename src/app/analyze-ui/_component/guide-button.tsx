@@ -57,7 +57,10 @@ export default function GuideButton() {
         <Button size={"lg"} variant={"primary"}>
           Large Button
         </Button>
-        <Button size={"lg"} variant={"primary"} disabled={true}>
+        <Button size={"lg"} variant={"primary"} disabled>
+          Large Button
+        </Button>
+        <Button size={"lg"} variant={"primary"} loading>
           Large Button
         </Button>
       </Row>
@@ -71,7 +74,10 @@ export default function GuideButton() {
         <Button size={"lg"} variant={"secondary"}>
           Large Button
         </Button>
-        <Button size={"lg"} variant={"secondary"} disabled={true}>
+        <Button size={"lg"} variant={"secondary"} disabled>
+          Large Button
+        </Button>
+        <Button size={"lg"} variant={"secondary"} loading>
           Large Button
         </Button>
       </Row>
@@ -85,7 +91,10 @@ export default function GuideButton() {
         <Button size={"lg"} variant={"outline"}>
           Large Button
         </Button>
-        <Button size={"lg"} variant={"outline"} disabled={true}>
+        <Button size={"lg"} variant={"outline"} disabled>
+          Large Button
+        </Button>
+        <Button size={"lg"} variant={"outline"} loading>
           Large Button
         </Button>
       </Row>
@@ -99,7 +108,10 @@ export default function GuideButton() {
         <Button size={"lg"} variant={"ghost"}>
           Large Button
         </Button>
-        <Button size={"lg"} variant={"ghost"} disabled={true}>
+        <Button size={"lg"} variant={"ghost"} disabled>
+          Large Button
+        </Button>
+        <Button size={"lg"} variant={"ghost"} loading>
           Large Button
         </Button>
       </Row>

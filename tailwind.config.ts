@@ -154,10 +154,38 @@ const config = {
         from: { height: "var(--radix-accordion-content-height)" },
         to: { height: "0" },
       },
+      spinner: {
+        "0%": { transform: "rotate(0deg)" },
+        "100%": { transform: "rotate(360deg)" },
+      },
+      loader: {
+        "0%": {
+          opacity: "0.3",
+          transform: "translateY(0px)",
+        },
+        "20%": {
+          opacity: "1",
+          transform: "translateY(-3px)",
+        },
+        "40%": {
+          opacity: "0.3",
+          transform: "translateY(0px)",
+        },
+        "100%": {
+          opacity: "0.3",
+          transform: "translateY(0px)",
+        },
+      },
+    },
+    transitionDelay: {
+      "100": "100ms",
+      "200": "200ms",
     },
     animation: {
       "accordion-down": "accordion-down 0.2s ease-out",
       "accordion-up": "accordion-up 0.2s ease-out",
+      spinner: "spinner 0.75s linear infinite",
+      loader: "loader 1.25s ease-in-out infinite",
     },
   },
   plugins: [require("tailwindcss-animate")],

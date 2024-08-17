@@ -96,7 +96,11 @@ import {
   IconError,
   IconLinearDashBoard,
   IconConfirm,
+  Loading1,
+  Loading2,
+  CardLoading,
 } from "@/assets/svg";
+
 export default function GuideIcon() {
   return (
     <Col className={"gap-[5px]"}>
@@ -195,6 +199,9 @@ export default function GuideIcon() {
         <IconArrowUp />
         <IconArrowDown />
         <IconWallet />
+        <Loading1 />
+        <Loading2 />
+        <CardLoading />
       </Row>
     </Col>
   );
