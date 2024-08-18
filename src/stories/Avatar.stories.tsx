@@ -8,6 +8,15 @@ const meta: Meta<typeof UserAvatar> = {
   title: "COMPONENTS/Avatar",
   tags: ["autodocs"],
   component: UserAvatar,
+  decorators: [
+    (Story) => (
+      <Row
+        className={"items-center gap-[6px] bg-background px-[24px] py-[48px]"}
+      >
+        <Story />
+      </Row>
+    ),
+  ],
   argTypes: {
     src: { control: { type: "text" } },
     fallback: { control: { type: "text" } },
@@ -25,11 +34,12 @@ export const Default: Story = {
   args: {
     src: "https://github.com/shadcn.png",
     fallback: "CN",
+    className: "",
   },
 };
 
 export const ImageFail = () => (
-  <Row className={"items-center gap-[6px] bg-background px-[24px] py-[48px]"}>
+  <>
     <Avatar>
       <AvatarImage src="https://github.com/shadcn.png" />
       <AvatarFallback>CN</AvatarFallback>
@@ -47,5 +57,5 @@ export const ImageFail = () => (
       <AvatarImage src="" />
       <AvatarFallback>C</AvatarFallback>
     </Avatar>
-  </Row>
+  </>
 );

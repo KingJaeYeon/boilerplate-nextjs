@@ -13,7 +13,7 @@ interface UserAvatarProps {
 export default function UserAvatar({
   src,
   fallback,
-  className = "",
+  className,
 }: UserAvatarProps) {
   return (
     <Avatar className={cn(className)}>

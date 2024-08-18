@@ -51,7 +51,7 @@ export interface ButtonProps
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   (
     {
-      className = "",
+      className,
       loading = false,
       disabled = false,
       children,

@@ -17,9 +17,9 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
       className, //
       type,
       icon = "none",
-      iconOnClick = () => {},
-      maxLength,
-      disabled,
+      iconOnClick,
+      maxLength = 30,
+      disabled = false,
       value,
       errorMessage,
       ...props
@@ -75,7 +75,7 @@ function InputIcon({
   value,
 }: {
   icon: "none" | "search" | "delete" | "length";
-  iconOnClick: () => void;
+  iconOnClick?: () => void;
   maxLength?: number;
   disabled?: boolean;
   value?: any;

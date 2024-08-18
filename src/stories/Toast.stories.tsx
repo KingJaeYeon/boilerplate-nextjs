@@ -8,6 +8,15 @@ import React from "react";
 const meta: Meta = {
   title: "COMPONENTS/Toast",
   tags: ["autodocs"],
+  decorators: [
+    (Story) => (
+      <Row
+        className={"items-center gap-[6px] bg-background px-[24px] py-[48px]"}
+      >
+        <Story />
+      </Row>
+    ),
+  ],
   component: ToastStory,
 };
 
@@ -18,25 +27,21 @@ export const Default = () => {
   return (
     <>
       <Toaster />
-      <Row
-        className={"items-center gap-[6px] bg-background px-[24px] py-[48px]"}
+      <Button variant={"primary"} onClick={() => error("error")}>
+        Error
+      </Button>
+      <Button variant={"primary"} onClick={() => info("info")}>
+        Info
+      </Button>
+      <Button variant={"primary"} onClick={() => success("success")}>
+        Success
+      </Button>
+      <Button
+        variant={"primary"}
+        onClick={() => action("action", () => alert("action"))}
       >
-        <Button variant={"primary"} onClick={() => error("error")}>
-          Error
-        </Button>
-        <Button variant={"primary"} onClick={() => info("info")}>
-          Info
-        </Button>
-        <Button variant={"primary"} onClick={() => success("success")}>
-          Success
-        </Button>
-        <Button
-          variant={"primary"}
-          onClick={() => action("action", () => alert("action"))}
-        >
-          Action
-        </Button>
-      </Row>
+        Action
+      </Button>
     </>
   );
 };

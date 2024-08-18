@@ -8,32 +8,45 @@ const meta: Meta<typeof Button> = {
   title: "COMPONENTS/Button",
   component: Button,
   tags: ["autodocs"],
+  decorators: [
+    (Story) => (
+      <Row
+        className={"items-center gap-[6px] bg-background px-[24px] py-[48px]"}
+      >
+        <Story />
+      </Row>
+    ),
+  ],
   argTypes: {
     size: {
-      control: { type: "select" },
+      control: "select",
+      description: "Button Size",
       options: ["default", "sm", "md", "lg"],
       table: {
         type: {
           summary: "default | sm | md | lg",
         },
+        defaultValue: {
+          summary: "md",
+        },
       },
-      description: "Button Size",
     },
-    children: { control: { type: "text" } },
+    children: { control: "text" },
     variant: {
-      control: {
-        type: "select",
-      },
+      control: "select",
+      description: "Button Variant",
       options: ["default", "primary", "secondary", "outline", "ghost"],
       table: {
         type: {
           summary: "default | primary  | secondary | outline | ghost",
         },
+        defaultValue: {
+          summary: "secondary",
+        },
       },
-      description: "Button Variant",
     },
     disabled: {
-      control: { type: "boolean" },
+      control: "boolean",
       table: {
         type: {
           summary: "boolean",
@@ -41,7 +54,7 @@ const meta: Meta<typeof Button> = {
       },
     },
     asChild: {
-      control: { type: "boolean" },
+      control: "boolean",
       table: {
         type: {
           summary: "boolean",
@@ -49,13 +62,13 @@ const meta: Meta<typeof Button> = {
       },
     },
     className: {
-      control: { type: "text" },
+      control: "text",
+      description: "Tailwind CSS class",
       table: {
         type: {
           summary: "string",
         },
       },
-      description: "Tailwind CSS class",
     },
     loading: {
       control: { type: "boolean" },
@@ -81,14 +94,10 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {
-  args: {
-    children: "Button",
-  },
-};
+export const Default: Story = {};
 
 export const Primary = () => (
-  <Row className={"items-center gap-[6px] bg-background px-[24px] py-[48px]"}>
+  <>
     <Button size={"sm"} variant={"primary"}>
       Button S
     </Button>
@@ -109,11 +118,11 @@ export const Primary = () => (
     >
       Icon
     </Button>
-  </Row>
+  </>
 );
 
 export const Secondary = () => (
-  <Row className={"items-center gap-[6px] bg-background px-[24px] py-[48px]"}>
+  <>
     <Button size={"sm"}>Button S</Button>
     <Button>Button M</Button>
     <Button size={"lg"}>Button L</Button>
@@ -122,11 +131,11 @@ export const Secondary = () => (
     <Button leftIcon={<IconMoving />} rightIcon={<IconDelete />}>
       Icon
     </Button>
-  </Row>
+  </>
 );
 
 export const OutLine = () => (
-  <Row className={"items-center gap-[6px] bg-background px-[24px] py-[48px]"}>
+  <>
     <Button size={"sm"} variant={"outline"}>
       Button S
     </Button>
@@ -147,11 +156,11 @@ export const OutLine = () => (
     >
       Icon
     </Button>
-  </Row>
+  </>
 );
 
 export const Ghost = () => (
-  <Row className={"items-center gap-[6px] bg-background px-[24px] py-[48px]"}>
+  <>
     <Button size={"sm"} variant={"ghost"}>
       Button S
     </Button>
@@ -172,13 +181,13 @@ export const Ghost = () => (
     >
       Icon
     </Button>
-  </Row>
+  </>
 );
 
 export const NoCss = () => (
-  <Row className={"items-center gap-[6px] bg-background px-[24px] py-[48px]"}>
+  <>
     <Button size={"default"} variant={"default"}>
       Button S
     </Button>
-  </Row>
+  </>
 );
