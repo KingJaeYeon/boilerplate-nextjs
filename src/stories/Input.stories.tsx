@@ -1,10 +1,7 @@
 "use client";
 import type { Meta, StoryObj } from "@storybook/react";
-import { Button } from "@/components/ui/button";
 import Row from "@/components/Layout/Row";
-import { IconDelete, IconMoving } from "@/assets/svg";
 import { Input } from "@/components/ui/input";
-import Col from "@/components/Layout/Col";
 import { useState } from "react";
 
 const meta: Meta<typeof Input> = {
@@ -215,7 +212,6 @@ export const ErrorMessage = () => {
   const [input4, setInput4] = useState<string>("테스트");
   return (
     <Row className={"max-w-[400px] flex-wrap gap-[10px]"}>
-      {" "}
       <Input
         placeholder={"Placeholder"}
         className={"max-w-[328px]"}

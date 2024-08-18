@@ -13,10 +13,10 @@ const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(
     {
       className, //
       errorMessage,
-      disabled,
+      disabled = false,
       value,
-      maxLength,
-      readOnly,
+      maxLength = 250,
+      readOnly = false,
       ...props
     },
     ref,
@@ -31,7 +31,7 @@ const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(
       >
         <textarea
           className={cn(
-            "focus:border-input-focus-border hover:border-input-focus-border placeholder:text-input-placeholder body4 placeholder:body4 border-input-border disabled:border-input-disabled-border disabled:text-input-disabled-foreground flex min-h-[140px] w-full max-w-full resize-none rounded-[10px] border bg-input px-[20px] py-[15px] focus-visible:outline-none disabled:pointer-events-none disabled:placeholder:opacity-20",
+            "body4 placeholder:body4 flex min-h-[140px] w-full max-w-full resize-none rounded-[10px] border border-input-border bg-input px-[20px] py-[15px] placeholder:text-input-placeholder hover:border-input-focus-border focus:border-input-focus-border focus-visible:outline-none disabled:pointer-events-none disabled:border-input-disabled-border disabled:text-input-disabled-foreground disabled:placeholder:opacity-20",
             errorMessage && "border-red hover:border-red focus:border-red",
             !!maxLength ? "pr-[80px]" : "",
           )}
@@ -42,7 +42,7 @@ const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(
           readOnly={readOnly}
           {...props}
         />
-        {!readOnly && maxLength && (
+        {!readOnly && !!maxLength && (
           <div
             className={cn(
               "absolute bottom-[15px] right-[20px]",
@@ -57,7 +57,7 @@ const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(
           </div>
         )}
         {errorMessage && (
-          <Text className={"text-red body7 pl-[20px] pt-[5px]"}>
+          <Text className={"body7 pl-[20px] pt-[5px] text-red"}>
             {errorMessage}
           </Text>
         )}
