@@ -12,22 +12,63 @@ const meta: Meta<typeof Button> = {
     size: {
       control: { type: "select" },
       options: ["default", "sm", "md", "lg"],
+      table: {
+        type: {
+          summary: "default | sm | md | lg",
+        },
+      },
+      description: "Button Size",
     },
     children: { control: { type: "text" } },
     variant: {
-      control: { type: "select" },
+      control: {
+        type: "select",
+      },
       options: ["default", "primary", "secondary", "outline", "ghost"],
+      table: {
+        type: {
+          summary: "default | primary  | secondary | outline | ghost",
+        },
+      },
+      description: "Button Variant",
     },
     disabled: {
       control: { type: "boolean" },
+      table: {
+        type: {
+          summary: "boolean",
+        },
+      },
     },
-    asChild: { control: { type: "boolean" } },
-    className: { control: { type: "text" } },
-    loading: { control: { type: "boolean" } },
+    asChild: {
+      control: { type: "boolean" },
+      table: {
+        type: {
+          summary: "boolean",
+        },
+      },
+    },
+    className: {
+      control: { type: "text" },
+      table: {
+        type: {
+          summary: "string",
+        },
+      },
+      description: "Tailwind CSS class",
+    },
+    loading: {
+      control: { type: "boolean" },
+      table: {
+        type: {
+          summary: "boolean",
+        },
+      },
+    },
   },
   args: {
     children: "Button",
-    variant: "primary",
+    variant: "secondary",
     size: "md",
     disabled: false,
     loading: false,
@@ -42,8 +83,6 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
   args: {
-    variant: "primary",
-    size: "md",
     children: "Button",
   },
 };

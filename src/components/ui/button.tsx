@@ -45,6 +45,7 @@ export interface ButtonProps
   loading?: boolean;
   leftIcon?: React.ReactNode;
   rightIcon?: React.ReactNode;
+  variant?: "primary" | "secondary" | "outline" | "ghost" | "default";
 }
 
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(

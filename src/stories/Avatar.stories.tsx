@@ -1,5 +1,4 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Button } from "@/components/ui/button";
 import React from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import Row from "@/components/Layout/Row";
@@ -35,10 +34,18 @@ export const ImageFail = () => (
       <AvatarImage src="https://github.com/shadcn.png" />
       <AvatarFallback>CN</AvatarFallback>
     </Avatar>
-
     <Avatar>
       <AvatarImage src="" />
       <AvatarFallback>CN</AvatarFallback>
+    </Avatar>
+
+    <Avatar className={"h-[30px] w-[30px]"}>
+      <AvatarImage src="https://github.com/shadcn.png" />
+      <AvatarFallback>C</AvatarFallback>
+    </Avatar>
+    <Avatar className={"h-[30px] w-[30px]"}>
+      <AvatarImage src="" />
+      <AvatarFallback>C</AvatarFallback>
     </Avatar>
   </Row>
 );
