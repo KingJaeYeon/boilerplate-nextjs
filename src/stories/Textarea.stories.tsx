@@ -80,7 +80,7 @@ const meta: Meta<typeof Textarea> = {
       action: "onChange",
       table: {
         type: {
-          summary: "function",
+          summary: "(e:ChangeEvent<HTMLTextAreaElement>)=>void",
         },
       },
     },

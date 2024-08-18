@@ -25,7 +25,7 @@ export default function GuideCheckedRadio() {
     <Col className={"gap-[5px]"}>
       <Row className={"items-center gap-[10px]"}>
         <Checkbox />
-        <Checkbox disabled={true} />
+        <Checkbox disabled />
         <Checkbox
           label={"체크박스1"}
           htmlFor={"checked1"}
@@ -63,7 +63,7 @@ export default function GuideCheckedRadio() {
             id="option-three"
             label={"Option Three"}
             htmlFor={"option-three"}
-            disabled={true}
+            disabled
           />
         </RadioGroup>
       </Row>

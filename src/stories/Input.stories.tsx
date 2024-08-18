@@ -92,7 +92,7 @@ const meta: Meta<typeof Input> = {
       action: "iconOnClick",
       table: {
         type: {
-          summary: "function",
+          summary: "()=>void",
         },
       },
     },
@@ -100,7 +100,7 @@ const meta: Meta<typeof Input> = {
       action: "onChange",
       table: {
         type: {
-          summary: "function",
+          summary: "(e: ChangeEventHandler<T> | undefined)=>void",
         },
       },
     },

@@ -21,7 +21,7 @@ function ActionToast({ className, msg, onClick, t }: Props) {
     >
       {msg}
       <div
-        className={"absolute right-[15px] top-[9px]"}
+        className={"absolute right-[15px]"}
         onClick={(event) => {
           event.stopPropagation();
           toast.dismiss(t);

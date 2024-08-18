@@ -78,6 +78,13 @@ const meta: Meta<typeof Button> = {
         },
       },
     },
+    onClick: {
+      table: {
+        type: {
+          summary: "()=>void",
+        },
+      },
+    },
   },
   args: {
     children: "Button",
