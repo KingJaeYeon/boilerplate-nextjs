@@ -1,22 +1,55 @@
-import type { Meta, StoryObj } from "@storybook/react";
+"use client";
+import type { StoryObj } from "@storybook/react";
 import React, { useState } from "react";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import Row from "@/components/Layout/Row";
+
 import { Checkbox } from "@/components/ui/checkbox";
 import Col from "@/components/Layout/Col";
+import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 
-const meta: Meta<typeof Checkbox> = {
-  title: "COMPONENTS/Checkbox",
+const meta = {
+  title: "COMPONENTS/RadioGroup",
   tags: ["autodocs"],
-  component: Checkbox,
   decorators: [
-    (Story) => (
+    (Story: any) => (
       <Col className={"gap-[6px] bg-background px-[24px] py-[48px]"}>
         <Story />
       </Col>
     ),
   ],
+  render: (args: any) => {
+    return (
+      <RadioGroup defaultValue={args.defaultValue}>
+        <RadioGroupItem
+          value="option-one"
+          id="option-one"
+          label={"Option One"}
+          htmlFor={"option-one"}
+        />
+        <RadioGroupItem
+          value="option-two"
+          id="option-two"
+          label={"Option Two"}
+          htmlFor={"option-two"}
+        />
+        <RadioGroupItem
+          value="option-three"
+          id="option-three"
+          label={"Option Three"}
+          htmlFor={"option-three"}
+          disabled
+        />
+      </RadioGroup>
+    );
+  },
   argTypes: {
+    defaultValue: {
+      control: "text",
+      table: {
+        type: {
+          summary: "string",
+        },
+      },
+    },
     label: {
       control: "text",
       table: {
@@ -59,13 +92,13 @@ const meta: Meta<typeof Checkbox> = {
     },
   },
   args: {
+    defaultValue: "option-one",
     label: "체크박스",
     htmlFor: "checked",
     checked: false,
     disabled: false,
   },
 };
-
 export default meta;
 type Story = StoryObj<typeof meta>;
 

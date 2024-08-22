@@ -1,7 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import React, { useState } from "react";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import Row from "@/components/Layout/Row";
 import { Checkbox } from "@/components/ui/checkbox";
 import Col from "@/components/Layout/Col";
 
