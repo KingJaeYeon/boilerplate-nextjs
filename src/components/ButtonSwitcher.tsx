@@ -2,18 +2,25 @@ import React, { useEffect, useRef, useState } from "react";
 import Row from "@/components/Layout/Row";
 import { cn } from "@/lib/utils";
 import { useSpring, animated } from "@react-spring/web";
-import Text from "@/components/Layout/Text";
 
 type Props = {
   state: string;
   setState: (state: string) => void;
+  className?: string;
+  wrapperClassName?: string;
   list: {
     label: any;
     value: string;
   }[];
 };
 
-export default function ButtonSwitcher({ state, setState, list }: Props) {
+export default function ButtonSwitcher({
+  state,
+  setState,
+  className,
+  list,
+  wrapperClassName,
+}: Props) {
   const itemRefs = useRef<any>([]);
   const [sliderStyle, setSliderStyle] = useState({ width: "0px", left: "0px" });
 
@@ -38,29 +45,27 @@ export default function ButtonSwitcher({ state, setState, list }: Props) {
   }, [state, list]);
 
   return (
-    <Row
-      className={"relative h-[32px] rounded-full bg-button-secondary p-[3px]"}
-    >
+    <Row className={cn("relative rounded-full bg-button-secondary p-[3px]")}>
       <animated.div
-        className={
-          "z-2 absolute left-[3px] top-[3px] h-[26px] rounded-full bg-card"
-        }
+        className={cn(
+          "z-2 absolute left-[3px] top-[50%] h-[26px] translate-y-[-50%] rounded-full bg-card",
+          wrapperClassName,
+        )}
         style={animatedStyle}
       />
-      {list?.map((item, index) => {
+      {list.map((item, index) => {
         return (
           <Row
             ref={(el: any) => (itemRefs.current[index] = el)}
             className={cn(
-              `z-0 h-full cursor-pointer select-none items-center justify-center whitespace-nowrap rounded-full px-3`,
-              state === item.value
-                ? "text-button-secondary-hover-foreground"
-                : "text-button-secondary-foreground",
+              `heading7 z-0 cursor-pointer select-none items-center justify-center whitespace-nowrap rounded-full px-3`,
+              state === item.value ? "" : "text-placeholder02",
+              className,
             )}
             key={`group-${item.value}`}
             onClick={() => setState(item.value)}
           >
-            <Text className={"heading7"}>{item.label}</Text>
+            {item.label}
           </Row>
         );
       })}
