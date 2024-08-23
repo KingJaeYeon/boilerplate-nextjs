@@ -15,7 +15,6 @@ import GuideIcon from "@/app/analyze-ui/_component/guide-icon";
 import GuideIconEditor from "@/app/analyze-ui/_component/guide-icon-editor";
 import GuideCheckedRadio from "@/app/analyze-ui/_component/guide-checked-radio";
 import GuideSwitch from "@/app/analyze-ui/_component/guide-switch";
-import GuideSelect from "@/app/analyze-ui/_component/guide-select";
 
 export default function Page() {
   return (
@@ -27,10 +26,6 @@ export default function Page() {
       <Section className={"flex flex-col gap-[10px]"}>
         <h2 className={"heading1"}>버튼, Toast Message</h2>
         <GuideButton />
-      </Section>
-      <Section className={"flex flex-col gap-[10px]"}>
-        <h2 className={"heading1"}>Selector</h2>
-        <GuideSelect />
       </Section>
       <Section className={"flex flex-col gap-[10px]"}>
         <h2 className={"heading1"}>Avatar</h2>
