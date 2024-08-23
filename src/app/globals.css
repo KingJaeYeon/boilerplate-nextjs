@@ -81,6 +81,11 @@
     --radio-active-icon: var(--white);
     --radio-active-background: var(--primary);
 
+    --tip-box-shadow: 0px 7px 10px 0px var(--black) / 0.15;
+    --tip-forground: var(--gray-deep);
+    --tip-background: var(--white);
+    --tip-border: var(--black) / 0.15;
+
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
     --muted: 210 40% 96.1%;
@@ -157,6 +162,11 @@
     --radio-active-border: var(--primary);
     --radio-active-icon: var(--gray-drakest);
     --radio-active-background: var(--primary);
+
+    --tip-box-shadow: 0px 7px 10px 0px var(--black) / 0.7;
+    --tip-forground: var(--gray-pale);
+    --tip-background: var(--black);
+    --tip-border: var(--white) / 0.25;
 
     --card: 222.2 84% 4.9%;
     --card-foreground: 210 40% 98%;

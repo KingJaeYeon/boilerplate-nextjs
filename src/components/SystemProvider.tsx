@@ -2,6 +2,7 @@
 import React from "react";
 import LocaleProvider from "@/components/LocaleProvider";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import { TooltipProvider } from "@/components/ui/tooltip";
 
 export default function SystemProvider({
   children,
@@ -16,7 +17,7 @@ export default function SystemProvider({
         enableSystem
         disableTransitionOnChange
       >
-        {children}
+        <TooltipProvider delayDuration={0}>{children}</TooltipProvider>
       </ThemeProvider>
     </LocaleProvider>
   );

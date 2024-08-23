@@ -99,6 +99,12 @@ const config = {
           border: "hsl(var(--radio-active-border))",
         },
       },
+      tip: {
+        DEFAULT: "hsl(var(--tip-background))",
+        foreground: "hsl(var(--tip-foreground))",
+        border: "hsl(var(--tip-border))",
+      },
+
       ring: "hsl(var(--ring))",
       destructive: {
         DEFAULT: "hsl(var(--destructive))",
@@ -181,6 +187,9 @@ const config = {
     transitionDelay: {
       "100": "100ms",
       "200": "200ms",
+    },
+    boxShadow: {
+      tip: "var(--tip-box-shadow)",
     },
     animation: {
       "accordion-down": "accordion-down 0.2s ease-out",
