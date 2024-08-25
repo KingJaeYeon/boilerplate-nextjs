@@ -6,14 +6,20 @@ const config = {
   content: [
     "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
+    "./storybook/*.{ts,tsx}",
   ],
   prefix: "",
   theme: {
     screens: {
       tb: "1024px",
       dt: "1350px",
+    },
+    fontFamily: {
+      pretendard: ["var(--font-pretendard)", "sans-serif"],
+      notoSansKr: ["var(--font-noto-sans-kr)", "sans-serif"],
     },
     colors: {
       white: "hsl(var(--white))",
@@ -133,10 +139,6 @@ const config = {
       md: "calc(var(--radius) - 2px)",
       sm: "calc(var(--radius) - 4px)",
       full: "9999px",
-    },
-    fontFamily: {
-      pretendard: ["var(--font-pretendard)", "sans-serif"],
-      notoSansKr: ["var(--font-noto-sans-kr)", "sans-serif"],
     },
 
     fontSize: {

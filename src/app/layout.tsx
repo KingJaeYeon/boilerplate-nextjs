@@ -1,25 +1,11 @@
 import type { Metadata } from "next";
 import React from "react";
-import localFont from "next/font/local";
 import "./globals.css";
 import SystemProvider from "@/components/SystemProvider";
 import QueryProvider from "@/components/QueryProvider";
 import { Toaster } from "@/components/ui/sonner";
 import LoginModal from "@/components/modal/LoginModal";
-import { Noto_Sans_KR } from "next/font/google";
-
-const myFont = localFont({
-  src: "./PretendardVariable.woff2",
-  display: "swap",
-  variable: "--font-pretendard",
-});
-
-const notoSansKR = Noto_Sans_KR({
-  weight: ["400", "700"],
-  style: ["normal"],
-  subsets: ["latin"],
-  display: "swap",
-});
+import { notoSansKR, pretendard } from "@/app/fonts";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -34,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="ko" className={"dark"}>
       <body
-        className={`${myFont.variable} ${notoSansKR.className} bg-background text-foreground`}
+        className={`${pretendard.variable} ${notoSansKR.className} bg-background text-foreground`}
       >
         <SystemProvider>
           <Toaster />

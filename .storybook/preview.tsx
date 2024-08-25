@@ -1,15 +1,12 @@
+"use client";
 import type { Preview } from "@storybook/react";
 import "@/app/globals.css";
-import {
-  Title,
-  Subtitle,
-  Description,
-  Primary,
-  Controls,
-  Stories,
-} from "@storybook/blocks";
-
+import { notoSansKR, pretendard } from "../src/app/fonts";
 import { withThemeByClassName } from "@storybook/addon-themes";
+import "../src/app/globals.css";
+import { clsx } from "clsx";
+import QueryProvider from "../src/components/QueryProvider";
+import { TooltipProvider } from "../src/components/ui/tooltip";
 
 const preview: Preview = {
   parameters: {
@@ -18,20 +15,21 @@ const preview: Preview = {
         date: /Date$/i,
       },
     },
-    docs: {
-      page: () => (
-        <>
-          <Title />
-          <Subtitle />
-          <Description />
-          <Primary />
-          <Controls />
-          <Stories />
-        </>
-      ),
-    },
   },
   decorators: [
+    (Story) => (
+      <div
+        className={clsx(
+          `${pretendard.variable} ${notoSansKR.className} bg-background font-pretendard text-foreground`,
+        )}
+      >
+        <QueryProvider>
+          <TooltipProvider delayDuration={0}>
+            <Story />
+          </TooltipProvider>
+        </QueryProvider>
+      </div>
+    ),
     withThemeByClassName({
       themes: {
         // nameOfTheme: 'classNameForTheme',

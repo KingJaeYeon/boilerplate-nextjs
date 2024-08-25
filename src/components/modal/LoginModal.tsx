@@ -64,8 +64,8 @@ export default function LoginModal() {
           </Button>
         </Col>
         <AlertDialogFooter className={"body6"}>
-          <Row className={"text-description w-full justify-center gap-1"}>
-            COIN PICKLE{" "}
+          <Row className={"w-full justify-center gap-1 text-description"}>
+            COIN PICKLE
             <span className={"font-bold text-foreground"}>이용약관</span>과
             <span className={"font-bold text-foreground"}>
               개인정보보호정책

@@ -16,7 +16,11 @@ export default function GuideAlert() {
   return (
     <Col className={"gap-[5px]"}>
       <Row className={"items-center gap-[10px]"}>
-        <Alert>
+        <Alert
+          title={"차단하시겠습니까?"}
+          description={"@wodus331"}
+          confirmHandler={() => console.log("click")}
+        >
           <Button size={"md"} variant={"secondary"}>
             Alert
           </Button>

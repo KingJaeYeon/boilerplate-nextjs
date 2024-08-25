@@ -10,20 +10,50 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
-import { ReactNode } from "react";
+import { ReactNode, useState } from "react";
 
-export default function Alert({ children }: { children: ReactNode }) {
+export default function Alert({
+  children,
+  title,
+  description,
+  confirmHandler,
+}: {
+  children: ReactNode;
+  title: string;
+  description?: string;
+  confirmHandler?: () => Promise<void> | void;
+}) {
+  const [open, setOpen] = useState(false);
+
+  const handleConfirm = async () => {
+    !!confirmHandler && (await confirmHandler());
+    setOpen(false);
+  };
+
+  const openAlertHandler = (open: boolean) => {
+    if (open) {
+      setOpen(open);
+    }
+  };
+
+  const closeAlertHandler = () => {
+    setOpen(false);
+  };
   return (
-    <AlertDialog>
+    <AlertDialog open={open} onOpenChange={openAlertHandler}>
       <AlertDialogTrigger asChild>{children}</AlertDialogTrigger>
       <AlertDialogContent>
         <AlertDialogHeader>
-          <AlertDialogTitle>차단하시겠습니까?</AlertDialogTitle>
-          <AlertDialogDescription>@wodus331</AlertDialogDescription>
+          <AlertDialogTitle>{title}</AlertDialogTitle>
+          <AlertDialogDescription>{description}</AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter>
-          <AlertDialogCancel>Cancel</AlertDialogCancel>
-          <AlertDialogAction>Continue</AlertDialogAction>
+          <AlertDialogCancel onClick={closeAlertHandler}>
+            Cancel
+          </AlertDialogCancel>
+          <AlertDialogAction onClick={handleConfirm}>
+            Continue
+          </AlertDialogAction>
         </AlertDialogFooter>
       </AlertDialogContent>
     </AlertDialog>

@@ -15,7 +15,6 @@
 
     --button-primary-background: var(--primary);
     --button-primary-foreground: 228 5% 20%;
-    /*--primary-foreground: var(--white);*/
     --button-primary-hover: var(--primary) / 0.8;
   }
 
