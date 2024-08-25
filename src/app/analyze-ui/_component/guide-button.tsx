@@ -16,27 +16,16 @@ export default function GuideButton() {
     },
   };
   return (
-    <Col className={"gap-[5px]"}>
-      <Row className={"items-center gap-[10px]"}>
-        <Button size={"md"} variant={"primary"} onClick={() => error("error")}>
-          Error
-        </Button>
-        <Button size={"md"} variant={"primary"} onClick={() => info("info")}>
-          Info
-        </Button>
-        <Button
-          size={"md"}
-          variant={"primary"}
-          onClick={() => success("success")}
-        >
-          Success
-        </Button>
-        <Button
-          size={"md"}
-          variant={"primary"}
-          onClick={() => action("action", () => alert("action"))}
-        >
+    <Col className={"gap-[10px] bg-background py-[24px]"}>
+      <Row className={"flex-wrap items-center gap-[10px]"}>
+        <Button onClick={() => error("error")}>Error</Button>
+        <Button onClick={() => info("info")}>Info</Button>
+        <Button onClick={() => success("success")}>Success</Button>
+        <Button onClick={() => action("action", () => alert("action"))}>
           Action
+        </Button>
+        <Button leftIcon={<IconMoving />} rightIcon={<IconClose />}>
+          Icon Button
         </Button>
       </Row>
 
@@ -48,80 +37,58 @@ export default function GuideButton() {
       {/*  referrerPolicy="strict-origin-when-cross-origin"*/}
       {/*  allowFullScreen={true}*/}
       {/*></iframe>*/}
-      <Row className={"items-center gap-[10px]"}>
+      <Row className={"flex-wrap items-center gap-[10px]"}>
         <Button size={"sm"} variant={"primary"}>
-          Small Button
+          Button Small
         </Button>
-        <Button size={"md"} variant={"primary"}>
-          Medium Button
-        </Button>
+        <Button variant={"primary"}>Button Medium</Button>
         <Button size={"lg"} variant={"primary"}>
-          Large Button
+          Button Large
         </Button>
-        <Button size={"lg"} variant={"primary"} disabled>
-          Large Button
+        <Button variant={"primary"} disabled>
+          Disabled
         </Button>
-        <Button size={"lg"} variant={"primary"} loading>
-          Large Button
-        </Button>
-        <Button
-          size={"lg"}
-          variant={"primary"}
-          leftIcon={<IconMoving />}
-          rightIcon={<IconClose />}
-        >
-          Large Button
+        <Button variant={"primary"} loading>
+          Loading...
         </Button>
       </Row>
-      <Row className={"items-center gap-[10px]"}>
-        <Button size={"sm"} variant={"secondary"}>
-          Small Button
-        </Button>
-        <Button size={"md"} variant={"secondary"}>
-          Medium Button
-        </Button>
+      <Row className={"flex-wrap items-center gap-[10px]"}>
+        <Button size={"sm"}>Button Small</Button>
+        <Button>Button Medium</Button>
         <Button size={"lg"} variant={"secondary"}>
-          Large Button
+          Button Large
         </Button>
-        <Button size={"lg"} variant={"secondary"} disabled>
-          Large Button
-        </Button>
-        <Button size={"lg"} variant={"secondary"} loading>
-          Large Button
-        </Button>
+        <Button disabled>Disabled</Button>
+        <Button loading>Loading...</Button>
       </Row>
-      <Row className={"items-center gap-[10px]"}>
+      <Row className={"flex-wrap items-center gap-[10px]"}>
         <Button size={"sm"} variant={"outline"}>
-          Small Button
+          Button Small
         </Button>
-        <Button size={"md"} variant={"outline"}>
-          Medium Button
-        </Button>
+        <Button variant={"outline"}>Button Medium</Button>
         <Button size={"lg"} variant={"outline"}>
-          Large Button
+          Button Large
         </Button>
-        <Button size={"lg"} variant={"outline"} disabled>
-          Large Button
+        <Button variant={"outline"} disabled>
+          Disabled
         </Button>
-        <Button size={"lg"} variant={"outline"} loading>
-          Large Button
+        <Button variant={"outline"} loading>
+          Loading...
         </Button>
       </Row>
-      <Row className={"items-center gap-[10px]"}>
+      <Row className={"flex-wrap items-center gap-[10px]"}>
         <Button size={"sm"} variant={"ghost"}>
-          Small Button
+          Button Small
         </Button>
-        <Button size={"md"} variant={"ghost"}>
-          Medium Button
-        </Button>
+        <Button variant={"ghost"}>Button Medium</Button>
         <Button size={"lg"} variant={"ghost"}>
-          Large Button
+          Button Large
         </Button>
-        <Button size={"lg"} variant={"ghost"} disabled>
-          Large Button
+        <Button variant={"ghost"} disabled>
+          Disabled
         </Button>
-        <Button size={"lg"} variant={"ghost"} loading>
-          Large Button
+        <Button variant={"ghost"} loading>
+          Loading...
         </Button>
       </Row>
     </Col>

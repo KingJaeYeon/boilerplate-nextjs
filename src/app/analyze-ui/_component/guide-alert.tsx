@@ -14,7 +14,7 @@ export default function GuideAlert() {
   const [loadingAuthCode, setLoadingAuthCode] = useState<boolean>(false);
   const { setAuthModal } = useUserStore();
   return (
-    <Col className={"gap-[5px]"}>
+    <Col className={"gap-[30px] bg-background py-[24px]"}>
       <Row className={"items-center gap-[10px]"}>
         <Alert
           title={"차단하시겠습니까?"}

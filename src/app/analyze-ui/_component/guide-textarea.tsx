@@ -8,8 +8,8 @@ export default function GuideTextarea() {
   const [value, setValue] = useState<string>("");
   const [readOnlyValue, setReadOnlyValue] = useState<string>("ReadOnly");
   return (
-    <Col className={"gap-[5px]"}>
-      <Row className={"items-center gap-[10px]"}>
+    <Col className={"bg-background py-[24px]"}>
+      <Row className={"flex-wrap items-center gap-[30px]"}>
         <Textarea
           placeholder={"Type your message here."}
           maxLength={250}

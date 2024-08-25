@@ -10,18 +10,21 @@ import GuideTypography from "@/app/analyze-ui/_component/guide-typography";
 import GuidePlatform from "@/app/analyze-ui/_component/guide-platform";
 import GuideIcon from "@/app/analyze-ui/_component/guide-icon";
 import GuideIconEditor from "@/app/analyze-ui/_component/guide-icon-editor";
-import GuideCheckedRadio from "@/app/analyze-ui/_component/guide-checked-radio";
+import GuideRadio from "@/app/analyze-ui/_component/guide-radio";
 import GuideSwitch from "@/app/analyze-ui/_component/guide-switch";
+import GuideChecked from "@/app/analyze-ui/_component/guide-checked";
+import GuideFlag from "@/app/analyze-ui/_component/guide-flag";
+import GuideFlagRound from "@/app/analyze-ui/_component/guide-flag-round";
 
 export default function Page() {
   return (
-    <Main className={"gap-[20px] pb-[40px]"}>
+    <Main className={"gap-[20px] px-[16px] pb-[40px]"}>
       <Section className={"flex flex-col gap-[10px]"}>
         <h2 className={"heading1"}>TYPOGRAPHY</h2>
         <GuideTypography />
       </Section>
       <Section className={"flex flex-col gap-[10px]"}>
-        <h2 className={"heading1"}>버튼, Toast Message</h2>
+        <h2 className={"heading1"}>Button, Toast</h2>
         <GuideButton />
       </Section>
       <Section className={"flex flex-col gap-[10px]"}>
@@ -45,15 +48,19 @@ export default function Page() {
         <GuideTextarea />
       </Section>
       <Section className={"flex flex-col gap-[10px]"}>
-        <h2 className={"heading1"}>Check && Radio</h2>
-        <GuideCheckedRadio />
+        <h2 className={"heading1"}>Radio</h2>
+        <GuideRadio />
       </Section>
       <Section className={"flex flex-col gap-[10px]"}>
-        <h2 className={"heading1"}>switch</h2>
+        <h2 className={"heading1"}>Check</h2>
+        <GuideChecked />
+      </Section>
+      <Section className={"flex flex-col gap-[10px]"}>
+        <h2 className={"heading1"}>Switch</h2>
         <GuideSwitch />
       </Section>
       <Section className={"flex flex-col gap-[10px]"}>
-        <h2 className={"heading1"}>Platform</h2>
+        <h2 className={"heading1"}>Icon Platform</h2>
         <GuidePlatform />
       </Section>
       <Section className={"flex flex-col gap-[10px]"}>
@@ -65,14 +72,14 @@ export default function Page() {
         <GuideIcon />
       </Section>
 
-      {/*<Section className={"flex flex-col gap-[10px]"}>*/}
-      {/*  <h2 className={"heading1"}>Flag</h2>*/}
-      {/*  <GuideFlag />*/}
-      {/*</Section>*/}
-      {/*<Section className={"flex flex-col gap-[10px]"}>*/}
-      {/*  <h2 className={"heading1"}>Flag Round</h2>*/}
-      {/*  <GuideFlagRound />*/}
-      {/*</Section>*/}
+      <Section className={"flex flex-col gap-[10px]"}>
+        <h2 className={"heading1"}>Flag</h2>
+        <GuideFlag />
+      </Section>
+      <Section className={"flex flex-col gap-[10px]"}>
+        <h2 className={"heading1"}>Flag Round</h2>
+        <GuideFlagRound />
+      </Section>
     </Main>
   );
 }

@@ -10,8 +10,8 @@ export default function GuideInput() {
   const [input3, setInput3] = useState<string>("");
   const [input4, setInput4] = useState<string>("테스트");
   return (
-    <Col className={"gap-[5px]"}>
-      <Row className={"items-center gap-[10px]"}>
+    <Col className={"gap-[30px] bg-background py-[24px]"}>
+      <Row className={"flex-wrap items-center gap-[10px]"}>
         <Input
           placeholder={"Placeholder"}
           className={"max-w-[328px]"}
@@ -41,7 +41,7 @@ export default function GuideInput() {
           onChange={(e) => setInput4(e.target.value)}
         />
       </Row>
-      <Row className={"items-center gap-[10px]"}>
+      <Row className={"flex-wrap items-center gap-[10px]"}>
         <Input
           placeholder={"Placeholder"}
           className={"max-w-[328px]"}
@@ -75,7 +75,7 @@ export default function GuideInput() {
           disabled
         />
       </Row>
-      <Row className={"items-center gap-[10px]"}>
+      <Row className={"flex-wrap items-center gap-[10px]"}>
         <Input
           placeholder={"Placeholder"}
           className={"max-w-[328px]"}

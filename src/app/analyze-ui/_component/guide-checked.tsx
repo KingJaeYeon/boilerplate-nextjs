@@ -3,9 +3,9 @@ import Row from "@/components/Layout/Row";
 import Col from "@/components/Layout/Col";
 import { useState } from "react";
 import { Checkbox } from "@/components/ui/checkbox";
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 
-export default function GuideCheckedRadio() {
+export default function GuideChecked() {
+  const [value, setValue] = useState<boolean>(false);
   const [value1, setValue1] = useState<boolean>(false);
   const [value2, setValue2] = useState<boolean>(false);
   const onChecked1Change = (isChecked: boolean) => {
@@ -21,11 +21,17 @@ export default function GuideCheckedRadio() {
     setValue2(isChecked);
   };
 
+  const onCheckedChange = (isChecked: boolean) => {
+    setValue(isChecked);
+  };
+
   return (
-    <Col className={"gap-[5px]"}>
-      <Row className={"items-center gap-[10px]"}>
-        <Checkbox />
+    <Col className={"gap-[30px] bg-background py-[24px]"}>
+      <Row className={"gap-[30px]"}>
+        <Checkbox onCheckedChange={onCheckedChange} checked={value} />
         <Checkbox disabled />
+      </Row>
+      <Row className={"gap-[30px]"}>
         <Checkbox
           label={"체크박스1"}
           htmlFor={"checked1"}
@@ -44,28 +50,6 @@ export default function GuideCheckedRadio() {
           onCheckedChange={onCheckedALLChange}
           checked={value2 && value1}
         />
-
-        <RadioGroup defaultValue="option-one">
-          <RadioGroupItem
-            value="option-one"
-            id="option-one"
-            label={"Option One"}
-            htmlFor={"option-one"}
-          />
-          <RadioGroupItem
-            value="option-two"
-            id="option-two"
-            label={"Option Two"}
-            htmlFor={"option-two"}
-          />
-          <RadioGroupItem
-            value="option-three"
-            id="option-three"
-            label={"Option Three"}
-            htmlFor={"option-three"}
-            disabled
-          />
-        </RadioGroup>
       </Row>
     </Col>
   );

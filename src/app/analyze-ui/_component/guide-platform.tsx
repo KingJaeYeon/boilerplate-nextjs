@@ -18,57 +18,57 @@ import {
   Instagram,
   Apple,
 } from "@/assets/svg/platform";
-import Icon from "@/app/analyze-ui/_component/Icon";
+import ShowComponentName from "@/app/analyze-ui/_component/show-component-name";
 
 export default function GuidePlatform() {
   return (
     <Col className={"gap-[5px]"}>
-      <Row className={"flex-wrap gap-[30px] bg-background p-[48px]"}>
-        <Icon>
+      <Row className={"flex-wrap gap-[30px] bg-background py-[24px]"}>
+        <ShowComponentName>
           <Naver />
-        </Icon>
-        <Icon>
+        </ShowComponentName>
+        <ShowComponentName>
           <Apple />
-        </Icon>
-        <Icon>
+        </ShowComponentName>
+        <ShowComponentName>
           <YoutubeEmpty />
-        </Icon>
-        <Icon>
+        </ShowComponentName>
+        <ShowComponentName>
           <Youtube />
-        </Icon>
-        <Icon>
+        </ShowComponentName>
+        <ShowComponentName>
           <Google />
-        </Icon>
-        <Icon>
+        </ShowComponentName>
+        <ShowComponentName>
           <FaceBook2 />
-        </Icon>
-        <Icon>
+        </ShowComponentName>
+        <ShowComponentName>
           <FaceBook />
-        </Icon>
-        <Icon>
+        </ShowComponentName>
+        <ShowComponentName>
           <KaKao />
-        </Icon>
-        <Icon>
+        </ShowComponentName>
+        <ShowComponentName>
           <Twitter />
-        </Icon>
-        <Icon>
+        </ShowComponentName>
+        <ShowComponentName>
           <Github />
-        </Icon>
-        <Icon>
+        </ShowComponentName>
+        <ShowComponentName>
           <LinkedIn />
-        </Icon>
-        <Icon>
+        </ShowComponentName>
+        <ShowComponentName>
           <Slack />
-        </Icon>
-        <Icon>
+        </ShowComponentName>
+        <ShowComponentName>
           <Instagram />
-        </Icon>
-        <Icon>
+        </ShowComponentName>
+        <ShowComponentName>
           <Reddit />
-        </Icon>
-        <Icon>
+        </ShowComponentName>
+        <ShowComponentName>
           <Telegram />
-        </Icon>
+        </ShowComponentName>
       </Row>
     </Col>
   );

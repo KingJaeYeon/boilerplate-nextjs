@@ -6,19 +6,28 @@ import ButtonSwitcher from "@/components/ButtonSwitcher";
 import { useState } from "react";
 import { Switch } from "@/components/ui/switch";
 import * as React from "react";
+import ShowComponentName from "@/app/analyze-ui/_component/show-component-name";
 
 export default function GuideSwitch() {
   const [value, setValue] = useState<string>("1");
   const [value2, setValue2] = useState<string>("1");
   const [checked, setChecked] = React.useState(false);
   return (
-    <Col className={"gap-[5px]"}>
-      <Row className={"items-center gap-[10px]"}>
-        <ThemeToggle />
-        <Switch
-          checked={checked}
-          onCheckedChange={(checked) => setChecked(checked)}
-        />
+    <Col className={"gap-[30px] bg-background py-[24px]"}>
+      <Row>
+        <ShowComponentName>
+          <ThemeToggle />
+        </ShowComponentName>
+      </Row>
+      <Row>
+        <ShowComponentName>
+          <Switch
+            checked={checked}
+            onCheckedChange={(checked) => setChecked(checked)}
+          />
+        </ShowComponentName>
+      </Row>
+      <Row className={"gap-[10px]"}>
         <ButtonSwitcher
           state={value}
           setState={setValue}
@@ -30,14 +39,16 @@ export default function GuideSwitch() {
             { label: "all", value: "all" },
           ]}
         />
-        <ButtonSwitcher
-          state={value2}
-          setState={setValue2}
-          list={[
-            { label: "One", value: "1" },
-            { label: "Two", value: "2" },
-          ]}
-        />
+        <ShowComponentName>
+          <ButtonSwitcher
+            state={value2}
+            setState={setValue2}
+            list={[
+              { label: "One", value: "1" },
+              { label: "Two", value: "2" },
+            ]}
+          />
+        </ShowComponentName>
       </Row>
     </Col>
   );
