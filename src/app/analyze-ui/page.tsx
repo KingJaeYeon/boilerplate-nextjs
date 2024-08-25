@@ -1,8 +1,5 @@
 import Main from "@/components/Layout/Main";
 import Section from "@/components/Layout/Section";
-import Row from "@/components/Layout/Row";
-import ThemeToggle from "@/components/ThemeToggle";
-import SwitchToggle from "@/components/analyze-ui/SwitchToggle";
 import GuideButton from "@/app/analyze-ui/_component/guide-button";
 import GuideAvatar from "@/app/analyze-ui/_component/guide-avatar";
 import { GuideDialog } from "@/app/analyze-ui/_component/guide-dialog";

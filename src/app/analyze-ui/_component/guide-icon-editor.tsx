@@ -13,21 +13,42 @@ import {
   IconUnOrderList,
   IconH2,
 } from "@/assets/svg/editor";
+import Icon from "@/app/analyze-ui/_component/Icon";
 
 export default function GuideIconEditor() {
   return (
     <Col className={"gap-[5px]"}>
-      <Row className={"flex-wrap items-center gap-[10px]"}>
-        <IconBlockQuote />
-        <IconBold />
-        <IconH1 />
-        <IconH2 />
-        <IconImage />
-        <IconItalic />
-        <IconOrderList />
-        <IconUnOrderList />
-        <IconStrike />
-        <IconUnderLine />
+      <Row className={"flex-wrap gap-[30px] bg-background p-[48px]"}>
+        <Icon>
+          <IconBlockQuote />
+        </Icon>
+        <Icon>
+          <IconBold />
+        </Icon>
+        <Icon>
+          <IconH1 />
+        </Icon>
+        <Icon>
+          <IconH2 />
+        </Icon>
+        <Icon>
+          <IconImage />
+        </Icon>
+        <Icon>
+          <IconItalic />
+        </Icon>
+        <Icon>
+          <IconOrderList />
+        </Icon>
+        <Icon>
+          <IconUnOrderList />
+        </Icon>
+        <Icon>
+          <IconStrike />
+        </Icon>
+        <Icon>
+          <IconUnderLine />
+        </Icon>
       </Row>
     </Col>
   );

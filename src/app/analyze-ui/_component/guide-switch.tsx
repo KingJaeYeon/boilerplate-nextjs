@@ -2,18 +2,23 @@
 import Row from "@/components/Layout/Row";
 import Col from "@/components/Layout/Col";
 import ThemeToggle from "@/components/ThemeToggle";
-import SwitchToggle from "@/components/analyze-ui/SwitchToggle";
 import ButtonSwitcher from "@/components/ButtonSwitcher";
 import { useState } from "react";
+import { Switch } from "@/components/ui/switch";
+import * as React from "react";
 
 export default function GuideSwitch() {
   const [value, setValue] = useState<string>("1");
   const [value2, setValue2] = useState<string>("1");
+  const [checked, setChecked] = React.useState(false);
   return (
     <Col className={"gap-[5px]"}>
       <Row className={"items-center gap-[10px]"}>
         <ThemeToggle />
-        <SwitchToggle />
+        <Switch
+          checked={checked}
+          onCheckedChange={(checked) => setChecked(checked)}
+        />
         <ButtonSwitcher
           state={value}
           setState={setValue}
