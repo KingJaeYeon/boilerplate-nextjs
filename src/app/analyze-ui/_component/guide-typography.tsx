@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 export default function GuideTypography() {
   return (
     <Col className={"flex-wrap gap-[20px] bg-background py-[24px] tb:flex-row"}>
-      <Col className={"flex-1 gap-[20px]"}>
+      <Col className={"flex-1 gap-[16px]"}>
         <Bold className={"heading1"}>
           Pretendard, Bold, 24px, line-height: 120%, letter-spacing: 0
         </Bold>
@@ -102,7 +102,7 @@ function Regular({
 }) {
   return (
     <Row className={"items-start"}>
-      <Text className={"notoSans18H w-full max-w-[150px] uppercase"}>
+      <Text className={"notoSans18H w-full max-w-[120px] uppercase"}>
         {className}
       </Text>
       <Col>

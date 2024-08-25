@@ -16,6 +16,8 @@ import GuideChecked from "@/app/analyze-ui/_component/guide-checked";
 import GuideFlag from "@/app/analyze-ui/_component/guide-flag";
 import GuideFlagRound from "@/app/analyze-ui/_component/guide-flag-round";
 import GuideToast from "@/app/analyze-ui/_component/guide-toast";
+import { Accordion } from "@/components/ui/accordion";
+import GuideAccordion from "@/app/analyze-ui/_component/guide-accordion";
 
 export default function Page() {
   return (
@@ -35,6 +37,10 @@ export default function Page() {
       <Section className={"flex flex-col gap-[10px]"}>
         <h2 className={"heading1"}>Avatar</h2>
         <GuideAvatar />
+      </Section>
+      <Section className={"flex flex-col gap-[10px]"}>
+        <h2 className={"heading1"}>Accordion</h2>
+        <GuideAccordion />
       </Section>
       <Section className={"flex flex-col gap-[10px]"}>
         <h2 className={"heading1"}>Dialog</h2>
@@ -76,7 +82,6 @@ export default function Page() {
         <h2 className={"heading1"}>Icon</h2>
         <GuideIcon />
       </Section>
-
       <Section className={"flex flex-col gap-[10px]"}>
         <h2 className={"heading1"}>Flag</h2>
         <GuideFlag />
