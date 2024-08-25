@@ -15,6 +15,7 @@ import GuideSwitch from "@/app/analyze-ui/_component/guide-switch";
 import GuideChecked from "@/app/analyze-ui/_component/guide-checked";
 import GuideFlag from "@/app/analyze-ui/_component/guide-flag";
 import GuideFlagRound from "@/app/analyze-ui/_component/guide-flag-round";
+import GuideToast from "@/app/analyze-ui/_component/guide-toast";
 
 export default function Page() {
   return (
@@ -24,7 +25,11 @@ export default function Page() {
         <GuideTypography />
       </Section>
       <Section className={"flex flex-col gap-[10px]"}>
-        <h2 className={"heading1"}>Button, Toast</h2>
+        <h2 className={"heading1"}>Toast</h2>
+        <GuideToast />
+      </Section>
+      <Section className={"flex flex-col gap-[10px]"}>
+        <h2 className={"heading1"}>Button</h2>
         <GuideButton />
       </Section>
       <Section className={"flex flex-col gap-[10px]"}>

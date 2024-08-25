@@ -1,6 +1,13 @@
 @tailwind components;
 
 @layer components {
+  .notoSans18H {
+    @apply font-notoSansKr text-18 font-bold leading-[21.6px] tracking-[1.8px];
+  }
+  .notoSans15D {
+    @apply font-notoSansKr text-15 font-normal leading-[22.5px] tracking-[-0.45px];
+  }
+
   .heading1 {
     @apply font-pretendard text-24 font-bold leading-[120%] tracking-[0];
   }
@@ -35,6 +42,10 @@
 
   .heading9 {
     @apply font-pretendard text-11 font-bold leading-6 tracking-[0];
+  }
+
+  .heading10 {
+    @apply font-pretendard text-9 font-bold leading-6 tracking-[0];
   }
 
   .body1 {
