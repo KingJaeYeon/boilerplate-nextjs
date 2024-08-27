@@ -28,6 +28,7 @@ const config = {
       background: "hsl(var(--background))",
       foreground: "hsl(var(--foreground))",
       description: "hsl(var(--description))",
+      description02: "hsl(var(--description-02))",
       transparent: "hsl(var(--transparent))",
 
       placeholder: "hsl(var(--place-holder))",

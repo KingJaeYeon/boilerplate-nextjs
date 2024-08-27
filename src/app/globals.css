@@ -30,6 +30,8 @@
     --background: var(--gray-pale);
     --foreground: var(--gray-drak);
     --description: var(--gray-neutral);
+    --description-02: var(--gray-neutral);
+
     --border: var(--white) / 0.15;
     --icon: var(--gray-deep);
 
@@ -112,6 +114,7 @@
     --background: var(--gray-drakest);
     --foreground: var(--white);
     --description: var(--gray-neutral);
+    --description-02: var(--gray-light);
     --border: var(--white) / 0.15;
     --icon: var(--white);
 
