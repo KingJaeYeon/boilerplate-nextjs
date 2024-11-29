@@ -100,6 +100,9 @@ import {
   Loading2,
   CardLoading,
   IconSearch2,
+  IconCompass,
+  IconHelp,
+  IconAt,
 } from "@/assets/svg";
 import ShowComponentName from "@/app/analyze-ui/_component/show-component-name";
 
@@ -136,6 +139,15 @@ export default function GuideIcon() {
         </ShowComponentName>
         <ShowComponentName>
           <IconClose />
+        </ShowComponentName>
+        <ShowComponentName>
+          <IconCompass />
+        </ShowComponentName>
+        <ShowComponentName>
+          <IconHelp />
+        </ShowComponentName>
+        <ShowComponentName>
+          <IconAt />
         </ShowComponentName>
         <ShowComponentName>
           <IconConfirm />

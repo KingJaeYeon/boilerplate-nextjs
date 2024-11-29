@@ -14,6 +14,7 @@ import {
   IconH2,
 } from "@/assets/svg/editor";
 import ShowComponentName from "@/app/analyze-ui/_component/show-component-name";
+import { IconImage2 } from "@/assets/svg/editor/IconImage";
 
 export default function GuideIconEditor() {
   return (
@@ -33,6 +34,9 @@ export default function GuideIconEditor() {
         </ShowComponentName>
         <ShowComponentName>
           <IconImage />
+        </ShowComponentName>
+        <ShowComponentName>
+          <IconImage2 />
         </ShowComponentName>
         <ShowComponentName>
           <IconItalic />

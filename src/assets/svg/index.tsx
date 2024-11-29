@@ -100,6 +100,9 @@ import { IconThumbDown, IconThumbUp } from "@/assets/svg/IconThumb";
 import IconTrash from "@/assets/svg/IconTrash";
 import IconWallet from "@/assets/svg/IconWallet";
 import { Loading1, Loading2, CardLoading } from "@/assets/svg/LoadingSVG";
+import { IconCompass } from "@/assets/svg/IconCompass";
+import { IconHelp } from "@/assets/svg/IconHelp";
+import { IconAt } from "@/assets/svg/IconAt";
 
 export { Loading1, Loading2, CardLoading };
 
@@ -179,3 +182,6 @@ export {
   IconLinearPieChart,
   IconSolidPieChart,
 };
+export { IconCompass };
+export { IconHelp };
+export { IconAt };
