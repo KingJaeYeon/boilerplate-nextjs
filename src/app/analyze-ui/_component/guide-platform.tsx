@@ -24,49 +24,49 @@ export default function GuidePlatform() {
   return (
     <Col className={"gap-[5px]"}>
       <Row className={"flex-wrap gap-[30px] bg-background py-[24px]"}>
-        <ShowComponentName>
+        <ShowComponentName id={"Naver"}>
           <Naver />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"Apple"}>
           <Apple />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"YoutubeEmpty"}>
           <YoutubeEmpty />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"Youtube"}>
           <Youtube />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"Google"}>
           <Google />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"FaceBook2"}>
           <FaceBook2 />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"FaceBook"}>
           <FaceBook />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"KaKao"}>
           <KaKao />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"Twitter"}>
           <Twitter />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"Github"}>
           <Github />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"LinkedIn"}>
           <LinkedIn />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"Slack"}>
           <Slack />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"Instagram"}>
           <Instagram />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"Reddit"}>
           <Reddit />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"Telegram"}>
           <Telegram />
         </ShowComponentName>
       </Row>

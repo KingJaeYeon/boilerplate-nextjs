@@ -1,14 +1,17 @@
 import Row from "@/components/Layout/Row";
 import Text from "@/components/Layout/Text";
 
-export default function ShowComponentName({ children }: { children?: any }) {
+export default function ShowComponentName({
+  children,
+  id,
+}: {
+  children?: any;
+  id: string;
+}) {
   return (
     <Row className={"w-full max-w-[200px] items-center gap-[10px]"}>
       {children}
-      <Text className={"body6"}>
-        {children.type.name ?? children.type.displayName}
-      </Text>
+      <Text className={"body6"}>{id}</Text>
     </Row>
   );
 }
-

@@ -15,12 +15,12 @@ export default function GuideSwitch() {
   return (
     <Col className={"gap-[30px] bg-background py-[24px]"}>
       <Row>
-        <ShowComponentName>
+        <ShowComponentName id={"ThemeToggle"}>
           <ThemeToggle />
         </ShowComponentName>
       </Row>
       <Row>
-        <ShowComponentName>
+        <ShowComponentName id={"Switch"}>
           <Switch
             checked={checked}
             onCheckedChange={(checked) => setChecked(checked)}
@@ -39,7 +39,7 @@ export default function GuideSwitch() {
             { label: "all", value: "all" },
           ]}
         />
-        <ShowComponentName>
+        <ShowComponentName id={"ButtonSwitcher"}>
           <ButtonSwitcher
             state={value2}
             setState={setValue2}

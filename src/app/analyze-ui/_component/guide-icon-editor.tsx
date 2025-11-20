@@ -20,37 +20,37 @@ export default function GuideIconEditor() {
   return (
     <Col className={"gap-[5px]"}>
       <Row className={"flex-wrap gap-[30px] bg-background py-[24px]"}>
-        <ShowComponentName>
+        <ShowComponentName id={"IconBlockQuote"}>
           <IconBlockQuote />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconBold"}>
           <IconBold />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconH1"}>
           <IconH1 />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconH2"}>
           <IconH2 />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconImage"}>
           <IconImage />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconImage2"}>
           <IconImage2 />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconItalic"}>
           <IconItalic />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconOrderList"}>
           <IconOrderList />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconUnOrderList"}>
           <IconUnOrderList />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconStrike"}>
           <IconStrike />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconUnderLine"}>
           <IconUnderLine />
         </ShowComponentName>
       </Row>

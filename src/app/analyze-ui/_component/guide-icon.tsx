@@ -110,307 +110,307 @@ export default function GuideIcon() {
   return (
     <Col className={"gap-[5px]"}>
       <Row className={"flex-wrap gap-[30px] bg-background py-[24px]"}>
-        <ShowComponentName>
+        <ShowComponentName id={"IconCategory"}>
           <IconCategory />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconChart"}>
           <IconChart />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconLinearChart"}>
           <IconLinearChart />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconCandleChart"}>
           <IconCandleChart />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconLinearPieChart"}>
           <IconLinearPieChart />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconSolidPieChart"}>
           <IconSolidPieChart />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconCheck"}>
           <IconCheck />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconChevronLeft"}>
           <IconChevronLeft />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconChevronRight"}>
           <IconChevronRight />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconClose"}>
           <IconClose />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconCompass"}>
           <IconCompass />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconHelp"}>
           <IconHelp />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconAt"}>
           <IconAt />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconConfirm"}>
           <IconConfirm />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconDelete"}>
           <IconDelete />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconDropDownDown"}>
           <IconDropDownDown />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconDropDownUp"}>
           <IconDropDownUp />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconError"}>
           <IconError />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconSearch"}>
           <IconSearch />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconSearch2"}>
           <IconSearch2 />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconSun"}>
           <IconSun />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconMoon"}>
           <IconMoon />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconDown"}>
           <IconDown />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconUp"}>
           <IconUp />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconLeft"}>
           <IconLeft />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconRight"}>
           <IconRight />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconEllipsis"}>
           <IconEllipsis />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconExchange"}>
           <IconExchange />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconEyeOn"}>
           <IconEyeOn />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconEyeOff"}>
           <IconEyeOff />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconHome"}>
           <IconHome />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconInfo"}>
           <IconInfo />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconMoreInfo"}>
           <IconMoreInfo />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconLinearCommunity"}>
           <IconLinearCommunity />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconSolidCommunity"}>
           <IconSolidCommunity />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconLinearCopy"}>
           <IconLinearCopy />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconSolidCopy"}>
           <IconSolidCopy />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconLinearDashBoard"}>
           <IconLinearDashBoard />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconSolidDashBoard"}>
           <IconSolidDashBoard />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconLinearGlobal"}>
           <IconLinearGlobal />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconSolidGlobal"}>
           <IconSolidGlobal />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconLinearHeart"}>
           <IconLinearHeart />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconSolidHeart"}>
           <IconSolidHeart />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconLinearImage"}>
           <IconLinearImage />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconSolidImage"}>
           <IconSolidImage />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconLinearLogout"}>
           <IconLinearLogout />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconSolidLogout"}>
           <IconSolidLogout />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconLinearMap"}>
           <IconLinearMap />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconSolidMap"}>
           <IconSolidMap />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconLinearNews"}>
           <IconLinearNews />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconSolidNews"}>
           <IconSolidNews />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconLinearNotice"}>
           <IconLinearNotice />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconSolidNotice"}>
           <IconSolidNotice />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconLinearPlayer"}>
           <IconLinearPlayer />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconSolidPlayer"}>
           <IconSolidPlayer />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconPlayerExpand"}>
           <IconPlayerExpand />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconPlayerForward"}>
           <IconPlayerForward />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconPlayerPause"}>
           <IconPlayerPause />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconPlayerRewind"}>
           <IconPlayerRewind />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconLinearReply"}>
           <IconLinearReply />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconSolidReply"}>
           <IconSolidReply />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconLinearReport"}>
           <IconLinearReport />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconSolidReport"}>
           <IconSolidReport />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconReport"}>
           <IconReport />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconLinearSettings"}>
           <IconLinearSettings />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconSolidSettings"}>
           <IconSolidSettings />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconLinearStar"}>
           <IconLinearStar />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconSolidStar"}>
           <IconSolidStar />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconLinearUser"}>
           <IconLinearUser />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconSolidUser"}>
           <IconSolidUser />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconLinearUserUnFollow"}>
           <IconLinearUserUnFollow />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconSolidUserUnFollow"}>
           <IconSolidUserUnFollow />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconLink"}>
           <IconLink />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconLoad"}>
           <IconLoad />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconMaximize"}>
           <IconMaximize />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconMenu"}>
           <IconMenu />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconPlus"}>
           <IconPlus />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconMinus"}>
           <IconMinus />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconMore"}>
           <IconMore />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconMove"}>
           <IconMove />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconMoving"}>
           <IconMoving />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconNew"}>
           <IconNew />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconNext"}>
           <IconNext />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconPrev"}>
           <IconPrev />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconOutLink"}>
           <IconOutLink />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconPointer"}>
           <IconPointer />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconPopular"}>
           <IconPopular />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconReceipt"}>
           <IconReceipt />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconRefresh"}>
           <IconRefresh />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconShare"}>
           <IconShare />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconSlash"}>
           <IconSlash />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconSwap"}>
           <IconSwap />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconThumbDown"}>
           <IconThumbDown />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconThumbUp"}>
           <IconThumbUp />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconTrash"}>
           <IconTrash />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconArrowUp"}>
           <IconArrowUp />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconArrowDown"}>
           <IconArrowDown />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"IconWallet"}>
           <IconWallet />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"Loading1"}>
           <Loading1 />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"Loading2"}>
           <Loading2 />
         </ShowComponentName>
-        <ShowComponentName>
+        <ShowComponentName id={"CardLoading"}>
           <CardLoading />
         </ShowComponentName>
       </Row>
